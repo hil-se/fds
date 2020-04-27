@@ -1,16 +1,16 @@
 [<img width=900 src="https://github.com/hil-se/fse/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fse/blob/master/README.md)   
 [Syllabus](https://github.com/hil-se/fse/blob/master/README.md) |
 [Slides](https://github.com/hil-se/fse/blob/master/slides.md) |
-[Homeworks](https://github.com/hil-se/fse/blob/master/homeworks.md) |
+[Assignments](https://github.com/hil-se/fse/tree/master/assignments/README.md) |
 [Lecturer](http://azhe825.github.io) 
 
 ## Course Description
 A foundations course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model evaluation, and visualization. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. The course includes a series of programming assignments which will involve implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures.
 
 ## Syllabus and Policies
-The course uses ??? for homework submission, grading, discussion, questions, announcements, and supplementary documents; slides will be posted here; github is used to coordinate group work.
+The course uses ??? for assignment submission, grading, discussion, questions, announcements, and supplementary documents; slides will be posted here; github is used to coordinate group work.
 
-**Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting homeworks but [Homework 1]() provides learning materials to help students with those.
+**Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments but [Assignment 1]() provides learning materials to help students with those.
 
 **Teamwork**: Teamwork is an essential part of this course. Many assignments are done in teams of 3-5 students. Teams will be assigned by the instructor and stay together for multiple assignments. A team policy posted on ??? applies and describes roles and teams and how to deal with conflicts and imbalances.
 
@@ -18,7 +18,7 @@ The course uses ??? for homework submission, grading, discussion, questions, ann
 
 **Grading**: Evaluation will be based on the following distribution: 50% assignments, 15% midterm, 20% final, 10% participation, 5% reading quizzes.
 
-**Time management**: This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and 8 hours on reading and assignments. Notice that much homework is done in groups, so please account for the overhead and decreased time flexibility that comes with groupwork. Please feel free to give the course staff feedback on how much time the course is taking for you.
+**Time management**: This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and 8 hours on reading and assignments. Notice that much assignment is done in groups, so please account for the overhead and decreased time flexibility that comes with groupwork. Please feel free to give the course staff feedback on how much time the course is taking for you.
 
 **Late work policy**: Late work in group assignments will receive feedback but no credit. Late work in individual assignments will be accepted with a 10% penalty per day, for up to 3 days. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency---with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. Accommodations for travel (e.g., for interviews) might be possible if requested at least 3 days in advance. Please communicate also with your team about timing issues.
 
