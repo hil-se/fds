@@ -1,0 +1,4 @@
+- Create your [Github](https://github.com/) account.
+- Create a new repository called **DSCI-633** under your Github account ([Step 6](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)).
+- Learn Python basics on [Codecademy](https://www.codecademy.com/learn/learn-python) (free version)
+- 
