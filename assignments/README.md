@@ -5,7 +5,7 @@
 [Lecturer](http://azhe825.github.io) 
 
 ## Assignments
-| Date | Topic | Assignment | Due Date | 
+| Date | Lecture | Assignment | Due Date | 
 |------|-------|------------|----------|
 | 1    | 1     | 1          | 1        |
 | 1    | 1     | 2          | 2        |
