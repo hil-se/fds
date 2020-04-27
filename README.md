@@ -10,7 +10,7 @@ A foundations course in data science, emphasizing both concepts and techniques. 
 ## Syllabus and Policies
 The course uses ??? for assignment submission, grading, discussion, questions, announcements, and supplementary documents; slides will be posted here; github is used to coordinate group work.
 
-**Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments but [Assignment 1]() provides learning materials to help students with those.
+**Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments but [Assignment 1](https://github.com/hil-se/fse/blob/master/assignments/assignment1.md) provides learning materials to help students with those.
 
 **Teamwork**: Teamwork is an essential part of this course. Many assignments are done in teams of 3-5 students. Teams will be assigned by the instructor and stay together for multiple assignments. A team policy posted on ??? applies and describes roles and teams and how to deal with conflicts and imbalances.
 
