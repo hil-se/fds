@@ -55,4 +55,33 @@
  ```
  
  ## Assignment 1
+ - 1. Create a folder named **assignment1** under the **DSCI-633** repo.
+ - 2. Download everything under [assignments/assignment1/](https://github.com/hil-se/fse/tree/master/assignments/assignment1/) to your local **DSCI-633/assignment1** folder. Should look like the following:
+ ![](https://github.com/hil-se/fse/blob/master/img/download_A1.png?raw=yes)
+ - 3. Run A1.py:
+ ```
+ DSCI-633/assignment1> python A1.py
+ Iris-setosa     1.000000
+ Iris-setosa     1.000000
+ Iris-setosa     1.000000
+ Iris-setosa     1.000000
+ Iris-setosa     1.000000
+ Iris-versicolor 0.992155
+ Iris-versicolor 0.999921
+ Iris-versicolor 0.999999
+ Iris-versicolor 0.997254
+ Iris-versicolor 0.999990
+ Iris-virginica  1.000000
+ Iris-virginica  0.840581
+ Iris-virginica  0.999999
+ Iris-virginica  0.999988
+ Iris-virginica  0.753482
+ ```
+ - 4. Modify A1.py so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/tree.html#classification) from scikit-learn directly (without any specific parameters).
+ - 5. Run A1.py again and snapshot the output (including the command *python A1.py*). 
+ - 6. Save the snapshot as A1.png and put it under *assignments/assignment1/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignment1).
+ 
+ 
+ 
+ 
  
