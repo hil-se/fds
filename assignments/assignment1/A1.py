@@ -16,4 +16,8 @@ if __name__ == "__main__":
     X_test = data_test[independent]
     # Predict
     predictions = clf.predict(X_test)
-    print(predictions)
+    # Predict probabilities
+    probs = clf.predict_proba(X_test)
+    # Print results
+    for i,pred in enumerate(predictions):
+        print("%s\t%f" %(pred,max(probs[i])))
