@@ -11,7 +11,7 @@
  - Open terminal.
  ```
  conda install scikit-learn
- conda install matplotlib
+ conda install pandas
  ```
  
 ### 3. (Optional) Install an IDE.
