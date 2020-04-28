@@ -7,5 +7,5 @@
 ## Assignments
 | Date | Lecture | Assignment | Due Date | 
 |------|-------|------------|----------|
-| 1    | 1     | 1          | 1        |
+| 1    | [Introduction]()     | [Assignment1](https://github.com/hil-se/fse/blob/master/assignments/assignment1.md)  | 1        |
 | 1    | 1     | 2          | 2        |
