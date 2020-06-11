@@ -20,7 +20,7 @@
 
 ## Github Basics
 
-### 0. Create your [Github](https://github.com/) account.
+### 0. Install [Git](https://git-scm.com/downloads) and create your [Github](https://github.com/) account.
  - Skip this step if you already have one.
 
 ### 1. Create a new repository called **DSCI-633** under your Github account.
