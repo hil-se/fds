@@ -1,6 +1,6 @@
 [<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fds/blob/master/README.md)   
 [Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
-[Slides](https://github.com/hil-se/fds/blob/master/slides.md) |
+[Slides](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
 [Assignments](https://github.com/hil-se/fds/tree/master/assignments/README.md) |
 [Lecturer](http://azhe825.github.io) 
 
