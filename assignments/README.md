@@ -7,7 +7,7 @@
 | Date | Lecture | Assignment | Due Date | 
 |------|-------|------------|----------|
 | Week 1 Lecture 1 | [Overview of Data Science](https://docs.google.com/presentation/d/1dkV6Nx_eauFLGNPBSfvwOaBU0WxMTZzw81h6ewsMf1Q/edit?usp=sharing)     | [Assignment1](https://github.com/hil-se/fds/blob/master/assignments/assignment1.md)  | Week 2 Lecture 1        |
-| Week 1 Lecture 2 | [Introduction and Basic Python Programming]()     |           |         |
+| Week 1 Lecture 2 | [Introduction and Basic Python Programming](https://docs.google.com/presentation/d/1IoGxJoTB2FYw7lZ7lOWfKTaWtESohBVLl9TIN62ID-c/edit?usp=sharing)     |           |         |
 | Week 2 Lecture 1 | [Classification (Decision Trees)]()     | [Assignment2](https://github.com/hil-se/fds/blob/master/assignments/assignment2.md)  | Week 4 Lecture 1        |
 | Week 2 Lecture 2 | [Classification (Naive Bayes)]()     |           |         |
 | Week 3 Lecture 1 | [Classification (Support Vector Machine)]()     | |     |
