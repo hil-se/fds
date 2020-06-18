@@ -13,9 +13,9 @@ The course uses ??? for assignment submission, grading, discussion, questions, a
 
 **Textbook**: We will be using [Pang-Ning Tan's "Introduction to Data Mining (Second Edition)" (ISBN-13: 978-0133128901)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) throughout the course.
 
-**Grading**: Evaluation will be based on the following distribution: 50% assignments, 15% midterm, 20% final, 10% participation, 5% reading quizzes.
+**Grading**: Evaluation will be based on the following distribution: 60% assignments, 40% project.
 
-**Time management**: This is a 12-unit course, and it is our intention to manage it so that you spend close to 12 hours a week on the course, on average. In general, 4 hours/week will be spent in class and 8 hours on reading and assignments. Notice that much assignment is done in groups, so please account for the overhead and decreased time flexibility that comes with groupwork. Please feel free to give the course staff feedback on how much time the course is taking for you.
+**Time management**: This is a 6-unit course, and it is our intention to manage it so that you spend close to 6 hours a week on the course, on average. In general, 2.5 hours/week will be spent in class and 3.5 hours on assignments. Please feel free to give the course staff feedback on how much time the course is taking for you.
 
 **Late work policy**: Late work in group assignments will receive feedback but no credit. Late work in individual assignments will be accepted with a 10% penalty per day, for up to 3 days. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency---with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. Accommodations for travel (e.g., for interviews) might be possible if requested at least 3 days in advance. 
 
