@@ -8,13 +8,13 @@
 |------|-------|------------|----------|
 | Week 1 Lecture 1 | [Overview of Data Science](https://docs.google.com/presentation/d/1dkV6Nx_eauFLGNPBSfvwOaBU0WxMTZzw81h6ewsMf1Q/edit?usp=sharing)     | [Assignment1](https://github.com/hil-se/fds/blob/master/assignments/assignment1.md)  | Week 2 Lecture 1        |
 | Week 1 Lecture 2 | [Introduction and Basic Python Programming](https://docs.google.com/presentation/d/1IoGxJoTB2FYw7lZ7lOWfKTaWtESohBVLl9TIN62ID-c/edit?usp=sharing)     |           |         |
-| Week 2 Lecture 1 | [Classification (Decision Trees)]()     | [Assignment2](https://github.com/hil-se/fds/blob/master/assignments/assignment2.md)  | Week 4 Lecture 1        |
-| Week 2 Lecture 2 | [Classification (Naive Bayes)]()     |           |         |
-| Week 3 Lecture 1 | [Classification (Support Vector Machine)]()     | |     |
-| Week 3 Lecture 2 | [Classification (Nearest Neighbor)]()    |           |         |
-| Week 4 Lecture 1 | [Classification (Artificial Neural Networks)]()     | |      |
-| Week 4 Lecture 2 | [Regression]()    |         [Assignment3](https://github.com/hil-se/fds/blob/master/assignments/assignment3.md)  | Week 6 Lecture 1        |
-| Week 5 Lecture 1 | [Clustering]()     |   |      |
+| Week 2 Lecture 1 | [Classification (Decision Trees)](https://docs.google.com/presentation/d/1tqX2AAjtGqiiYTfdt2Hs3csGTWI4QzNJA9gHA_IMnss/edit?usp=sharing)     | [Assignment2](https://github.com/hil-se/fds/blob/master/assignments/assignment2.md)  | Week 4 Lecture 1        |
+| Week 2 Lecture 2 |   [Overfitting](https://docs.google.com/presentation/d/1LlKRsMDKiuDeQ1y4eomKYO4RM00JYnrtrkj3K859Gm8/edit?usp=sharing)   |           |         |
+| Week 3 Lecture 1 |   [Classification (Naive Bayes)]()   | |     |
+| Week 3 Lecture 2 |   [Classification (Support Vector Machine)]()  |           |         |
+| Week 4 Lecture 1 |   [Classification (Nearest Neighbor)]()   | |      |
+| Week 4 Lecture 2 |   [Classification (Artificial Neural Networks)]()  |           |         |
+| Week 5 Lecture 1 | [Regression]()     |  [Assignment3](https://github.com/hil-se/fds/blob/master/assignments/assignment3.md) |  Week 6 Lecture 1    |
 | Week 5 Lecture 2 | [Clustering]()    |           |         |
 | Week 6 Lecture 1 | [Preprocessing]()     | [Assignment4](https://github.com/hil-se/fds/blob/master/assignments/assignment4.md)  | Week 7 Lecture 1        |
 | Week 6 Lecture 2 | [Preprocessing]()    |           |         |
