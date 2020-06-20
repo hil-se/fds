@@ -1,4 +1,4 @@
-from sklearn.naive_bayes import GaussianNB
+from my_DT import my_DT
 import pandas as pd
 
 if __name__ == "__main__":
@@ -7,10 +7,10 @@ if __name__ == "__main__":
     # Separate independent variables and dependent variables
     independent = ["SepalLengthCm",	"SepalWidthCm",	"PetalLengthCm",	"PetalWidthCm"]
     X = data_train[independent]
-    Y = data_train["Species"]
+    y = data_train["Species"]
     # Train model
-    clf = GaussianNB()
-    clf.fit(X,Y)
+    clf = my_DT()
+    clf.fit(X,y)
     # Load testing data
     data_test = pd.read_csv("../data/Iris_test.csv")
     X_test = data_test[independent]
