@@ -6,20 +6,20 @@ class my_NB:
         pass
 
     def fit(self, X, y):
-        # X: pd.DataFrame, independent variables, float
+        # X: pd.DataFrame, independent variables, str
         # y: list, np.array or pd.Series, dependent variables, int or str
         self.classes_ = list(set(list(y)))
         # write your code below
         return
 
     def predict(self, X):
-        # X: pd.DataFrame, independent variables, float
+        # X: pd.DataFrame, independent variables, str
         # return predictions: list
         # write your code below
         return predictions
 
     def predict_proba(self, X):
-        # X: pd.DataFrame, independent variables, float
+        # X: pd.DataFrame, independent variables, str
         # prob is a list of probabilities following the order of self.classes_
         # return probs = list of prob
         # write your code below
