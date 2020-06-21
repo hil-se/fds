@@ -2,8 +2,12 @@ import pandas as pd
 
 class my_NB:
 
-    def __init__(self):
-        pass
+    def __init__(self, alpha=1):
+        # alpha: smoothing factor
+        # P(xi = t | y = c) = (N(t,c) + alpha) / (N(c) + n(i)*alpha)
+        # where n(i) is the number of available categories of feature i
+        # Setting alpha = 1 is called Laplace smoothing
+        self.alpha = alpha
 
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, str
