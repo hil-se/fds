@@ -2,12 +2,6 @@
 
 ### Build your own decision tree classifier (with continuous input)
 
-#### Implement my_DT.__init__() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/my_DT.py)
-Inputs:
-- criterion = {"gini", "entropy"} (implement both)
-- Do not split and stop training if (1) depth > max_depth after split (2) the decrease of impurity < min_impurity_decrease
-- Only split node with >= min_samples_split samples to leaves with >= min_samples_leaf samples
-
 #### Implement my_DT.fit() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/my_DT.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
