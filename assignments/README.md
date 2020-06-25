@@ -13,8 +13,8 @@
 | Week 3 Lecture 1 |   [Classification (Naive Bayes)](https://docs.google.com/presentation/d/12mEZedntHahTNc5bWPuhg2B9JpAqhSFogqT8lJZVRL4/edit?usp=sharing)   | [Assignment3](https://github.com/hil-se/fds/blob/master/assignments/assignment3.md) |   Week 4 Lecture 1  |
 | Week 3 Lecture 2 |   [Classification (Support Vector Machine)](https://docs.google.com/presentation/d/1_TGL4VJq-3_mUbSswIiVMB_xycwx70qr8COl99OoUHY/edit?usp=sharing)  |           |         |
 | Week 4 Lecture 1 |   [Classification (Nearest Neighbor)](https://docs.google.com/presentation/d/1n4NersfY_W2gyxXrpWrfnBAMlTziVxdnGMmvnriBoic/edit?usp=sharing)   | [Assignment4](https://github.com/hil-se/fds/blob/master/assignments/assignment4.md) |   Week 5 Lecture 1    |
-| Week 4 Lecture 2 |   [Classification (Artificial Neural Networks)]()  |           |         |
-| Week 5 Lecture 1 | [Regression]()     |   |      |
+| Week 4 Lecture 2 |   [Classification (Artificial Neural Networks)](https://docs.google.com/presentation/d/1fTjhSUPnSUAyfvpQe7WxuFc8lRIo-sqsTRrVaF34lJ8/edit?usp=sharing)  |           |         |
+| Week 5 Lecture 1 | [Regression](https://docs.google.com/presentation/d/1PQrvUvrVwzV6Xl3qhh9WVuntjPReMHKBXVq52jTqzw4/edit?usp=sharing)     | [Assignment5](https://github.com/hil-se/fds/blob/master/assignments/assignment5.md)  |   Week 6 Lecture 1   |
 | Week 5 Lecture 2 | [Clustering]()    |           |         |
 | Week 6 Lecture 1 | [Preprocessing]()     | [Assignment4](https://github.com/hil-se/fds/blob/master/assignments/assignment4.md)  | Week 7 Lecture 1        |
 | Week 6 Lecture 2 | [Preprocessing]()    |           |         |
