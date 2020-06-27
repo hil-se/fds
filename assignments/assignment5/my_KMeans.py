@@ -2,10 +2,12 @@ import pandas as pd
 
 class my_KMeans:
 
-    def __init__(self, n_clusters=8, max_iter=300, tol=1e-4):
+    def __init__(self, n_clusters=8, init = "k-means++", max_iter=300, tol=1e-4):
+        # init = {"k-means++", "random"}
         # stop when either # iteration is greater than max_iter or the delta
         # of self.inertia_ is smaller than tol.
         self.n_clusters = n_clusters
+        self.init = init
         self.max_iter = max_iter
         self.tol = tol
 
