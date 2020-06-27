@@ -14,8 +14,8 @@
 | Week 3 Lecture 2 |   [Classification (Support Vector Machine)](https://docs.google.com/presentation/d/1_TGL4VJq-3_mUbSswIiVMB_xycwx70qr8COl99OoUHY/edit?usp=sharing)  |           |         |
 | Week 4 Lecture 1 |   [Classification (Nearest Neighbor)](https://docs.google.com/presentation/d/1n4NersfY_W2gyxXrpWrfnBAMlTziVxdnGMmvnriBoic/edit?usp=sharing)   | [Assignment4](https://github.com/hil-se/fds/blob/master/assignments/assignment4.md) |   Week 5 Lecture 1    |
 | Week 4 Lecture 2 |   [Classification (Artificial Neural Networks)](https://docs.google.com/presentation/d/1fTjhSUPnSUAyfvpQe7WxuFc8lRIo-sqsTRrVaF34lJ8/edit?usp=sharing)  |           |         |
-| Week 5 Lecture 1 | [Regression](https://docs.google.com/presentation/d/1PQrvUvrVwzV6Xl3qhh9WVuntjPReMHKBXVq52jTqzw4/edit?usp=sharing) [Clustering](https://docs.google.com/presentation/d/1-cKLbo7SIkRSLpyLyrxZFoR6cyGd-N-zcmvw6hsd3rk/edit?usp=sharing)    | [Assignment5](https://github.com/hil-se/fds/blob/master/assignments/assignment5.md)  |   Week 6 Lecture 1   |
-| Week 5 Lecture 2 | [Clustering](https://docs.google.com/presentation/d/1-cKLbo7SIkRSLpyLyrxZFoR6cyGd-N-zcmvw6hsd3rk/edit?usp=sharing)    |           |         |
+| Week 5 Lecture 1 | [Regression](https://docs.google.com/presentation/d/1PQrvUvrVwzV6Xl3qhh9WVuntjPReMHKBXVq52jTqzw4/edit?usp=sharing)     |  |    |
+| Week 5 Lecture 2 | [Clustering (K-means)](https://docs.google.com/presentation/d/1-cKLbo7SIkRSLpyLyrxZFoR6cyGd-N-zcmvw6hsd3rk/edit?usp=sharing)    |   [Assignment5](https://github.com/hil-se/fds/blob/master/assignments/assignment5.md)         |     Week 6 Lecture 1      |
 | Week 6 Lecture 1 | [Preprocessing]()     | [Assignment4](https://github.com/hil-se/fds/blob/master/assignments/assignment4.md)  | Week 7 Lecture 1        |
 | Week 6 Lecture 2 | [Preprocessing]()    |           |         |
 | Week 7 Lecture 1 | [Evaluation]()     | [Assignment5](https://github.com/hil-se/fds/blob/master/assignments/assignment5.md)  | Week 8 Lecture 1        |
