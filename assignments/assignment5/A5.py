@@ -1,4 +1,9 @@
-from my_KMeans import my_KMeans
+from my_AdaBoost import my_AdaBoost
+####### Add assignment2 to sys.path to import my_DT #######
+import sys
+sys.path.insert(0,'../assignment2')
+##################################################
+from my_DT import my_DT
 import pandas as pd
 
 if __name__ == "__main__":
@@ -9,19 +14,15 @@ if __name__ == "__main__":
     X = data_train[independent]
     y = data_train["Species"]
     # Train model
-    clf = my_KMeans(n_clusters=3)
-    y_p = clf.fit_predict(X)
-    # Show training results
-    print("Classes:")
-    print([(y[i], y_p[i]) for i in range(len(y))])
-    print("Centroids:")
-    print(clf.cluster_centers_)
-    print("Inertia: %f" %clf.inertia_)
-
+    clf = my_AdaBoost(base_estimator=my_DT, n_estimators = 10)
+    clf.fit(X, y)
     # Load testing data
     data_test = pd.read_csv("../data/Iris_test.csv")
     X_test = data_test[independent]
-    # Transform test data to cluster-distance space
-    dists = clf.transform(X_test)
-    print("Testing data:")
-    print(dists)
+    # Predict
+    predictions = clf.predict(X_test)
+    # Predict probabilities
+    probs = clf.predict_proba(X_test)
+    # Print results
+    for i, pred in enumerate(predictions):
+        print("%s\t%f" % (pred, max(probs[i])))
