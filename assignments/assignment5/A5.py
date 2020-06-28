@@ -14,7 +14,8 @@ if __name__ == "__main__":
     X = data_train[independent]
     y = data_train["Species"]
     # Train model
-    clf = my_AdaBoost(base_estimator=my_DT, n_estimators = 10)
+    base_estimator = my_DT(criterion = "entropy", max_depth = 1)
+    clf = my_AdaBoost(base_estimator=base_estimator, n_estimators = 10)
     clf.fit(X, y)
     # Load testing data
     data_test = pd.read_csv("../data/Iris_test.csv")

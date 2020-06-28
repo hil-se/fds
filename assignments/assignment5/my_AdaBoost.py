@@ -23,7 +23,9 @@ class my_AdaBoost:
 
     def predict_proba(self, X):
         # X: pd.DataFrame, independent variables, float
-        # return probs = list of prob
+        # prob: what percentage of the base estimators predict input as class i
+        # prob(x)[i] = sum(alpha[j] * (base_model[j].predict(x) == self.classes_[i]))
+        # return probs = list of prob(x)
         # write your code below
         return probs
 
