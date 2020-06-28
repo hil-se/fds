@@ -1,25 +1,27 @@
-## K-Means Clustering
+## AdaBoost (Ensemble Learning)
 
-### Build your own K-Means Clustering Algorithm (with continuous input)
+### Build your own AdaBoost Ensemble Learner (with continuous input)
 
-#### Implement my_KMeans.fit() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_KMeans.py)
+#### Implement my_AdaBoost.fit() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
+- y: list, np.array or pd.Series, dependent variables, int or str
 
-#### Implement my_KMeans.predict() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_KMeans.py)
+#### Implement my_AdaBoost.predict() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
 - Predicted categories of each input data point. List of str or int.
 
-#### Implement my_KMeans.transform() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_KMeans.py)
-Transform to cluster-distance space.
+#### Implement my_AdaBoost.predict_proba() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
-- dists = list of [dist to centroid 1, dist to centroid 2, ...]
+- probs = list of prob(x)
+- prob: what percentage of the base estimators predict input as class i
+- prob(x)[i] = sum(alpha[j] * (base_model[j].predict(x) == self.classes_[i]))
 
 ### Test my_KMeans Algorithm with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/A5.py)
 
