@@ -18,7 +18,7 @@
 | Week 5 Lecture 2 | [Regression](https://docs.google.com/presentation/d/1PQrvUvrVwzV6Xl3qhh9WVuntjPReMHKBXVq52jTqzw4/edit?usp=sharing)     |     |            |          |
 | Week 6 Lecture 1 | [Clustering (K-means)](https://docs.google.com/presentation/d/1-cKLbo7SIkRSLpyLyrxZFoR6cyGd-N-zcmvw6hsd3rk/edit?usp=sharing)    |   [Assignment6](https://github.com/hil-se/fds/blob/master/assignments/assignment6.md)         |     Week 7 Lecture 1      |
 | Week 6 Lecture 2 | [Clustering (Hierarchical)](https://docs.google.com/presentation/d/1kIEm8fWmXQB9g7Oz33STLLPTjolzGVMwMkr_hpnCRQw/edit?usp=sharing)    |    |           |         |
-| Week 7 Lecture 1 | [Preprocessing]()     | [Assignment5](https://github.com/hil-se/fds/blob/master/assignments/assignment5.md)  | Week 8 Lecture 1        |
+| Week 7 Lecture 1 | [Preprocessing](https://docs.google.com/presentation/d/1bVw88nbGA6nZzod_CWEBkZi2aT8esFa92jM0Y8A2hxY/edit?usp=sharing)     | [Assignment7](https://github.com/hil-se/fds/blob/master/assignments/assignment7.md)  | Week 8 Lecture 1        |
 | Week 7 Lecture 2 | [Evaluation]()    |           |         |
 | Week 8 Lecture 1 | [Validation and Testing]()     | [Assignment6](https://github.com/hil-se/fds/blob/master/assignments/assignment6.md)  | Week 9 Lecture 1        |
 | Week 8 Lecture 2 | [Validation and Testing]()    |           |         |
