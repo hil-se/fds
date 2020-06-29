@@ -11,6 +11,10 @@ class my_AdaBoost:
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, float
         # y: list, np.array or pd.Series, dependent variables, int or str
+        
+        # Carefully handle the cases where the order of classes in
+        # base estimators are different from self.classes_ and where
+        # base estimators have fewer classes.
         self.classes_ = list(set(list(y)))
         # write your code below
         return
