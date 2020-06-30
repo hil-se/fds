@@ -2,24 +2,32 @@
 
 ### Build your own preprocessors
 
-#### Implement my_KMeans.fit() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/assignment6/my_KMeans.py)
+#### Implement pca() function in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess.py)
+Use svd to perform PCA on X
 Inputs:
-- X: pd.DataFrame, independent variables, each value is a continuous number of float type
-
-#### Implement my_KMeans.predict() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/assignment6/my_KMeans.py)
-Input:
-- X: pd.DataFrame, independent variables, each value is a continuous number of float type
-
+ X: input matrix
+ n_components: number of principal components to keep
 Output:
-- Predicted categories of each input data point. List of str or int.
+ X_pca: output matrix of n_components columns (numpy.array)
 
-#### Implement my_KMeans.transform() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/assignment6/my_KMeans.py)
-Transform to cluster-distance space.
-Input:
-- X: pd.DataFrame, independent variables, each value is a continuous number of float type
-
+#### Implement normalize() function in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess.py)
+Inputs:
+X: input matrix
+ norm = {"L1", "L2", "Min-Max", "Standard_Score"}
+ axis = 0: normalize rows
+ axis = 1: normalize columns
 Output:
-- dists = list of [dist to centroid 1, dist to centroid 2, ...]
+ X_norm: normalized matrix (numpy.array)
 
-### Test my_KMeans Algorithm with [A6.py](https://github.com/hil-se/fds/blob/master/assignments/assignment6/A6.py)
+#### Implement stratified_sampling() function in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess.py)
+Inputs:
+ y: class labels
+ 0 < ratio < 1: number of samples = len(y) * ratio
+ replacement = True: sample with replacement
+ replacement = False: sample without replacement
+Output:
+ sample: indices of stratified sampled points
+         (ratio is the same across each class)
+
+### Test my_KMeans Algorithm with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/A7.py)
 
