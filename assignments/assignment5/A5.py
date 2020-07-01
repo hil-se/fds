@@ -2,8 +2,8 @@ from my_AdaBoost import my_AdaBoost
 ####### Add assignment2 to sys.path to import my_DT #######
 import sys
 sys.path.insert(0,'../assignment2')
-##################################################
 from my_DT import my_DT
+##################################################
 import pandas as pd
 
 if __name__ == "__main__":
