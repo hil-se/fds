@@ -22,7 +22,7 @@
 | Week 7 Lecture 2 | [Data Balancing](https://docs.google.com/presentation/d/10OEr0SODbjYyuaDxxQ6IiVzOVKB1-R3keInR2hEPG8w/edit?usp=sharing)    |           |         |
 | Week 8 Lecture 1 | [Evaluation]()   | [Assignment8](https://github.com/hil-se/fds/blob/master/assignments/assignment8.md)  | Week 9 Lecture 1        |
 | Week 8 Lecture 2 | [Validation and Testing]()    |           |         |
-| Week 9 Lecture 1 | [Hyperparameter Tuning]()     |   |       |
+| Week 9 Lecture 1 | [Hyperparameter Tuning]()     |  [Assignment9](https://github.com/hil-se/fds/blob/master/assignments/assignment9.md)  |    Week 10 Lecture 1   |
 | Week 9 Lecture 2 | [Project]()     |[Project](https://github.com/hil-se/fds/blob/master/project/README.md) |Week 14 Lecture 1  |
 | Week 10 Lecture 1 | [Association Analysis]()     | | |
 | Week 10 Lecture 2 | [Association Analysis]()    |           |         |
