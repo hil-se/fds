@@ -19,13 +19,13 @@ Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
-- Prediction probabilities of each input data point belonging to each categories. List of list.
+- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
 
 Example:
-- self.classes_ = {"1", "2"}
+- self.classes_ = {"2", "1"}
 - the 5 nearest neighbors for the test data point have labels of {"1":4, "2":1}
-- then the prob for that data point is [4/5, 1/5]
-- return probs = list of prob
+- then the prob for that data point is {"1": 4/5, "2": 1/5}
+- return probs = pd.DataFrame(list of prob, columns = self.classes_)
 
 ### Test my_KNN classifier with [A4.py](https://github.com/hil-se/fds/blob/master/assignments/assignment4/A4.py)
 
