@@ -31,11 +31,14 @@ class my_DT:
     def predict_proba(self, X):
         # X: pd.DataFrame, independent variables, float
         # Eample:
-        # self.classes_ = {"1", "2"}
+        # self.classes_ = {"2", "1"}
         # the reached node for the test data point has {"1":2, "2":1}
-        # then the prob for that data point is [2/3, 1/3]
-        # return probs = list of prob
+        # then the prob for that data point is {"2": 1/3, "1": 2/3}
+        # return probs = pd.DataFrame(list of prob, columns = self.classes_)
         # write your code below
+
+        ##################
+        assert(all(probs.keys()==self.classes_))
         return probs
 
 

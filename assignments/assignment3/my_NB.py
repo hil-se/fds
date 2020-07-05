@@ -24,9 +24,12 @@ class my_NB:
 
     def predict_proba(self, X):
         # X: pd.DataFrame, independent variables, str
-        # prob is a list of probabilities following the order of self.classes_
-        # return probs = list of prob
+        # prob is a dict of prediction probabilities belonging to each categories
+        # return probs = pd.DataFrame(list of prob, columns = self.classes_)
         # write your code below
+
+        ##################
+        assert (all(probs.keys() == self.classes_))
         return probs
 
 

@@ -26,7 +26,8 @@ class my_KNN:
 
     def predict_proba(self, X):
         # X: pd.DataFrame, independent variables, float
-        # return probs = list of list
+        # prob is a dict of prediction probabilities belonging to each categories
+        # return probs = pd.DataFrame(list of prob, columns = self.classes_)
         # write your code below
         return probs
 

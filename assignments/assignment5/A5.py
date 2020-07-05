@@ -26,4 +26,4 @@ if __name__ == "__main__":
     probs = clf.predict_proba(X_test)
     # Print results
     for i, pred in enumerate(predictions):
-        print("%s\t%f" % (pred, max(probs[i])))
+        print("%s\t%f" % (pred, probs[pred][i]))

@@ -8,6 +8,8 @@ if __name__ == "__main__":
     independent = ["SepalLengthCm",	"SepalWidthCm",	"PetalLengthCm",	"PetalWidthCm"]
     X = data_train[independent]
     y = data_train["Species"]
+    from pdb import set_trace
+    set_trace()
     # Train model
     clf = my_DT()
     clf.fit(X,y)
@@ -20,4 +22,4 @@ if __name__ == "__main__":
     probs = clf.predict_proba(X_test)
     # Print results
     for i,pred in enumerate(predictions):
-        print("%s\t%f" %(pred,max(probs[i])))
+        print("%s\t%f" %(pred, probs[pred][i]))
