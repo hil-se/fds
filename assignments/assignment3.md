@@ -19,7 +19,7 @@ Input:
 - X: pd.DataFrame, independent variables, each value is a category of str type
 
 Output:
-- Prediction probabilities of each input data point belonging to each categories. List of list.
+- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
 
 ### Test my_NB classifier with [A3.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/A3.py)
 
