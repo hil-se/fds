@@ -19,10 +19,10 @@ Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
-- Prediction probabilities of each input data point belonging to each categories. List of list.
+- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
 
 Example:
-- self.classes_ = {"1", "2"}
+- self.classes_ = {"2", "1"}
 - the reached node for the test data point has {"1":2, "2":1}
 - then the prob for that data point is {"2": 1/3, "1": 2/3}
 - return probs = pd.DataFrame(list of prob, columns = self.classes_)
