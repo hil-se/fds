@@ -19,9 +19,9 @@ Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
-- probs = list of prob(x)
-- prob: what percentage of the base estimators predict input as class i
-- prob(x)[i] = sum(alpha[j] * (base_model[j].predict(x) == self.classes_[i]))
+- probs = pd.DataFrame(list of prob, columns = self.classes_)
+- prob: what percentage of the base estimators predict input as class C
+- prob(x)[C] = sum(alpha[j] * (base_model[j].predict(x) == C))
 
 ### Test my_KMeans Algorithm with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/A5.py)
 
