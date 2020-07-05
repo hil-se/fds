@@ -24,8 +24,8 @@ Output:
 Example:
 - self.classes_ = {"1", "2"}
 - the reached node for the test data point has {"1":2, "2":1}
-- then the prob for that data point is [2/3, 1/3]
-- return probs = list of prob
+- then the prob for that data point is {"2": 1/3, "1": 2/3}
+- return probs = pd.DataFrame(list of prob, columns = self.classes_)
 
 
 ### Test my_DT decision tree classifier with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/A2.py)
