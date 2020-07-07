@@ -33,5 +33,5 @@ Output:
  - sample: indices of stratified sampled points
          (ratio is the same across each class)
 
-### Test my_KMeans Algorithm with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/A7.py)
+### Test my_preprocess with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/A7.py)
 
