@@ -20,8 +20,8 @@
 | Week 6 Lecture 2 | [Clustering (Hierarchical)](https://docs.google.com/presentation/d/1kIEm8fWmXQB9g7Oz33STLLPTjolzGVMwMkr_hpnCRQw/edit?usp=sharing)    |    |           |         |
 | Week 7 Lecture 1 | [Preprocessing](https://docs.google.com/presentation/d/1bVw88nbGA6nZzod_CWEBkZi2aT8esFa92jM0Y8A2hxY/edit?usp=sharing)     | [Assignment7](https://github.com/hil-se/fds/blob/master/assignments/assignment7.md)  | Week 8 Lecture 1        |
 | Week 7 Lecture 2 | [Class Imbalance Problem](https://docs.google.com/presentation/d/10OEr0SODbjYyuaDxxQ6IiVzOVKB1-R3keInR2hEPG8w/edit?usp=sharing)    |           |         |
-| Week 8 Lecture 1 | [Evaluation]()   | [Assignment8](https://github.com/hil-se/fds/blob/master/assignments/assignment8.md)  | Week 9 Lecture 1        |
-| Week 8 Lecture 2 | [Validation and Testing]()    |           |         |
+| Week 8 Lecture 1 | [Evaluation](https://docs.google.com/presentation/d/1HXhH57lF3MtknPvYk6B5aKOlDvXRO8rITz31XzOqZxc/edit?usp=sharing)   | [Assignment8](https://github.com/hil-se/fds/blob/master/assignments/assignment8.md)  | Week 9 Lecture 1        |
+| Week 8 Lecture 2 | [Validation and Testing](https://docs.google.com/presentation/d/1sC9Q0Y_-gzYzRv2EdGlOA_GzHawGj5mh_iu0659tAuY/edit?usp=sharing)    |           |         |
 | Week 9 Lecture 1 | [Hyperparameter Tuning]()     |  [Assignment9](https://github.com/hil-se/fds/blob/master/assignments/assignment9.md)  |    Week 10 Lecture 1   |
 | Week 9 Lecture 2 | [Project]()     |[Project](https://github.com/hil-se/fds/blob/master/project/README.md) |Week 14 Lecture 1  |
 | Week 10 Lecture 1 | [Association Analysis]()     | | |
