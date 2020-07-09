@@ -6,9 +6,9 @@ class my_KMeans:
         # init = {"k-means++", "random"}
         # stop when either # iteration is greater than max_iter or the delta
         # of self.inertia_ is smaller than tol.
-        self.n_clusters = n_clusters
+        self.n_clusters = int(n_clusters)
         self.init = init
-        self.max_iter = max_iter
+        self.max_iter = int(max_iter)
         self.tol = tol
 
         self.classes_ = range(n_clusters)

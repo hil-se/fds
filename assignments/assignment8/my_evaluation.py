@@ -24,6 +24,7 @@ class my_evaluation:
         # self.confusion = {self.classes_[i]: {"TP":tp, "TN": tn, "FP": fp, "FN": fn}}
         # no return variables
         # write your own code below
+        return
 
     def prec(self, target=None, average = "macro"):
         # compute precision
@@ -32,7 +33,7 @@ class my_evaluation:
         # output: prec = float
         # note: be careful for divided by 0
         # write your own code below
-        return prec
+        return self.predictions
 
     def recall(self, target=None, average = "macro"):
         # compute recall

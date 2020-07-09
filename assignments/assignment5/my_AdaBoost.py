@@ -6,7 +6,7 @@ class my_AdaBoost:
         # base_estimator: the base classifier class, e.g. my_DT
         # n_estimators: # of base_estimator rounds
         self.base_estimator = base_estimator
-        self.n_estimators = n_estimators
+        self.n_estimators = int(n_estimators)
 
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, float

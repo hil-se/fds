@@ -10,10 +10,10 @@ class my_DT:
         # Only split node with >= min_samples_split samples
         # to leaves with >= min_samples_leaf samples
         self.criterion = criterion
-        self.max_depth = max_depth
+        self.max_depth = int(max_depth)
         self.min_impurity_decrease = min_impurity_decrease
-        self.min_samples_split = min_samples_split
-        self.min_samples_leaf = min_samples_leaf
+        self.min_samples_split = int(min_samples_split)
+        self.min_samples_leaf = int(min_samples_leaf)
 
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, float
