@@ -53,7 +53,8 @@ class my_GA:
         # decision: tuple of decisions
         # Avoid repetitive evaluations
         if decision not in self.evaluated:
-            # evaluate with self.crossval_fold fold cross-validation on self.data_X and self.data_y
+            # evaluate with self.crossval_fold fold cross-validation on self.data_X and self.data_y            
+            clf = self.model(*decision)
             # write your own code below
             objs = self.obj_func(predictions, actuals, pred_proba)
             ######################
