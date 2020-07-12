@@ -7,7 +7,7 @@
 A foundations course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model evaluation, and visualization. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. The course includes a series of programming assignments which will involve implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures.
 
 ## Syllabus and Policies
-The course uses Github for assignment submission, grading, discussion, questions, announcements, and supplementary documents; slides will be posted here.
+The course uses Github for assignment submission, discussion, questions. Slides, assignments, and recorded videos will be posted here.
 
 **Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments but [Assignment 1](https://github.com/hil-se/fse/blob/master/assignments/assignment1.md) provides learning materials to help students with those.
 
