@@ -13,7 +13,7 @@ Train a model (in [project.py](https://github.com/hil-se/fds/blob/master/assignm
 
 - Can use any model, preprocessing, tuning method. 
 - Can use (but do not have to use) all information in [dataset](https://github.com/hil-se/fds/blob/master/assignments/data/job_train.csv) to train the model.
-- Total runtime < 30 min
+- Total runtime < 30 min (if tuning is performed, its runtime must be included)
 - Can only install packages: 
   + scikit-learn, gensim, pandas 
   + packages such as numpy can be used because installing scikit-learn will also install numpy
