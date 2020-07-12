@@ -6,7 +6,6 @@ sys.path.insert(0,'..')
 from assignment2.my_DT import my_DT
 from assignment8.my_evaluation import my_evaluation
 ##################################################
-from pdb import set_trace
 
 def obj_func1(predictions, actuals, pred_proba=None):
     # Two objectives: higher recall and lower false positive rate
