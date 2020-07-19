@@ -27,7 +27,7 @@
 | Week 9 Lecture 2 | [Project]()     |[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |Week 14 Lecture 1  |
 | Week 10 Lecture 1 | [Association Analysis](https://docs.google.com/presentation/d/1_LoRupt_pJr7tw8uLwhK092UxIrvxUuZ7poi-OpjdvM/edit?usp=sharing)     | | |
 | Week 10 Lecture 2 | [Association Analysis]()    |           |         |
-| Week 11 Lecture 1 | [Semi-supervised Learning]()     |  |   |
+| Week 11 Lecture 1 | [Semi-supervised Learning](https://docs.google.com/presentation/d/1pDn75CECjr57hDJdExJBKMMl6r-3SV6XPSPBXy0p53A/edit?usp=sharing)     |  |   |
 | Week 11 Lecture 2 | [Semi-supervised Learning]()    |   |         |
 | Week 12 Lecture 1 | [Active Learning]()     |  | |
 | Week 12 Lecture 2 | [Active Learning]()    |           |         |
