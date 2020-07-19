@@ -29,7 +29,7 @@
 | Week 10 Lecture 2 | [Association Analysis]()    |           |         |
 | Week 11 Lecture 1 | [Semi-supervised Learning](https://docs.google.com/presentation/d/1pDn75CECjr57hDJdExJBKMMl6r-3SV6XPSPBXy0p53A/edit?usp=sharing)     |  |   |
 | Week 11 Lecture 2 | [Semi-supervised Learning]()    |   |         |
-| Week 12 Lecture 1 | [Active Learning]()     |  | |
+| Week 12 Lecture 1 | [Active Learning](https://docs.google.com/presentation/d/1sPEx6rOqpWE2Dz4Yx63HmaztX5bMRoux_vTtZfX0bgA/edit?usp=sharing)     |  | |
 | Week 12 Lecture 2 | [Active Learning]()    |           |         |
 | Week 13 Lecture 1 | [Reinforcement Learning]()     |    |    |
 | Week 13 Lecture 2 | [Reinforcement Learning]()    |           |         |
