@@ -24,16 +24,14 @@
 | Week 8 Lecture 1 | [Evaluation](https://docs.google.com/presentation/d/1HXhH57lF3MtknPvYk6B5aKOlDvXRO8rITz31XzOqZxc/edit?usp=sharing)   | [Assignment8](https://github.com/hil-se/fds/blob/master/assignments/assignment8.md)  | Week 9 Lecture 1        |
 | Week 8 Lecture 2 | [Validation and Testing](https://docs.google.com/presentation/d/1sC9Q0Y_-gzYzRv2EdGlOA_GzHawGj5mh_iu0659tAuY/edit?usp=sharing)    |           |         |
 | Week 9 Lecture 1 | [Hyperparameter Tuning](https://docs.google.com/presentation/d/1MrM7T3j9e9yJeNgxivN8FdF5OI_K5wTa6pjUCAvrRMc/edit?usp=sharing)     |  [Assignment9](https://github.com/hil-se/fds/blob/master/assignments/assignment9.md)  |    Week 10 Lecture 1   |
-| Week 9 Lecture 2 | [Project]()     |[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |Week 14 Lecture 1  |
+| Week 9 Lecture 2 | [Project]()     |[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |Week 13 Lecture 1  |
 | Week 10 Lecture 1 | [Association Analysis](https://docs.google.com/presentation/d/1_LoRupt_pJr7tw8uLwhK092UxIrvxUuZ7poi-OpjdvM/edit?usp=sharing)     | | |
-| Week 10 Lecture 2 | [Association Analysis]()    |           |         |
+| Week 10 Lecture 2 | [Case Study]()    |           |         |
 | Week 11 Lecture 1 | [Semi-supervised Learning](https://docs.google.com/presentation/d/1pDn75CECjr57hDJdExJBKMMl6r-3SV6XPSPBXy0p53A/edit?usp=sharing)     |  |   |
-| Week 11 Lecture 2 | [Semi-supervised Learning]()    |   |         |
+| Week 11 Lecture 2 | [Case Study]()    |   |         |
 | Week 12 Lecture 1 | [Active Learning](https://docs.google.com/presentation/d/1sPEx6rOqpWE2Dz4Yx63HmaztX5bMRoux_vTtZfX0bgA/edit?usp=sharing)     |  | |
-| Week 12 Lecture 2 | [Active Learning]()    |           |         |
-| Week 13 Lecture 1 | [Reinforcement Learning]()     |    |    |
-| Week 13 Lecture 2 | [Reinforcement Learning]()    |           |         |
-| Week 14 Lecture 1 | [Machine Learning Testing]()     | [Project Report](https://github.com/hil-se/fds/blob/master/project/report.md) | Week 16 (Dec 11) |
-| Week 14 Lecture 2 | [Machine Learning Testing]()     | | |
-| Week 15 Lecture 1 | [Project Summary]()     | | |
-| Week 15 Lecture 2 | [Project Summary]()     | | |
+| Week 12 Lecture 2 | [Case Study]()    |           |         |
+| Week 13 Lecture 1 | [Reinforcement Learning](https://docs.google.com/presentation/d/1fpMeYWpMBoYeVyqnoe4D0FmHI63BgwzubAckwoQJ1MM/edit?usp=sharing)     |  [Project Report](https://github.com/hil-se/fds/blob/master/project/report.md)  |  Week 16 (Dec 11)   |
+| Week 13 Lecture 2 | [Self-Supervised Learning]()    |           |         |
+| Week 14 Lecture 1 | [Project Summary]()     |  | |
+| Week 14 Lecture 2 | [Project Summary]()    | | |
