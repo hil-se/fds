@@ -36,7 +36,7 @@ Train a model (in [project.py](https://github.com/hil-se/fds/blob/master/assignm
   + submissions with innovative solutions will receive extra credits.
   
 - **Violations**
-  + submissions with runtime > 45 min on TA's machine will not be graded.
+  + submissions with runtime > 35 min on the TA's machine will not be graded.
   + submissions that require extra packages will not be graded.
 
 
