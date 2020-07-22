@@ -28,10 +28,10 @@
 | Week 10 Lecture 1 | [Association Analysis](https://docs.google.com/presentation/d/1_LoRupt_pJr7tw8uLwhK092UxIrvxUuZ7poi-OpjdvM/edit?usp=sharing)     | | |
 | Week 10 Lecture 2 | [Case Study](https://docs.google.com/presentation/d/1i2tgyNLhGaMxGoQ9oJ7PYdibeHDkPzStSOb_aQPdTz0/edit?usp=sharing)    |           |         |
 | Week 11 Lecture 1 | [Semi-supervised Learning](https://docs.google.com/presentation/d/1pDn75CECjr57hDJdExJBKMMl6r-3SV6XPSPBXy0p53A/edit?usp=sharing)     |  |   |
-| Week 11 Lecture 2 | [Case Study]()    |   |         |
-| Week 12 Lecture 1 | [Active Learning](https://docs.google.com/presentation/d/1sPEx6rOqpWE2Dz4Yx63HmaztX5bMRoux_vTtZfX0bgA/edit?usp=sharing)     |  | |
-| Week 12 Lecture 2 | [Case Study]()    |           |         |
-| Week 13 Lecture 1 | [Reinforcement Learning](https://docs.google.com/presentation/d/1fpMeYWpMBoYeVyqnoe4D0FmHI63BgwzubAckwoQJ1MM/edit?usp=sharing)     |  [Project Report](https://github.com/hil-se/fds/blob/master/project/report.md)  |  Week 16 (Dec 11)   |
-| Week 13 Lecture 2 | [Self-Supervised Learning]()    |           |         |
+| Week 11 Lecture 2 | [Active Learning](https://docs.google.com/presentation/d/1sPEx6rOqpWE2Dz4Yx63HmaztX5bMRoux_vTtZfX0bgA/edit?usp=sharing)    |   |         |
+| Week 12 Lecture 1 | [Reinforcement Learning](https://docs.google.com/presentation/d/1fpMeYWpMBoYeVyqnoe4D0FmHI63BgwzubAckwoQJ1MM/edit?usp=sharing)     |  | |
+| Week 12 Lecture 2 | [Anomaly Detection](https://docs.google.com/presentation/d/1vSHrGsapA5YbNBZmndU89gPfRuX2ou95ux18DXCOtP8/edit?usp=sharing)    |           |         |
+| Week 13 Lecture 1 |    |   |     |
+| Week 13 Lecture 2 | [Self-Supervised Learning](https://docs.google.com/presentation/d/1ZcEDzabsjfgdGOiRbLH9UAi68qdP1zOgnBnGkvFYDaA/edit?usp=sharing)    |           |         |
 | Week 14 Lecture 1 | [Project Summary]()     |  | |
 | Week 14 Lecture 2 | [Project Summary]()    | | |
