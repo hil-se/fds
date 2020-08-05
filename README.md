@@ -10,7 +10,7 @@ A foundations course in data science, emphasizing both concepts and techniques. 
 ## Syllabus and Policies
 The course uses Github for assignment submission, discussion, questions. Slides, assignments, and recorded videos will be posted here.
 
-**Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments but [Assignment 1](https://github.com/hil-se/fse/blob/master/assignments/assignment1.md) provides learning materials to help students with those.
+**Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments and [Assignment 1](https://github.com/hil-se/fse/blob/master/assignments/assignment1.md) provides learning materials to help students with those.
 
 **Textbook**: We will be using [Pang-Ning Tan's "Introduction to Data Mining (Second Edition)" (ISBN-13: 978-0133128901)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) throughout the course. However, there is no need to buy that book since the slides will cover all the content you need.
 
