@@ -16,7 +16,7 @@ The course uses Github for assignment submission, discussion, questions. Slides,
 
 **Grading**: Evaluation will be based on the following distribution: 60% assignments, 40% project.
 
-**Time management**: 
+**Time management**: Besides the 2.5 hours/week on lectures, students are expected to spend at 1 to 3 hours on assignments (for the first 9 weeks) or the project (for the rest weeks) every week depending on their proficiency.
 
 **Late work policy**: The TA will start grading assignments after the due date. Late work in assignments will not be graded. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency---with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. Accommodations for travel (e.g., for interviews) might be possible if requested at least 3 days in advance. 
 
