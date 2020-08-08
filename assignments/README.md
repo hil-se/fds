@@ -4,7 +4,7 @@
 [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
 [Lecturer](http://azhe825.github.io) 
 
-## Assignments
+## Course Materials
 | Date | Lecture | Assignment | Due Date | 
 |------|-------|------------|----------|
 | Week 1 Lecture 1 | [Overview of Data Science](https://docs.google.com/presentation/d/1dkV6Nx_eauFLGNPBSfvwOaBU0WxMTZzw81h6ewsMf1Q/edit?usp=sharing)     | [Assignment1](https://github.com/hil-se/fds/blob/master/assignments/assignment1.md)  | Week 2 Lecture 1        |
