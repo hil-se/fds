@@ -31,7 +31,7 @@
 | Lecture 22 (11/03)| [Active Learning](https://docs.google.com/presentation/d/1sPEx6rOqpWE2Dz4Yx63HmaztX5bMRoux_vTtZfX0bgA/edit?usp=sharing)    |   |         |
 | Lecture 23 (11/05)| [Reinforcement Learning](https://docs.google.com/presentation/d/1fpMeYWpMBoYeVyqnoe4D0FmHI63BgwzubAckwoQJ1MM/edit?usp=sharing)     |  | |
 | Lecture 24 (11/10)| [Association Analysis](https://docs.google.com/presentation/d/1_LoRupt_pJr7tw8uLwhK092UxIrvxUuZ7poi-OpjdvM/edit?usp=sharing)     |           |         |
-| Lecture 25 (11/12)| [Anomaly Detection](https://docs.google.com/presentation/d/1vSHrGsapA5YbNBZmndU89gPfRuX2ou95ux18DXCOtP8/edit?usp=sharing) |   |     |
+| Lecture 25 (11/12)| [Anomaly Detection](https://docs.google.com/presentation/d/1vSHrGsapA5YbNBZmndU89gPfRuX2ou95ux18DXCOtP8/edit?usp=sharing) | PROJECT DUE  |     |
 | Lecture 26 (11/17)| [Self-Supervised Learning](https://docs.google.com/presentation/d/1ZcEDzabsjfgdGOiRbLH9UAi68qdP1zOgnBnGkvFYDaA/edit?usp=sharing)    |           |         |
 | Lecture 27 (11/19)| [Project Summary]()     |  | |
 | Lecture 28 (11/24)| [Project Summary]()    | | |
