@@ -2,7 +2,7 @@
 [Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
 [Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
 [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
-[Lecturer](http://azhe825.github.io) 
+[Lecturer](http://zhe-yu.github.io) 
 
 ## Course Description
 A foundations course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. The course includes a series of programming assignments which will involve implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures.
