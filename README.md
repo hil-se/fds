@@ -7,6 +7,13 @@
 ## Course Description
 A foundation course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation, and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. The course includes a series of programming assignments that will involve the implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures.
 
+## Course Learning Outcomes
+
+Students completing this course are expected to
+
+ - Gain a brief understanding of basic data mining and machine learning techniques.
+ - Develop the ability to solve real-world problems using machine learning.
+
 ## Syllabus and Policies
 The course uses Github for assignment submission, discussion, questions. Slides, assignments, and recorded videos will be posted here.
 
@@ -16,7 +23,7 @@ The course uses Github for assignment submission, discussion, questions. Slides,
 
 **Grading**: Evaluation will be based on the following distribution: 60% assignments, 40% project.
 
-**Time management**: Besides the 2.5 hours/week on lectures, students are expected to spend at 1 to 3 hours on assignments (for the first 9 weeks) or the project (for the rest weeks) every week depending on their proficiency in coding.
+**Time management**: Besides the 2.5 hours/week on lectures, students are expected to spend 1 to 5 hours on assignments (for the first 9 weeks) or the project (for the rest weeks) every week depending on their proficiency in coding and machine learning.
 
 **Late work policy**: The TA will start grading assignments after the due date. Late work in assignments will not be graded. Exceptions to this policy will be made only in extraordinary circumstances, almost always involving a family or medical emergency---with your academic advisor or the Dean of Student Affairs requesting the exception on your behalf. Accommodations for travel (e.g., for interviews) might be possible if requested at least 3 days in advance. 
 
