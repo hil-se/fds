@@ -30,3 +30,4 @@ Example:
 
 ### Test my_DT decision tree classifier with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/A2.py)
 
+### Do not forget to push your local changes to the Github server.
