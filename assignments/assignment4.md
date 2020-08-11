@@ -2,7 +2,7 @@
 
 ### Make sure your repo is up-to-date
 
-Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment2 folder. 
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment4 folder. 
 
 ### Build your own kNN classifier (with continuous input)
 
