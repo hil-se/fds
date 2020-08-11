@@ -1,5 +1,9 @@
 ## AdaBoost (Ensemble Learning)
 
+### Make sure your repo is up-to-date
+
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment5 folder. 
+
 ### Build your own AdaBoost Ensemble Learner (with continuous input)
 
 #### Implement my_AdaBoost.fit() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
