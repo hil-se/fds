@@ -1,5 +1,9 @@
 ## Decision Tree Classifier
 
+### Make sure your repo is up-to-date
+
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment2 folder. 
+
 ### Build your own decision tree classifier (with continuous input)
 
 #### Implement my_DT.fit() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/my_DT.py)
