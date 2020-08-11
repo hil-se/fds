@@ -1,5 +1,9 @@
 ## Preprocessing
 
+### Make sure your repo is up-to-date
+
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment7 folder. 
+
 ### Build your own preprocessors
 
 #### Implement pca() function in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess.py)
