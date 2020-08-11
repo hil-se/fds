@@ -5,7 +5,7 @@
 [Lecturer](http://zhe-yu.github.io) 
 
 ## Course Description
-A foundations course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. The course includes a series of programming assignments which will involve implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures.
+A foundation course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. The course includes a series of programming assignments which will involve the implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures.
 
 ## Syllabus and Policies
 The course uses Github for assignment submission, discussion, questions. Slides, assignments, and recorded videos will be posted here.
