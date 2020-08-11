@@ -1,5 +1,9 @@
 ## Naive Bayes Classifier
 
+### Make sure your repo is up-to-date
+
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment3 folder. 
+
 ### Build your own categorical Naive Bayes classifier
 
 #### Implement my_NB.fit() function in [my_NB.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_NB.py)
