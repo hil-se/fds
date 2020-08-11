@@ -79,7 +79,7 @@
  - 3. Modify A1.py so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/tree.html#classification) from scikit-learn directly (without any specific parameters).
  - 4. Run A1.py again and snapshot the output (including the command *python A1.py*). 
  - 5. Save the snapshot as A1.png and put it under *assignments/assignment1/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1). Note: the [example snapshot](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1/A1.png) will look different from the correct one since it uses the Gaussian Naive Bayes classifier.
- 
+ - 6. Commit to the remote server of Github and add your github repo url (along with your RIT identifiers) to the [Google sheet](https://docs.google.com/spreadsheets/d/1bl-qhYIAlT9cBOxcNEQP3vyrwQL2ejUSg4kb2XoUNxM/edit?usp=sharing).
  
  
  
