@@ -55,7 +55,11 @@
  ```
  
  ## Assignment 1
- - 1. Copy the folder [assignments/](https://github.com/hil-se/fse/tree/master/assignments/) to your repo **DSCI-633** folder. Should look like the following:
+ - 1. Copy the folder [assignments/](https://github.com/hil-se/fse/tree/master/assignments/) to your repo **DSCI-633** folder. 
+ ```
+ git clone https://github.com/hil-se/fds.git
+ ```
+ Should look like the following:
  ![](https://github.com/hil-se/fse/blob/master/img/download_A1.png?raw=yes)
  - 2. Run A1.py:
  ```
