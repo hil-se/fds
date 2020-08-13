@@ -32,6 +32,9 @@
 
 ### 2. Clone the **DSCI-633** repo to your local machine.
  ![](https://github.com/hil-se/fse/blob/master/img/clone_repo.png?raw=yes)
+ ```
+ git clone THE-COPIED-URL
+ ```
 
 ### 3. Save username and password in git.
  - In terminal:
