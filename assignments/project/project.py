@@ -1,4 +1,5 @@
 import pandas as pd
+import time
 
 def train_model(data):
     # Train a model to predict fake news
