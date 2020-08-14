@@ -4,6 +4,9 @@ import time
 def train_model(data):
     # Train a model to predict fake news
     y = data["fraudulent"]
+    start_time = time.time()
+    while time.time() - start_time < 25 * 60:
+        # Iteration of model training or hyperparameter tuning
     return clf
 
 if __name__ == "__main__":
