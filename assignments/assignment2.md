@@ -35,3 +35,8 @@ Example:
 ### Test my_DT decision tree classifier with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/A2.py)
 
 ### Do not forget to push your local changes to the Github server.
+
+ 
+ ## Grading Policy
+ - 4 (out of 7) points will be received if A2.py successfully runs and makes predictions.
+ - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
