@@ -88,6 +88,9 @@
  - 5. Save the snapshot as A1.png and put it under *assignments/assignment1/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1). Note: the [example snapshot](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1/A1.png) will look different from the correct one since it uses the Gaussian Naive Bayes classifier.
  - 6. Commit to the remote server of Github and add your github repo url (along with your RIT identifiers) to the [Google sheet](https://docs.google.com/spreadsheets/d/1bl-qhYIAlT9cBOxcNEQP3vyrwQL2ejUSg4kb2XoUNxM/edit?usp=sharing).
  
- 
+ ## Grading Policy
+ - 6 (out of 7) points will be received if all the required files can be found in the submitted repo.
+ - The rest 1 point will be given based on whether the screenshot A1.png is correct.
+ - **Note:** be sure to add your github repo url to the [Google sheet](https://docs.google.com/spreadsheets/d/1bl-qhYIAlT9cBOxcNEQP3vyrwQL2ejUSg4kb2XoUNxM/edit?usp=sharing) since this is how this and all the future assignments will be graded.
  
  
