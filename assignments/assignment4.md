@@ -33,3 +33,11 @@ Example:
 
 ### Test my_KNN classifier with [A4.py](https://github.com/hil-se/fds/blob/master/assignments/assignment4/A4.py)
 
+
+### Do not forget to push your local changes to the Github server.
+
+ 
+ ## Grading Policy
+ - 4 (out of 7) points will be received if A4.py successfully runs and makes predictions (runtime < 10 min).
+ - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
+
