@@ -11,3 +11,10 @@ Hint: compute self.confusion once and use it to calculate other metrics (except 
 
 ### Test my_evaluation Algorithm with [A8.py](https://github.com/hil-se/fds/blob/master/assignments/assignment8/A8.py)
 
+### Do not forget to push your local changes to the Github server.
+
+ 
+ ## Grading Policy
+ - 4 (out of 7) points will be received if A7.py successfully runs and evaluates the performance (runtime < 10 min).
+ - The rest 3 points will be given based on the percentage of the same performance metrics with the correct implementation.
+
