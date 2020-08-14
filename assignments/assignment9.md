@@ -11,4 +11,10 @@ Hint: check how [A9.py](https://github.com/hil-se/fds/blob/master/assignments/as
 
 ### Test my_evaluation Algorithm with [A9.py](https://github.com/hil-se/fds/blob/master/assignments/assignment9/A9.py)
 
+### Do not forget to push your local changes to the Github server.
+ 
+ ## Grading Policy
+ - 4 (out of 7) points will be received if A9.py successfully runs and finds a parameter set (runtime < 30 min).
+ - The rest 3 points will be given based on the correctness of the implementation (TA will examine it manually).
+
 
