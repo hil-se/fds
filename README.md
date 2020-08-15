@@ -21,7 +21,7 @@ The course uses Github for assignment submission, discussion, questions. Slides,
 
 **Textbook**: We will be using [Pang-Ning Tan's "Introduction to Data Mining (Second Edition)" (ISBN-13: 978-0133128901)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) throughout the course. However, there is no need to buy that book since the slides will cover all the content you need. Meanwhile, a better way (than reading the textbook) to digging deeper into the material is always searching online for research papers and blog articles.
 
-**Grading**: Evaluation will be based on the following distribution: 63% assignments, 40% project. Detailed grading policy can be found at the end of the description of each assignment and project.
+**Grading**: Evaluation will be based on the following distribution: 60% assignments, 40% project. Detailed grading policy can be found at the end of the description of each assignment and project.
 
 **Time management**: Besides the 2.5 hours/week on lectures, students are expected to spend 1 to 5 hours on assignments (for the first 9 weeks) or on the project (for the rest weeks) every week depending on their proficiency in coding and machine learning.
 
