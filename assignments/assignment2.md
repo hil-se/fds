@@ -38,5 +38,6 @@ Example:
 
  
  ## Grading Policy
- - 4 (out of 7) points will be received if A2.py successfully runs and makes predictions (runtime < 10 min).
+ - importing additional packages such as sklearn is not allowed.
+ - 4 (out of 7) points will be received if A2.py successfully runs and makes predictions.
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
