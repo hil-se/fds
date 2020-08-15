@@ -68,8 +68,8 @@ class my_GA:
         if len(objs[0]) == 1:
             objs = [obj[0] for obj in objs]
         if type(objs[0])==list:
-            # multi-objective, binary domination
-            # update self.generation and self.best
+            # multi-objective, binary domination, all undominated points survive
+            # update self.generation
             # write your own code below
 
             ###############

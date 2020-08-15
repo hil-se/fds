@@ -8,8 +8,6 @@ if __name__ == "__main__":
     independent = ["SepalLengthCm",	"SepalWidthCm",	"PetalLengthCm",	"PetalWidthCm"]
     X = data_train[independent]
     y = data_train["Species"]
-    from pdb import set_trace
-    set_trace()
     # Train model
     clf = my_DT()
     clf.fit(X,y)
