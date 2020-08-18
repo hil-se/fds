@@ -58,7 +58,7 @@
  ```
  
  ## Assignment 1
- - 1. Clone this repo to your local machine:
+ - 1. Clone this repo to your local machine (Do **NOT** do this inside your DSCI-633 directory):
  ```
  git clone https://github.com/hil-se/fds.git
  ```
