@@ -33,13 +33,13 @@
 ### 2. Clone the **DSCI-633** repo to your local machine.
  ![](https://github.com/hil-se/fse/blob/master/img/clone_repo.png?raw=yes)
  ```
- git clone THE-COPIED-URL
+ home> git clone THE-COPIED-URL
  ```
 
 ### 3. Save username and password in git.
  - In terminal:
  ```
- git config --global credential.helper store
+ home> git config --global credential.helper store
  ```
  - When running this command, the first time you pull or push from the remote repository, you'll get asked about the username and password. Afterwards, for consequent communications with the remote repository you don't have to provide the username and password.
 
@@ -60,7 +60,7 @@
  ## Assignment 1
  - 1. Clone this repo to your local machine:
  ```
- git clone https://github.com/hil-se/fds.git
+ home> git clone https://github.com/hil-se/fds.git
  ```
  - 2. Copy ONLY the folder [assignments/](https://github.com/hil-se/fse/tree/master/assignments/) from this repo to your repo **DSCI-633** folder. 
  ```
