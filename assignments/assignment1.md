@@ -58,13 +58,21 @@
  ```
  
  ## Assignment 1
- - 1. Copy the folder [assignments/](https://github.com/hil-se/fse/tree/master/assignments/) to your repo **DSCI-633** folder. 
+ - 1. Clone this repo to your local machine:
  ```
  git clone https://github.com/hil-se/fds.git
  ```
- Should look like the following:
+ - 2. Copy ONLY the folder [assignments/](https://github.com/hil-se/fse/tree/master/assignments/) from this repo to your repo **DSCI-633** folder. 
+ ```
+ fds/
+ |-- assignments   ---
+ |-- ***             |
+ DSCI-633/           |
+ |-- assignments  <---
+ ```
+ Inside the **DSCI-633** repo, it should look like the following:
  ![](https://github.com/hil-se/fse/blob/master/img/download_A1.png?raw=yes)
- - 2. Run A1.py:
+ - 3. Run A1.py:
  ```
  DSCI-633/assignment1> python A1.py
  Iris-setosa     1.000000
@@ -83,10 +91,10 @@
  Iris-virginica  0.999988
  Iris-virginica  0.753482
  ```
- - 3. Modify A1.py so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/tree.html#classification) from scikit-learn directly (without any specific parameters).
- - 4. Run A1.py again and snapshot the output (including the command *python A1.py*). 
- - 5. Save the snapshot as A1.png and put it under *assignments/assignment1/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1). Note: the [example snapshot](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1/A1.png) will look different from the correct one since it uses the Gaussian Naive Bayes classifier.
- - 6. Commit to the remote server of Github and add your github repo url (along with your RIT identifiers) to the [Google sheet](https://docs.google.com/spreadsheets/d/1bl-qhYIAlT9cBOxcNEQP3vyrwQL2ejUSg4kb2XoUNxM/edit?usp=sharing).
+ - 4. Modify A1.py so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/tree.html#classification) from scikit-learn directly (without any specific parameters).
+ - 5. Run A1.py again and snapshot the output (including the command *python A1.py*). 
+ - 6. Save the snapshot as A1.png and put it under *assignments/assignment1/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1). Note: the [example snapshot](https://github.com/azhe825/DSCI-633/tree/master/assignments/assignment1/A1.png) will look different from the correct one since it uses the Gaussian Naive Bayes classifier.
+ - 7. Commit to the remote server of Github and add your github repo url (along with your RIT identifiers) to the [Google sheet](https://docs.google.com/spreadsheets/d/1bl-qhYIAlT9cBOxcNEQP3vyrwQL2ejUSg4kb2XoUNxM/edit?usp=sharing).
  
  ## Grading Policy
  - 6 (out of 7) points will be received if all the required files can be found in the submitted repo.
