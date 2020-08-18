@@ -63,18 +63,24 @@ class my_GA:
         return self.evaluated[decision]
     
     def is_better(self, a, b):
-        # Check if decision a is binary dominating decision b
-        # Return True if a binary dominates b, otherwise False
+        # Check if decision a binary dominates decision b
+        # Return 0 if a == b,
+        # Return 1 if a binary dominates b,
+        # Return -1 if a does not binary dominates b.
+        if a == b:
+            return 0
         obj_a = self.evaluate(a)
         obj_b = self.evaluate(b)
         # write your own code below
     
     def compete(self, pf_best, pf_new):
         # Compare and merge two pareto frontiers
-        # If one point in pf_best is binary dominated by another point in pf_new
-            # replace that point in pf_best with the point in pf_new
-        # If one point in pf_new is not dominated by any point in pf_best
-            # add that point to pf_best
+        # If one point y in pf_best is binary dominated by another point x in pf_new
+        # exist x and y; self.is_better(x, y) == 1
+            # replace that point y in pf_best with the point x in pf_new
+        # If one point x in pf_new is not dominated by any point y in pf_best (and does not exist in pf_best)
+        # forall y in pf_best; self.is_better(y, x) == -1
+            # add that point x to pf_best
         # Return True if pf_best is modified in the process, otherwise return False
         # Write your own code below
         
