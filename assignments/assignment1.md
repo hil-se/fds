@@ -5,7 +5,7 @@
 
 ### 1. Install Python on your local machine.
 
- - Install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) with Python 3.7 (miniconda or anaconda).
+ - Install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) with Python 3.7+ (miniconda or anaconda).
  
 ### 2. Install required packages.
  - Open terminal.
