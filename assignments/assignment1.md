@@ -70,8 +70,7 @@
  DSCI-633/           |
  |-- assignments  <---
  ```
- Inside the **DSCI-633** repo, it should look like the following:
- ![](https://github.com/hil-se/fse/blob/master/img/download_A1.png?raw=yes)
+ Inside the **DSCI-633** repo, it should look like [mine](https://github.com/azhe825/DSCI-633).
  **Clarification: this is just for using the assignment code in your own repo. Just copy and paste from local directories, do not try to link these two repos in any way.**
  - 3. Run [A1.py](https://github.com/hil-se/fds/blob/master/assignments/assignment1/A1.py):
  ```
