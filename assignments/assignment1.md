@@ -58,6 +58,8 @@
  ```
  
  ## Assignment 1
+ - 0. Watch this repo to get notified for new issues.
+ ![](https://github.com/hil-se/fds/blob/master/img/watch.png?raw=yes)
  - 1. Clone this repo to your local machine (Do **NOT** do this inside your DSCI-633 directory):
  ```
  git clone https://github.com/hil-se/fds.git
