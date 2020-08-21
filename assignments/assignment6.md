@@ -6,6 +6,8 @@ Assignment codes might be modified during the semester so please pull from this 
 
 ### Build your own K-Means Clustering Algorithm (with continuous input)
 
+#### Hint: memorize the calculated distances to avoid redundant computations.
+
 #### Implement my_KMeans.fit() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/assignment6/my_KMeans.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
