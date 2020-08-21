@@ -32,7 +32,8 @@ def stratified_sampling(y, ratio, replacement = True):
     #     replacement = False: sample without replacement
     #  Output:
     #     sample: indices of stratified sampled points
-    #                    (ratio is the same across each class)
+    #             (ratio is the same across each class, 
+    #             samples for each class = np.ceil(ratio * # data in each class) )
     #  Write your own code below:
     y_array = np.asarray(y)
     return sample
