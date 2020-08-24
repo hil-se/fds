@@ -5,9 +5,8 @@ class my_DT:
 
     def __init__(self, criterion="gini", max_depth=8, min_impurity_decrease=0, min_samples_split=2):
         # criterion = {"gini", "entropy"},
-        # Do not split and stop training if
-        # (1) depth > max_depth after split (when only the root, depth = 0)
-        # (2) the decrease of impurity < min_impurity_decrease
+        # Stop training if depth = max_depth
+        # Only split node if impurity decrease >= min_impurity_decrease after the split
         # Only split node with >= min_samples_split samples
         self.criterion = criterion
         self.max_depth = int(max_depth)
