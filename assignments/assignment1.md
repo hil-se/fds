@@ -23,11 +23,11 @@
 ### 0. Install [Git](https://git-scm.com/downloads) and create your [Github](https://github.com/) account.
  - Skip this step if you already have one.
 
-### 1. Create a new repository called **DSCI-633** under your Github account.
+### 1. Create a new PRIVATE repository called **DSCI-633** under your Github account.
  - (1) Click on the **new** button:
  ![](https://github.com/hil-se/fse/blob/master/img/create_repo.png?raw=yes)
  
- - (2) Initiate the new repo:
+ - (2) Initiate the new private repo:
  ![](https://github.com/hil-se/fse/blob/master/img/init_repo.png?raw=yes)
 
 ### 2. Clone the **DSCI-633** repo to your local machine.
