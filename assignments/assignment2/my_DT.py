@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from collections import Counter
 
 class my_DT:
 
@@ -37,7 +38,6 @@ class my_DT:
         # write your code below
 
         ##################
-        assert(all(probs.keys()==self.classes_))
         return probs
 
 
