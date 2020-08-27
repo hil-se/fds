@@ -1,11 +1,14 @@
 import pandas as pd
+import numpy as np
+from collections import Counter
+from pdb import set_trace
 
 class my_NB:
 
     def __init__(self, alpha=1):
         # alpha: smoothing factor
         # P(xi = t | y = c) = (N(t,c) + alpha) / (N(c) + n(i)*alpha)
-        # where n(i) is the number of available categories of feature i
+        # where n(i) is the number of available categories (values) of feature i
         # Setting alpha = 1 is called Laplace smoothing
         self.alpha = alpha
 
