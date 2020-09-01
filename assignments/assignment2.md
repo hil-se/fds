@@ -4,7 +4,7 @@
 
 Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment2 folder. 
 
-### Build your own binary decision tree classifier (with continuous input)
+### Build your own decision tree classifier (with continuous input)
 
 #### Expectation
 my_DT.py should behave the same as the [DecisionTreeClassifier in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) with the same set of inputs.
