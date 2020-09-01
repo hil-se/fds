@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from collections import Counter
-from pdb import set_trace
 
 class my_NB:
 
@@ -30,9 +29,6 @@ class my_NB:
         # prob is a dict of prediction probabilities belonging to each categories
         # return probs = pd.DataFrame(list of prob, columns = self.classes_)
         # write your code below
-
-        ##################
-        assert (all(probs.keys() == self.classes_))
         return probs
 
 
