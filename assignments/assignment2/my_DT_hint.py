@@ -20,7 +20,7 @@ class my_DT:
     def impurity(self, labels):
         # Calculate impurity (unweighted)
         # Input is a list (or np.array) of labels
-        # Output impurity score <= 1
+        # Output impurity score
         stats = Counter(labels)
         N = float(len(labels))
         if self.criterion == "gini":
