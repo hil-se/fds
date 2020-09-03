@@ -18,7 +18,7 @@ class my_NB:
         self.classes_ = list(set(list(y)))
         # for calculation of P(y)
         self.P_y = Counter(y)
-        # self.P[y][x] = P(x|y)
+        # self.P[yj][Xi][xi] = P(xi|yi) where Xi is the feature name and xi is the feature value, yj is a specific class label
         self.P = {}
 
 
