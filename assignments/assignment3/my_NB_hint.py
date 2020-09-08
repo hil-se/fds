@@ -36,7 +36,7 @@ class my_NB:
         # write your code below
         probs = {}
         for label in self.classes_:
-            p = [self.P_y[label]] / len(X)
+            p = self.P_y[label]
             for key in X:
                 p *= X[key].apply(lambda value: self.P[label][key][value] if value in self.P[label][key] else 1)
             probs[label] = p
