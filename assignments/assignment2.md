@@ -36,6 +36,7 @@ Example:
 
 
 ### Test my_DT decision tree classifier with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/A2.py)
+ - It is expected to perform the same with [sklearn.tree.DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html).
 
 ### Do not forget to push your local changes to the Github server.
 
