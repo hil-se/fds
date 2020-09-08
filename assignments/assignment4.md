@@ -32,6 +32,7 @@ Example:
 - return probs = pd.DataFrame(list of prob, columns = self.classes_)
 
 ### Test my_KNN classifier with [A4.py](https://github.com/hil-se/fds/blob/master/assignments/assignment4/A4.py)
+ - It is expected to perform the same with [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) with inputs algorithm = 'brute'.
 
 
 ### Do not forget to push your local changes to the Github server.
@@ -42,3 +43,6 @@ Example:
  - 4 (out of 7) points will be received if A4.py successfully runs and makes predictions.
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
 
+## Hint
+ - If my_KNN.py is too difficult to implement, you can try to complete [my_KNN_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment4/my_KNN_hint.py).
+ - Then, remember to rename it as my_KNN.py before submitting.
