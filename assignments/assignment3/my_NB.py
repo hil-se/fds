@@ -14,6 +14,7 @@ class my_NB:
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, str
         # y: list, np.array or pd.Series, dependent variables, int or str
+        # make sure to use self.alpha in the __init__() function as the smoothing factor when calculating P(xi|yj)
         self.classes_ = list(set(list(y)))
         # write your code below
         return
