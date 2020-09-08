@@ -86,7 +86,7 @@ class my_DT:
                 else:
                     # Find the best split using find_best_split function
                     best_feature = self.find_best_split(current_pop, X, labels)
-                    if (current_impure - best_feature[1]) > self.min_impurity_decrease * N:
+                    if best_feature and (current_impure - best_feature[1]) > self.min_impurity_decrease * N:
                         # Split the node
                         self.tree[node] = (best_feature[0], best_feature[2])
                         next_nodes.extend([node * 2 + 1, node * 2 + 2])
