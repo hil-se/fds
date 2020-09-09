@@ -26,6 +26,36 @@ Output:
 - Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
 
 ### Test my_NB classifier with [A3.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/A3.py)
+Expected output:
+```
+(base) zhe@Zhe-Yus-MacBook-Pro assignment3 % python A3.py 
+cochlear_age    0.999408
+cochlear_age    0.999408
+cochlear_age    0.875175
+cochlear_age    0.484233
+cochlear_age    0.992703
+cochlear_age    0.997401
+cochlear_age    0.998318
+cochlear_age    0.998318
+cochlear_poss_noise     0.902857
+cochlear_unknown        0.611369
+mixed_cochlear_unk_fixation     0.832907
+mixed_cochlear_unk_fixation     0.755148
+normal_ear      0.507668
+normal_ear      0.990685
+cochlear_age    0.997749
+cochlear_age    0.992896
+normal_ear      0.997311
+mixed_cochlear_unk_fixation     0.930178
+cochlear_age    0.982908
+cochlear_age    0.996372
+cochlear_age    0.959620
+mixed_cochlear_unk_fixation     0.397127
+normal_ear      0.997311
+mixed_cochlear_unk_fixation     0.983080
+cochlear_age_and_noise  0.619968
+cochlear_poss_noise     0.601495
+```
 
 ### Do not forget to push your local changes to the Github server.
 
