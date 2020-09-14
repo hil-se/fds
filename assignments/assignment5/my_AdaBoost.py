@@ -7,14 +7,12 @@ class my_AdaBoost:
         # n_estimators: # of base_estimator rounds
         self.base_estimator = base_estimator
         self.n_estimators = int(n_estimators)
+        self.estimators = [deepcopy(self.base_estimator) for i in range(self.n_estimators)]
 
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, float
         # y: list, np.array or pd.Series, dependent variables, int or str
-        
-        # Carefully handle the cases where the order of classes in
-        # base estimators are different from self.classes_ and where
-        # base estimators have fewer classes.
+
         self.classes_ = list(set(list(y)))
         # write your code below
         return
@@ -32,8 +30,7 @@ class my_AdaBoost:
         # return probs = pd.DataFrame(list of prob, columns = self.classes_)
         # write your code below
 
-        ##################
-        assert (all(probs.keys() == self.classes_))
+
         return probs
 
 
