@@ -27,12 +27,19 @@ Output:
 - prob: what percentage of the base estimators predict input as class C
 - prob(x)[C] = sum(alpha[j] * (base_model[j].predict(x) == C))
 
-### Test my_KMeans Algorithm with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/A5.py)
+### Test AdaBoost Algorithm with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/A5.py)
+
+ - It is expected to perform the same with [sklearn.ensemble.AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) with inputs algorithm = 'SAMME'.
 
 ### Do not forget to push your local changes to the Github server.
 
  
- ## Grading Policy
+## Grading Policy
  - importing additional packages such as sklearn is not allowed.
  - 4 (out of 7) points will be received if A5.py successfully runs and makes predictions.
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
+ 
+
+## Hint
+ - If my_AdaBoost.py is too difficult to implement, you can try to complete [my_AdaBoost_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost_hint.py).
+ - Then, remember to rename it as my_AdaBoost.py before submitting. 
