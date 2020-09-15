@@ -23,6 +23,7 @@ class my_KNN:
 
     def dist(self,x):
         # Calculate distances of training data to a single input data point (np.array)
+        # Output np.array([distances to x])
         if self.metric == "minkowski":
             distances = "write your own code"
 
