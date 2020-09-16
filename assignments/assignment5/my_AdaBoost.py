@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+from copy import deepcopy
 
 class my_AdaBoost:
 
@@ -14,6 +16,7 @@ class my_AdaBoost:
         # y: list, np.array or pd.Series, dependent variables, int or str
 
         self.classes_ = list(set(list(y)))
+        k = len(self.classes_)
         # write your code below
         return
 

@@ -12,28 +12,28 @@ class my_AdaBoost:
         self.n_estimators = int(n_estimators)
         self.estimators = [deepcopy(self.base_estimator) for i in range(self.n_estimators)]
 
-
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, float
         # y: list, np.array or pd.Series, dependent variables, int or str
 
         self.classes_ = list(set(list(y)))
+        k = len(self.classes_)
         n = len(y)
-        w = np.array([1.0/n]*n)
+        w = np.array([1.0 / n] * n)
         labels = np.array(y)
         self.alpha = []
         for i in range(self.n_estimators):
             # Sample with replacement from X, with probability w
-            sample = np.random.choice(n,n,p=w)
+            sample = np.random.choice(n, n, p=w)
             # Train base classifier with sampled training data
             sampled = X.iloc[sample]
             sampled.index = range(len(sample))
             self.estimators[i].fit(sampled, labels[sample])
             predictions = self.estimators[i].predict(X)
             diffs = np.array(predictions) != y
-            # Compute error rate for estimator i
+            # Compute error rate and alpha for estimator i
             error = np.sum(diffs * w)
-            while error > 0.5:
+            while error >= (1 - 1.0 / k):
                 w = np.array([1.0 / n] * n)
                 sample = np.random.choice(n, n, p=w)
                 # Train base classifier with sampled training data
