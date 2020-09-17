@@ -29,10 +29,17 @@ Output:
 
 ### Test my_KMeans Algorithm with [A6.py](https://github.com/hil-se/fds/blob/master/assignments/assignment6/A6.py)
 
+ - It is expected to perform the same with [sklearn.cluster.KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) with input (algorithm = "full").
+
 ### Do not forget to push your local changes to the Github server.
 
  
- ## Grading Policy
+## Grading Policy
  - importing additional packages such as sklearn is not allowed.
  - 4 (out of 7) points will be received if A6.py successfully runs and makes predictions.
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
+ 
+  
+## Hint
+ - If my_KMeans.py is too difficult to implement, you can try to complete [my_KMeans_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment6/my_KMeans_hint.py).
+ - Then, remember to rename it as my_KMeans.py before submitting. 
