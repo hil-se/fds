@@ -46,7 +46,7 @@ class my_KNN:
 
     def k_neighbors(self,x):
         # Return the stats of the labels of k nearest neighbors to a single input data point (np.array)
-        # Output: Counter(labels of the self.n_neighbors nearest neighbors)
+        # Output: Counter(labels of the self.n_neighbors nearest neighbors) e.g. {"Class A":3, "Class B":2}
         distances = self.dist(x)
         output = "write your own code"
 
