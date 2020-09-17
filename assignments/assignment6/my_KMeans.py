@@ -8,7 +8,7 @@ class my_KMeans:
         # stop when either # iteration is greater than max_iter or the delta
         # of self.inertia_ is smaller than tol.
         # repeat n_init times and keep the best run (cluster_centers_, inertia_) with the lowest inertia_.
-        # Hint: memorize the calculated distances.
+.
         self.n_clusters = int(n_clusters)
         self.init = init
         self.n_init = n_init
