@@ -25,3 +25,4 @@ if __name__ == "__main__":
     dists = clf.transform(X_test)
     print("Testing data:")
     print(dists)
+    print(clf.predict(X_test))
