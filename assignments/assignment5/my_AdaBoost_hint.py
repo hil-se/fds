@@ -5,7 +5,8 @@ from pdb import set_trace
 
 class my_AdaBoost:
 
-    def __init__(self, base_estimator = None, n_estimators = 50):
+    def __init__(self, base_estimator = None, n_estimators = 50):        
+        # Multi-class Adaboost algorithm (SAMME)
         # base_estimator: the base classifier class, e.g. my_DT
         # n_estimators: # of base_estimator rounds
         self.base_estimator = base_estimator
@@ -44,7 +45,7 @@ class my_AdaBoost:
                 diffs = np.array(predictions) != y
                 # Compute error rate and alpha for estimator i
                 error = np.sum(diffs * w)
-            # Compute alpha for estimator i
+            # Compute alpha for estimator i (don't forget to use k for multi-class)
             self.alpha.append("write your own code")
 
             # Update wi
