@@ -1,5 +1,8 @@
 import numpy as np
 from scipy.linalg import svd
+from copy import deepcopy
+from collections import Counter
+from pdb import set_trace
 
 def pca(X, n_components = 5):
     #  Use svd to perform PCA on X
@@ -8,9 +11,26 @@ def pca(X, n_components = 5):
     #     n_components: number of principal components to keep
     #  Output:
     #     X_pca: output matrix of n_components columns (numpy.array)
-    #  Write your own code below:
+
     U, s, Vh = svd(X)
+    # Write your own code below
+
+
     return X_pca
+
+def vector_norm(x, norm="Min-Max"):
+    # Calculate the normalized vector
+    if norm == "Min-Max":
+        x_norm = "Write your own code"
+    elif norm == "L1":
+        x_norm = "Write your own code"
+    elif norm == "L2":
+        x_norm = "Write your own code"
+    elif norm == "Standard_Score":
+        x_norm = "Write your own code"
+    else:
+        raise Exception("Unknown normlization.")
+    return x_norm
 
 def normalize(X, norm="Min-Max", axis = 1):
     #  Inputs:
@@ -20,8 +40,16 @@ def normalize(X, norm="Min-Max", axis = 1):
     #     axis = 1: normalize columns
     #  Output:
     #     X_norm: normalized matrix (numpy.array)
-    #  Write your own code below:
-    X_array = np.asarray(X)
+
+    X_norm = deepcopy(np.asarray(X))
+    m, n = X_norm.shape
+    if axis == 1:
+        for col in range(n):
+            X_norm[:,col] = vector_norm(X_norm[:,col], norm=norm)
+    elif axis == 0:
+        X_norm = np.array([vector_norm(X_norm[i], norm=norm) for i in range(m)])
+    else:
+        raise Exception("Unknown axis.")
     return X_norm
 
 def stratified_sampling(y, ratio, replace = True):
