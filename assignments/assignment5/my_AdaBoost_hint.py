@@ -45,6 +45,12 @@ class my_AdaBoost:
                 diffs = np.array(predictions) != y
                 # Compute error rate and alpha for estimator i
                 error = np.sum(diffs * w)
+            # If one base estimator predicts perfectly,
+            # Use that base estimator only
+            if error == 0:
+                self.alpha = [1]
+                self.estimators = [self.estimators[i]]
+                break
             # Compute alpha for estimator i (don't forget to use k for multi-class)
             self.alpha.append("write your own code")
 
@@ -67,6 +73,7 @@ class my_AdaBoost:
         # prob: what percentage of the base estimators predict input as class C
         # prob(x)[C] = sum(alpha[j] * (base_model[j].predict(x) == C))
         # return probs = pd.DataFrame(list of prob, columns = self.classes_)
+        # Note that len(self.estimators) can somethimes be different from self.n_estimators
         # write your code below
         probs = {}
         for label in self.classes_:
