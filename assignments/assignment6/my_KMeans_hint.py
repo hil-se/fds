@@ -98,7 +98,7 @@ class my_KMeans:
     def predict(self, X):
         # X: pd.DataFrame, independent variables, float
         # return predictions: list
-        predictions = [np.argmax(dist) for dist in self.transform(X)]
+        predictions = [np.argmin(dist) for dist in self.transform(X)]
         return predictions
 
 
