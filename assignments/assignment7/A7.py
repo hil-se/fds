@@ -14,7 +14,8 @@ if __name__ == "__main__":
     y = data_train["Species"]
     # Preprocess (train)
     X_norm = my_preprocess.normalize(X)
-    X_pca = my_preprocess.pca(X_norm, n_components=2)
+    principal_components = my_preprocess.pca(X_norm, n_components=2)
+    X_pca = X_norm.dot(principal_components)
     sample = my_preprocess.stratified_sampling(y, ratio=0.5, replace=False)
 
     X_sample = X_pca[sample]
@@ -30,7 +31,7 @@ if __name__ == "__main__":
     X_test = data_test[independent]
     # Preprocess (test)
     X_test_norm = my_preprocess.normalize(X_test)
-    X_test_pca = my_preprocess.pca(X_test_norm, n_components=2)
+    X_test_pca = X_test_norm.dot(principal_components)
     # Predict
     predictions = clf.predict(X_test_pca)
     # Output predictions on test data

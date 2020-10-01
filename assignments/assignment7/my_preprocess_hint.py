@@ -10,13 +10,14 @@ def pca(X, n_components = 5):
     #     X: input matrix
     #     n_components: number of principal components to keep
     #  Output:
-    #     X_pca: output matrix of n_components columns (numpy.array)
+    #     principal_components: the top n_components principal_components
+    #     X_pca = X.dot(principal_components)
 
     U, s, Vh = svd(X)
-    # Write your own code below
 
-
-    return X_pca
+    # Write your own code
+    principal_components = "Write your own code"
+    return principal_components
 
 def vector_norm(x, norm="Min-Max"):
     # Calculate the normalized vector
