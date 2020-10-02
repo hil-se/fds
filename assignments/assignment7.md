@@ -49,5 +49,5 @@ Output:
  
    
 ## Hint
- - If my_KMeans.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess_hint.py).
+ - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess_hint.py).
  - Then, remember to rename it as my_preprocess_hint.py before submitting. 
