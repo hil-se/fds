@@ -19,3 +19,6 @@ Hint: compute self.confusion once and use it to calculate other metrics (except 
  - 4 (out of 7) points will be received if A7.py successfully runs and evaluates the performance.
  - The rest 3 points will be given based on the percentage of the same performance metrics with the correct implementation.
 
+## Hint
+ - If my_evaluation.py is too difficult to implement, you can try to complete [my_evaluation_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment8/my_evaluation_hint.py).
+ - Then, remember to rename it as my_evaluation_hint.py before submitting. 
