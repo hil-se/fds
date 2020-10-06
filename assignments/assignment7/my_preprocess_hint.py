@@ -21,6 +21,7 @@ def pca(X, n_components = 5):
 
 def vector_norm(x, norm="Min-Max"):
     # Calculate the normalized vector
+    # Input x: 1-d np.array
     if norm == "Min-Max":
         x_norm = "Write your own code"
     elif norm == "L1":
