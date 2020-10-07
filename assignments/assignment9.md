@@ -4,6 +4,10 @@
 
 Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment9 folder. 
 
+### Make sure your A2 and A8 are correct
+
+A9 utilizes my_DT and my_evaluation in A2 and A8. Make sure they are correct before working on A9.
+
 ### Build your own Genetic Algorithm for tuning model parameters
 
 #### Implement every function in [my_GA.py](https://github.com/hil-se/fds/blob/master/assignments/assignment9/my_GA.py)
@@ -13,9 +17,15 @@ Hint: check how [A9.py](https://github.com/hil-se/fds/blob/master/assignments/as
 
 ### Do not forget to push your local changes to the Github server.
  
- ## Grading Policy
+## Grading Policy
  - importing additional packages such as sklearn is not allowed.
  - 4 (out of 7) points will be received if A9.py successfully runs and finds a parameter set.
  - The rest 3 points will be given based on the correctness of the implementation (TA will examine it manually).
+
+## Hint
+ - If my_GA.py is too difficult to implement, you can try to complete [my_GA_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment9/my_GA_hint.py).
+ - Then, remember to rename it as my_GA.py before submitting. 
+ 
+ 
 
 
