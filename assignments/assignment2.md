@@ -37,6 +37,27 @@ Example:
 
 ### Test my_DT decision tree classifier with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/A2.py)
  - It is expected to perform the same with [sklearn.tree.DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html).
+ - Expected output:
+ ```
+ (base) zhe@Zhe-Yus-MacBook-Pro assignment2 % python A2.py
+['Iris-setosa', 'Iris-setosa', 'Iris-setosa', 'Iris-setosa', 'Iris-setosa', 'Iris-versicolor', 'Iris-versicolor', 'Iris-versicolor', 'Iris-versicolor', 'Iris-versicolor', 'Iris-virginica', 'Iris-virginica', 'Iris-virginica', 'Iris-virginica', 'Iris-virginica']
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+
+ ```
 
 ### Do not forget to push your local changes to the Github server.
 
