@@ -30,6 +30,26 @@ Output:
 ### Test AdaBoost Algorithm with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/A5.py)
 
  - It is expected to perform the same with [sklearn.ensemble.AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) with inputs algorithm = 'SAMME'.
+ - Example output:
+ ```
+ (base) zhe@Zhe-Yus-MacBook-Pro assignment5 % python A5.py 
+Iris-setosa     0.651254
+Iris-setosa     0.651254
+Iris-setosa     0.651254
+Iris-setosa     0.651254
+Iris-setosa     0.651254
+Iris-versicolor 0.601783
+Iris-versicolor 0.693256
+Iris-versicolor 0.693256
+Iris-versicolor 0.693256
+Iris-versicolor 0.693256
+Iris-virginica  0.655489
+Iris-virginica  0.535604
+Iris-virginica  0.655489
+Iris-virginica  0.655489
+Iris-versicolor 0.464396
+ ```
+ Results can be different due to randomness.
 
 ### Do not forget to push your local changes to the Github server.
 
