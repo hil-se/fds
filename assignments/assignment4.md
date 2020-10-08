@@ -33,6 +33,26 @@ Example:
 
 ### Test my_KNN classifier with [A4.py](https://github.com/hil-se/fds/blob/master/assignments/assignment4/A4.py)
  - It is expected to perform the same with [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) with inputs algorithm = 'brute'.
+ - Expected output:
+ ```
+ (base) zhe@Zhe-Yus-MacBook-Pro assignment4 % python A4.py 
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-virginica  1.000000
+Iris-virginica  0.600000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  0.800000
+ ```
+ 
 
 
 ### Do not forget to push your local changes to the Github server.
