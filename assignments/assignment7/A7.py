@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     X_sample = X_pca[sample]
     y_sample = y[sample].to_numpy()
-    print(X_sample)
+    print(X_pca)
     print(Counter(y_sample))
     print(Counter(y))
     # Fit model
