@@ -95,12 +95,8 @@ class my_evaluation:
         # average: {"macro", "micro", "weighted"}. If target==None, return average f1
         # output: f1 = float
 
-        if target in self.classes_:
-            prec =  "write your own code"
-            rec =  "write your own code"
-        else:
-            prec =  "write your own code"
-            rec =  "write your own code"
+        prec =  "write your own code"
+        rec =  "write your own code"
         f1_score =  "write your own code"
         return f1_score
 
