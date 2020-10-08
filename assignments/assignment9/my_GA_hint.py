@@ -74,8 +74,8 @@ class my_GA:
             for fold in range(self.crossval_fold):
                 start = int(fold * size)
                 end = start + size
-                test_indices = indices[start: end]
-                train_indices = indices[:start] + indices[end:]
+                test_indices = indices["write your own code"]
+                train_indices = indices["write your own code"] + indices["write your own code"]
                 X_train = self.data_X.loc[train_indices]
                 X_train.index = range(len(X_train))
                 X_test = self.data_X.loc[test_indices]
