@@ -56,7 +56,7 @@ def normalize(X, norm="Min-Max", axis = 1):
 
 def stratified_sampling(y, ratio, replace = True):
     #  Inputs:
-    #     y: class labels
+    #     y: a 1-d array of class labels
     #     0 < ratio < 1: number of samples = len(y) * ratio
     #     replace = True: sample with replacement
     #     replace = False: sample without replacement
