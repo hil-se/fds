@@ -43,7 +43,7 @@ Testing data:
 [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 0, 2, 0, 0, 2]
 
  ```
- Results can be different due to randomness.
+ Results can be different due to randomness. Inertias should be similar.
 
 ### Do not forget to push your local changes to the Github server.
 
