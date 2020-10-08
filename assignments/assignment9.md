@@ -14,6 +14,13 @@ A9 utilizes my_DT and my_evaluation in A2 and A8. Make sure they are correct bef
 Hint: check how [A9.py](https://github.com/hil-se/fds/blob/master/assignments/assignment9/A9.py) utilizes my_GA.py to tune my_DT learner.
 
 ### Test my_evaluation Algorithm with [A9.py](https://github.com/hil-se/fds/blob/master/assignments/assignment9/A9.py)
+Example output:
+```
+(base) zhe@Zhe-Yus-MacBook-Pro assignment9 % python A9.py
+[array([0.92028427, 0.95809652]), array([0.91491977, 0.95928669])]
+[0.93497241]
+```
+Results can be quite different due to randomness. You can try executing it multiple times.
 
 ### Do not forget to push your local changes to the Github server.
  
