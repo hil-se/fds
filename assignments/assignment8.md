@@ -14,6 +14,38 @@ Hint: compute self.confusion once and use it to calculate other metrics (except 
 Expected output:
 ```
 (base) zhe@Zhe-Yus-MacBook-Pro assignment8 % python A8.py 
+['Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-virginica'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-versicolor'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-versicolor' 'Iris-versicolor' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica']
 {'Iris-setosa': {'prec': 1.0, 'recall': 0.8823529411764706, 'f1': 0.9375, 'auc': 1.0}, 'Iris-versicolor': {'prec': 0.8979591836734694, 'recall': 0.9777777777777777, 'f1': 0.9361702127659575, 'auc': 0.98}, 'Iris-virginica': {'prec': 0.975609756097561, 'recall': 0.8888888888888888, 'f1': 0.9302325581395349, 'auc': 0.9587654320987653}}
 Average F1 scores: 
 {'macro': 0.9366382634408452, 'micro': 0.9555555555555556, 'weighted': 0.9366382634408452}
