@@ -16,6 +16,7 @@ if __name__ == "__main__":
     clf.fit(X, y)
     # Predict on training data
     predictions = clf.predict(X)
+    print(predictions)
     # Predict probabilities
     probs = clf.predict_proba(X)
     probs = pd.DataFrame({key: probs[:, i] for i, key in enumerate(clf.classes_)})
