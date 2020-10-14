@@ -17,8 +17,8 @@ Hint: check how [A9.py](https://github.com/hil-se/fds/blob/master/assignments/as
 Example output:
 ```
 (base) zhe@Zhe-Yus-MacBook-Pro assignment9 % python A9.py
-[array([0.92028427, 0.95809652]), array([0.91491977, 0.95928669])]
-[0.93497241]
+[array([0.9553351 , 0.95858508]), array([0.95626124, 0.95786008]), array([0.95663662, 0.95663662])]
+[0.95776608]
 ```
 Results can be quite different due to randomness. You can try executing it multiple times.
 
