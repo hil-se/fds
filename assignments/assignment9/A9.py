@@ -11,7 +11,7 @@ from assignment8.my_evaluation import my_evaluation
 ##################################################
 
 def obj_func1(predictions, actuals, pred_proba=None):
-    # Two objectives: higher recall and lower false positive rate
+    # Two objectives: higher recall and higher precision
     eval = my_evaluation(predictions, actuals, pred_proba)
     return [eval.recall(), eval.precision()]
 
