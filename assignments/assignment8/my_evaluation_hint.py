@@ -25,7 +25,6 @@ class my_evaluation:
         # no return variables
         # write your own code below
         correct = self.predictions == self.actuals
-        wrong = self.predictions != self.actuals
         self.acc = float(Counter(correct)[True])/len(correct)
         self.confusion_matrix = {}
         for label in self.classes_:
