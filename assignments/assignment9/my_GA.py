@@ -12,10 +12,10 @@ class my_GA:
         # data_X: training data independent variables (pd.Dataframe)
         # data_y: training data dependent variables (pd.Series or list)
         # decision_boundary: list of boundaries of each decision variable,
-        # e.g. decision_boundary = [("gini", "entropy"), [1, 16], [0, 0.1]] for my_DT means:
-        # the first argument criterion can be chosen as either "gini" or "entropy"
-        # the second argument max_depth can be any number 1 <= max_depth < 16
-        # the third argument min_impurity_decrease can be any number 0 <= min_impurity_decrease < 0.1
+            # e.g. decision_boundary = [("gini", "entropy"), [1, 16], [0, 0.1]] for my_DT means:
+            # the first argument criterion can be chosen as either "gini" or "entropy"
+            # the second argument max_depth can be any number 1 <= max_depth < 16
+            # the third argument min_impurity_decrease can be any number 0 <= min_impurity_decrease < 0.1
         # obj_func: generate objectives, all objectives are higher the better
         # generation_size: number of points in each generation
         # selection_rate: percentage of survived points after selection, only affect single objective
