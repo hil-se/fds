@@ -7,6 +7,7 @@ class my_model():
         return
 
     def predict(self, X):
+        # remember to apply the same preprocessing in fit() on test data before making predictions
         return predictions
 
 if __name__ == "__main__":
