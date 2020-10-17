@@ -211,13 +211,13 @@ class my_GA:
 
         for i, x in enumerate(self.generation):
             new_x = list(x)
-            for i in range(len(x)):
-                if "write your own code":
-                    decision = self.decision_boundary[i]
+            for j in range(len(x)):
+                if np.random.random() < self.mutation_rate:
+                    decision = self.decision_boundary[j]
                     if type(decision) == list:
-                        new_x[i] = "write your own code"
+                        new_x[j] = np.random.random() * (decision[1] - decision[0]) + decision[0]
                     else:
-                        new_x[i] = "write your own code"
+                        new_x[j] = decision[np.random.randint(len(decision))]
             self.generation[i] = tuple(new_x)
         return self.generation
 
