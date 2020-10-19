@@ -23,6 +23,8 @@ if __name__ == "__main__":
     clf.fit(X, y)
     runtime = (time.time() - start) / 60.0
     print(runtime)
+    predictions = clf.predict(X)
+    print(predictions)
 
 
 
