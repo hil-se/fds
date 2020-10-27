@@ -144,7 +144,7 @@ class my_GA:
         # Stop when self.iter == self.max_generation or self.life == 0
         # Return the best pareto frontier pf_best (list of decisions that never get binary dominated by any candidate evaluated)
         self.initialize()
-        while self.life > 0 or self.iter < self.max_generation:
+        while self.life > 0 and self.iter < self.max_generation:
             self.select()
             if self.compete(self.pf, self.pf_best):
                 self.life = self.max_life
