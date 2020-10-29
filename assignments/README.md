@@ -27,7 +27,7 @@
 | Lecture 18 (10/20)| [Project](https://docs.google.com/presentation/d/1Fk6CFkC1hyh32b865yctrsSVgHUZXvJsNJklhQdyeiQ/edit?usp=sharing)     | [10/20/2020](https://rit.zoom.us/rec/share/ovWCtcs7GIJHWxaBiL5PVr9G97l_jaR5Yw48n8Ui9UH_stc-oyZW6npwPftp6PoU.b9SfP9EXW5uR5kSU)|   [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) | Lecture 25 (11/12)  |
 | Lecture 19 (10/22)| [Case Study](https://docs.google.com/presentation/d/1j3tY_RmdBkbZQcqGQ237Hj4lMs0xsRrN4Q6mhoVHcKo/edit?usp=sharing)      |[10/22/2020](https://rit.zoom.us/rec/share/F_FIzxPoqq4UPPtsjX9v5gxPj_4Jp84fkKrYDCeuEBvsLiVUyMRkW9QJCg-v9Ao.MeIonT5yahUO4X5Z) | | |
 | Lecture 20 (10/27)| [Case Study 2](https://docs.google.com/presentation/d/1cLT4nOwujE6FkXiJ8CTw3eiP8SfZDUzWp20nRdVpUrs/edit?usp=sharing)   | [10/27/2020](https://rit.zoom.us/rec/share/mQKCmtpmHlUBLBc2KGFneI-OEMs5UZ6bnXYldZwo0slu54IOfPE9Fp7zH9DwH08t.5flNsOAEbx4Icxcy) |           |         |
-| Lecture 21 (10/29)| [Semi-supervised Learning](https://docs.google.com/presentation/d/19_82SE0_Essj2vbk_RUaRa3eXHlZSA2oYwb21_IbXJw/edit?usp=sharing)     | |  |   |
+| Lecture 21 (10/29)| [Semi-supervised Learning](https://docs.google.com/presentation/d/1Sh_hffzSL3s1uN1JXz5MumxPlhxcXM3fqAqel4MaogI/edit?usp=sharing)     | |  |   |
 | Lecture 22 (11/03)| [Active Learning](https://docs.google.com/presentation/d/1rJTOuDhh9qLGhww-_7P8UiafHYuEMbBpxPR2gVBrCMQ/edit?usp=sharing)    | |   |         |
 | Lecture 23 (11/05)| [Reinforcement Learning](https://docs.google.com/presentation/d/17V9bAffgtSUKe7cqTm3WobFMAS51d5mBIT9nwKpFNgI/edit?usp=sharing)     | |  | |
 | Lecture 24 (11/10)| [Association Analysis](https://docs.google.com/presentation/d/1ruSaePGSPxtE1sYTU-D5NnsY0YoM_mA0VYPmJNydJZY/edit?usp=sharing)     | |           |         |
