@@ -132,9 +132,11 @@ class my_DT:
         for i in range(len(X)):
             node = 0
             while True:
-                if type(self.tree[node]) == Counter:
-                    N = float(np.sum(list(self.tree[node].values())))
-                    predictions.append({key: self.tree[node][key] / N for key in self.classes_})
+                if type(self.tree[node]) == Counter:               
+                    # Calculate prediction probabilities for data point arriving at the leaf node.
+                    # predictions = list of prob, e.g. prob = {"2": 1/3, "1": 2/3}
+                    prob = {"write your own code"}
+                    predictions.append(prob)
                     break
                 else:
                     if X[self.tree[node][0]][i] < self.tree[node][1]:
