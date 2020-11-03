@@ -73,7 +73,10 @@ class my_KNN:
 
         for x in X_feature.to_numpy():
             neighbors = self.k_neighbors(x)
-            probs.append({key: neighbors[key] / float(self.n_neighbors) for key in self.classes_})
+            # Calculate the probability of data point x belonging to each class
+            # e.g. prob = {"2": 1/3, "1": 2/3}
+            prob = {"write your own code"}
+            probs.append(prob)
         probs = pd.DataFrame(probs, columns=self.classes_)
         return probs
 
