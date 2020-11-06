@@ -31,7 +31,7 @@
 | Lecture 22 (11/03)| [Active Learning](https://docs.google.com/presentation/d/1rJTOuDhh9qLGhww-_7P8UiafHYuEMbBpxPR2gVBrCMQ/edit?usp=sharing)    | [11/03/2020](https://rit.zoom.us/rec/share/y3gmNFYFngT0JcYY39jWVDGzZtFGMXrgyGJzshv6mkbM7joaTEmAfAk4QyRbtOoJ.7tmJIlj4zC9EoGOV) |   |         |
 | Lecture 23 (11/05)| [Reinforcement Learning](https://docs.google.com/presentation/d/17V9bAffgtSUKe7cqTm3WobFMAS51d5mBIT9nwKpFNgI/edit?usp=sharing)     | [11/05/2020](https://rit.zoom.us/rec/share/w91uH0HR_P9sPQTYj_z_YhbTtT9mHmTI6QOuPsRUOlffuYOC5sRH1ufBdATTO7e1.zWTeVvtwW6eylLv2) |  | |
 | Lecture 24 (11/10)| [Association Analysis](https://docs.google.com/presentation/d/1ruSaePGSPxtE1sYTU-D5NnsY0YoM_mA0VYPmJNydJZY/edit?usp=sharing)     | |           |         |
-| Lecture 25 (11/12)| [Anomaly Detection](https://docs.google.com/presentation/d/14RnqD26KPFwOTTMURgBUW_n4zAYPDLq-9YsdeI3B9p0/edit?usp=sharing) | |   |     |
+| Lecture 25 (11/12)| [Anomaly Detection](https://docs.google.com/presentation/d/14RnqD26KPFwOTTMURgBUW_n4zAYPDLq-9YsdeI3B9p0/edit?usp=sharing) | | [Project Report](https://docs.google.com/presentation/d/1mU_p8OV6qT8T7Z2lLxyF1T6HRlMOQpuiAEiEizBfCoM/edit?usp=sharing)   |     |
 | Lecture 26 (11/17)| [Self-Supervised Learning](https://docs.google.com/presentation/d/19_82SE0_Essj2vbk_RUaRa3eXHlZSA2oYwb21_IbXJw/edit?usp=sharing)    | |           |         |
 | Lecture 27 (11/19)| [Project Summary]()     | | PROJECT DUE | |
 | Lecture 28 (11/24)| [Project Summary]()    | | | |
