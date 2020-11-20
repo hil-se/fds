@@ -3,9 +3,9 @@ import pandas as pd
 ####### import my_DT and my_evaluation#######
 import sys
 
-sys.path.insert(0, '..')
-from assignment2.my_DT import my_DT
-from assignment8.my_evaluation import my_evaluation
+sys.path.insert(0, '../../')
+from assignments.assignment2.my_DT import my_DT
+from assignments.assignment8.my_evaluation import my_evaluation
 
 
 ##################################################
