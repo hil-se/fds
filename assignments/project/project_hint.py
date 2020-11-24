@@ -8,7 +8,7 @@ class my_model():
         # do not exceed 29 mins
         self.preprocessor = TfidfVectorizer(stop_words='english', norm='l2', use_idf=False, smooth_idf=False)
         XX = self.preprocessor.fit_transform(X["description"])
-        self.clf = SGDClassifier(class_weight="balanced")
+        self.clf = SGDClassifier()
         self.clf.fit(XX, y)
         return
 
