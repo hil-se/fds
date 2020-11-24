@@ -34,4 +34,4 @@
 | Lecture 25 (11/12)| [Anomaly Detection](https://docs.google.com/presentation/d/14RnqD26KPFwOTTMURgBUW_n4zAYPDLq-9YsdeI3B9p0/edit?usp=sharing) | [11/12/2020](https://rit.zoom.us/rec/share/pam1K0SY71nvCXau44Lc967JrZ0Z4xABxJHd_oT52d9Xgd4_u4_zh17-YdhW45D0.4pK-3qEirxbuC8m6) | [Project Report](https://docs.google.com/presentation/d/1mU_p8OV6qT8T7Z2lLxyF1T6HRlMOQpuiAEiEizBfCoM/edit?usp=sharing)   |  Lecture 27 (11/19)   |
 | Lecture 26 (11/17)| [Self-Supervised Learning](https://docs.google.com/presentation/d/19_82SE0_Essj2vbk_RUaRa3eXHlZSA2oYwb21_IbXJw/edit?usp=sharing)    | [11/17/2020](https://rit.zoom.us/rec/share/vkCQeY8YQXDQhChXsi27a5gLhowjUC3coCgWMHWfS73N0OD4U9t-ETpGbOtaHESX.lQjL2aVdAWuDbKjK) |           |         |
 | Lecture 27 (11/19)| [Project Summary]()     | [11/19/2020](https://rit.zoom.us/rec/share/bldRDYI3KdHBdZOYc4f_B69S4_qoECb_wxTHc6HFv9leS7STFKqLzzoKvrL9W7IL.psMr7STak8xkVC8B)| PROJECT DUE | |
-| Lecture 28 (11/24)| [Project Summary]()    | | | |
+| Lecture 28 (11/24)| [Project Summary]()    | [11/24/2020](https://rit.zoom.us/rec/share/nRz4r-lGO3-wEp0FZv4BXeGEhPJEbJ5gEsgKHa55Y4M9ATb3h-SoTNhpXmo5b9w.Dzy6agBqikJ5apxD)| | |
