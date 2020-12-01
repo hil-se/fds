@@ -1,6 +1,6 @@
 ## Python Basics
 
-### 0. Learn Python basics on [Codecademy](https://www.codecademy.com/learn/learn-python) (free version) and the [tutorial from the textbook](http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial1/tutorial1.html)
+### 0. Learn Python basics on [Codecademy](https://www.codecademy.com/learn/learn-python) (free version), [W3Schools](https://www.w3schools.com/python/), and the [tutorial from the textbook](http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial1/tutorial1.html)
  - Skip this step if you already know how to code in Python.
  - If you are seeking for more practices, [https://www.w3resource.com/python-exercises/](https://www.w3resource.com/python-exercises/) has plenty of exercises.
 
