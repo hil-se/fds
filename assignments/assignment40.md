@@ -35,7 +35,7 @@ Example:
 - return probs = pd.DataFrame(list of prob, columns = self.classes_)
 
 
-### Test my_DT decision tree classifier with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/assignment4/A4.py)
+### Test my_DT decision tree classifier with [A4.py](https://github.com/hil-se/fds/blob/master/assignments/assignment4/A4.py)
  - It is expected to perform the same with [sklearn.tree.DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html).
  - Expected output:
  ```
