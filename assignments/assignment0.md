@@ -1,3 +1,10 @@
+[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fds/blob/master/README.md)   
+[Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
+[Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
+[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
+[Lecturer](http://zhe-yu.github.io) 
+
+
 ## Python Basics
 
 ### 0. Learn Python basics on [Codecademy](https://www.codecademy.com/learn/learn-python) (free version), [w3schools](https://www.w3schools.com/python/), and the [tutorial from the textbook](http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial1/tutorial1.html)
