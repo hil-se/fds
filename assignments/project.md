@@ -27,14 +27,14 @@ Train a model (in [project.py](https://github.com/hil-se/fds/blob/master/assignm
 - **Performance**
   + all submissions will be ranked by their F1 score on a test set (not given to you).
   + submissions with higher F1 score will receive higher grades.
-  + points will range from 20 to 37 (as long as your algorithm successfully gives predictions, you will earn 20 points).
+  + points will range from 30 to 37 (as long as your algorithm successfully gives predictions, you will earn 30 points).
 
 - **Cost**
   + for submissions with similar performances
   + those with lower runtime will receive higher grades.
 
 - **Innovation**
-  + submissions with innovative solutions will receive extra points up to 10.
+  + submissions with innovative solutions will receive extra points up to 3.
   
 - **Violations**
   + submissions with runtime > 30 min on the TA's machine will have (runtime in min - 30) deducted from their earned points.
