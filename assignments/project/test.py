@@ -2,8 +2,8 @@ import time
 import sys
 import pandas as pd
 from project import my_model
-sys.path.insert(0, '..')
-from assignment8.my_evaluation import my_evaluation
+sys.path.insert(0, '../..')
+from assignments.assignment8.my_evaluation import my_evaluation
 
 def test(data):
     y = data["fraudulent"]
