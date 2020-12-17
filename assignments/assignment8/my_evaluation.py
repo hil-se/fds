@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from collections import Counter
 
 class my_evaluation:
     # Binary class or multi-class classification evaluation
@@ -13,7 +14,7 @@ class my_evaluation:
         self.predictions = np.array(predictions)
         self.actuals = np.array(actuals)
         self.pred_proba = pred_proba
-        if type(self.pred_proba) != type(None):
+        if type(self.pred_proba) == pd.DataFrame:
             self.classes_ = list(self.pred_proba.keys())
         else:
             self.classes_ = list(set(list(self.predictions) + list(self.actuals)))
