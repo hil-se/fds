@@ -86,7 +86,10 @@ class my_GA:
                 y_test.index = range(len(y_test))
                 clf.fit(X_train, y_train)
                 predictions = "write your own code"
-                pred_proba = "write your own code"
+                try:
+                    pred_proba = "write your own code"
+                except:
+                    pred_proba = None
                 actuals = "write your own code"
                 objs = np.array(self.obj_func(predictions, actuals, pred_proba))
                 if type(objs_crossval) == type(None):
