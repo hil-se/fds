@@ -34,7 +34,8 @@ Train a model (in [project.py](https://github.com/hil-se/fds/blob/master/assignm
   + those with lower runtime will receive higher grades.
 
 - **Innovation**
-  + submissions with innovative solutions will receive extra points up to 3.
+  + submissions with innovative solutions (different solutions from your classmates) will receive extra points up to 3.
+  + submissions with really strong innovative solutions (different solutions from the state-of-the-art) can receive extra points up to 10.
   
 - **Violations**
   + submissions with runtime > 30 min on the TA's machine will have (runtime in min - 30) deducted from their earned points.
