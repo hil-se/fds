@@ -33,7 +33,8 @@ class my_NB:
         # X: pd.DataFrame, independent variables, str
         # prob is a dict of prediction probabilities belonging to each categories
         # return probs = pd.DataFrame(list of prob, columns = self.classes_)
-        # write your code below
+        # P(yj|Xi) = P(Xi|yj)P(yj)/P(Xi) 
+        # P(Xi|yj) = P(xi1|yj)P(xi2|yj)...P(xik|yj) = self.P[yj][Xi][x1]*self.P[yj][Xi][x2]*...*self.P[yj][Xi][xk]
         probs = {}
         for label in self.classes_:
             p = self.P_y[label]
@@ -48,9 +49,9 @@ class my_NB:
     def predict(self, X):
         # X: pd.DataFrame, independent variables, str
         # return predictions: list
-        # write your code below
+        # Hint: predicted class is the class with highest prediction probability (from self.predict_proba)
         probs = self.predict_proba(X)
-        predictions = [self.classes_[np.argmax(prob)] for prob in probs.to_numpy()]
+        predictions = "Write your own code"
         return predictions
 
 
