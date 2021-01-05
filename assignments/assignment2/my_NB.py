@@ -14,8 +14,9 @@ class my_NB:
     def fit(self, X, y):
         # X: pd.DataFrame, independent variables, str
         # y: list, np.array or pd.Series, dependent variables, int or str
-        # make sure to use self.alpha in the __init__() function as the smoothing factor when calculating P(xi|yj)
         self.classes_ = list(set(list(y)))
+        # Calculate P(yj) and P(xi|yj)        
+        # make sure to use self.alpha in the __init__() function as the smoothing factor when calculating P(xi|yj)
         # write your code below
         return
 
@@ -30,7 +31,6 @@ class my_NB:
         # prob is a dict of prediction probabilities belonging to each categories
         # return probs = pd.DataFrame(list of prob, columns = self.classes_)        
         # P(yj|Xi) = P(Xi|yj)P(yj)/P(Xi) 
-        # P(Xi|yj) = P(xi1|yj)P(xi2|yj)...P(xik|yj) = self.P[yj][Xi][x1]*self.P[yj][Xi][x2]*...*self.P[yj][Xi][xk]
         # write your code below
         return probs
 
