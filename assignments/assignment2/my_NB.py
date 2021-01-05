@@ -28,7 +28,9 @@ class my_NB:
     def predict_proba(self, X):
         # X: pd.DataFrame, independent variables, str
         # prob is a dict of prediction probabilities belonging to each categories
-        # return probs = pd.DataFrame(list of prob, columns = self.classes_)
+        # return probs = pd.DataFrame(list of prob, columns = self.classes_)        
+        # P(yj|Xi) = P(Xi|yj)P(yj)/P(Xi) 
+        # P(Xi|yj) = P(xi1|yj)P(xi2|yj)...P(xik|yj) = self.P[yj][Xi][x1]*self.P[yj][Xi][x2]*...*self.P[yj][Xi][xk]
         # write your code below
         return probs
 
