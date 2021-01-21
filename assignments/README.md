@@ -26,7 +26,7 @@
 | Lecture 17 (03/26)| [Data Science Process (Hyperparameter Tuning)](https://docs.google.com/presentation/d/1w8TVO3AwWrDeY65sDqWxJaHOUjg4tyfbfYfchxHBZH4/edit?usp=sharing)     ||  [Assignment9](https://github.com/hil-se/fds/blob/master/assignments/assignment9.md)  |    Lecture 19 (04/02)   |
 | Lecture 18 (03/31)| [Project](https://docs.google.com/presentation/d/1Fk6CFkC1hyh32b865yctrsSVgHUZXvJsNJklhQdyeiQ/edit?usp=sharing)     | |   [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) | Lecture 26 (04/28)  |
 | Lecture 19 (04/02)| [Project (Case Study)](https://docs.google.com/presentation/d/1j3tY_RmdBkbZQcqGQ237Hj4lMs0xsRrN4Q6mhoVHcKo/edit?usp=sharing)      | | | |
-| Lecture 20 (04/07)| [ProjectCase Study 2)](https://docs.google.com/presentation/d/1cLT4nOwujE6FkXiJ8CTw3eiP8SfZDUzWp20nRdVpUrs/edit?usp=sharing)   |  |           |         |
+| Lecture 20 (04/07)| [Project (Case Study 2)](https://docs.google.com/presentation/d/1cLT4nOwujE6FkXiJ8CTw3eiP8SfZDUzWp20nRdVpUrs/edit?usp=sharing)   |  |           |         |
 | Lecture 21 (04/09)| [Other (Semi-supervised Learning)](https://docs.google.com/presentation/d/1Sh_hffzSL3s1uN1JXz5MumxPlhxcXM3fqAqel4MaogI/edit?usp=sharing)     | |  |   |
 | Lecture 22 (04/14)| [Other (Active Learning)](https://docs.google.com/presentation/d/1rJTOuDhh9qLGhww-_7P8UiafHYuEMbBpxPR2gVBrCMQ/edit?usp=sharing)    | |   |         |
 | Lecture 23 (04/16)| [Other (Reinforcement Learning)](https://docs.google.com/presentation/d/17V9bAffgtSUKe7cqTm3WobFMAS51d5mBIT9nwKpFNgI/edit?usp=sharing)     |  |  | |
