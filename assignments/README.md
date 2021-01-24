@@ -7,7 +7,7 @@
 ## Course Materials
 | Date | Lecture | Recording | Assignment | Due Date | 
 |------|-------|------------|----------|----------|
-| Lecture 1 (01/27)| [Introduction to Data Mining](https://docs.google.com/presentation/d/1dmw__r18lqC0m9f3g4BmrRNNL_lBQeoQ1zFRtCfj3HY/edit?usp=sharing)     |  | [Assignment0](https://github.com/hil-se/fds/blob/master/assignments/assignment0.md), [Assignment1](https://github.com/hil-se/fds/blob/master/assignments/assignment1.md)  | Lecture 4 (02/05)        |
+| Lecture 1 (01/27)| [Introduction to Data Mining](https://docs.google.com/presentation/d/1dmw__r18lqC0m9f3g4BmrRNNL_lBQeoQ1zFRtCfj3HY/edit?usp=sharing)     |  | [Assignment0](https://github.com/hil-se/fds/blob/master/assignments/assignment0.md), [Assignment1](https://github.com/hil-se/fds/blob/master/assignments/assignment1.md)  | Lecture 2 (01/29)        |
 | Lecture 2 (01/29) | [Basic Python Programming](https://docs.google.com/presentation/d/1etj8YzgdnxD3tpYzRlynIZDCcfzAZbJUVB51UGaHkJQ/edit?usp=sharing)     |  |           |         |
 | Lecture 3 (02/03)|   [Supervised Learning (Naive Bayes)](https://docs.google.com/presentation/d/1tFAiKOXhGZY_3cn3B6Hhnv6IN4I3WAcRdEWHjWfKj7E/edit?usp=sharing)   || [Assignment2](https://github.com/hil-se/fds/blob/master/assignments/assignment2.md) |   Lecture 6 (02/12)  |
 | Lecture 4 (02/05)|   [Supervised Learning (Support Vector Machine)](https://docs.google.com/presentation/d/1pVUS4oO4W9064SMW-4IhqguGUZgiUJTHeQ_GSbNxvqU/edit?usp=sharing)  | |           |         |
