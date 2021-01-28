@@ -13,7 +13,7 @@
 
 ### 1. Install Python on your local machine.
 
- - Install [conda](https://docs.conda.io/en/latest/miniconda.html) with Python 3.7+.
+ - Install [conda](https://docs.conda.io/en/latest/miniconda.html) with Python 3.8+.
  
 ### 2. Install required packages.
  - Open terminal.
