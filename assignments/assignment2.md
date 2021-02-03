@@ -74,5 +74,5 @@ cochlear_poss_noise     0.601495
   
 ## Hint
  - If my_NB.py is too difficult to implement, you can try to complete [my_NB_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/my_NB_hint.py).
- - my_NB_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/my_NB_hint.py) has the predict() and predict_proba() functions already implemented. Students only need to complete the fit() functions.
+ - [my_NB_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/my_NB_hint.py) has the predict() and predict_proba() functions already implemented. Students only need to complete the fit() functions.
  - Then, remember to rename it as my_NB.py before submitting.
