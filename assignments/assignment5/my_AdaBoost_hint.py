@@ -73,7 +73,7 @@ class my_AdaBoost:
         # prob: what percentage of the base estimators predict input as class C
         # prob(x)[C] = sum(alpha[j] * (base_model[j].predict(x) == C))
         # return probs = pd.DataFrame(list of prob, columns = self.classes_)
-        # Note that len(self.estimators) can somethimes be different from self.n_estimators
+        # Note that len(self.estimators) can sometimes be different from self.n_estimators
         # write your code below
         probs = {}
         for label in self.classes_:
