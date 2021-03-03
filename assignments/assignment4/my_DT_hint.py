@@ -64,7 +64,7 @@ class my_DT:
         ##### A Binary Tree structure implemented in the form of dictionary #####
         # 0 is the root node
         # node i have two childen: left = i*2+1, right = i*2+2
-        # self.tree[i] = {feature to split on: value of the splitting point} if it is not a leaf
+        # self.tree[i] = (feature to split on, value of the splitting point) if it is not a leaf
         #              = Counter(labels of the training data in this leaf) if it is a leaf node
         self.tree = {}
         # population keeps the indices of data points in each node
