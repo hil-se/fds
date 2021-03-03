@@ -75,7 +75,7 @@ class my_DT:
         level = 0
         nodes = [0]
         while level < self.max_depth and nodes:
-            # Depth-first search to split nodes
+            # Breadth-first search to split nodes
             next_nodes = []
             for node in nodes:
                 current_pop = population[node]
