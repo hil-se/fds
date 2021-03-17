@@ -101,8 +101,8 @@ class my_evaluation:
         return f1_score
 
     def auc(self, target):
-        # compute AUC of ROC curve for each class
-        # return auc = {self.classes_[i]: auc_i}, dict
+        # compute AUC of ROC curve for the target class
+        # return auc = float
         if type(self.pred_proba)==type(None):
             return None
         else:
