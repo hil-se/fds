@@ -94,8 +94,16 @@ class my_evaluation:
         # target: target class (str). If not None, then return f1 of target class
         # average: {"macro", "micro", "weighted"}. If target==None, return average f1
         # output: f1 = float
+        if target:
+            prec = self.precision(target = target, average=average)
+            rec = self.recall(target = target, average=average)
+            if prec + rec == 0:
+                f1_score = 0
+            else:
+                f1_score = 2.0 * prec * rec / (prec + rec)
+        else:
+            "write your own code"
 
-        "write your own code"
         return f1_score
 
     def auc(self, target):
