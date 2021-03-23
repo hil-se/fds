@@ -231,6 +231,7 @@ class my_GA:
         self.initialize()
         while self.life > 0 and self.iter < self.max_generation:
             self.select()
+            # If any better than current best
             if self.compete(self.pf, self.pf_best):
                 self.life = self.max_life
             else:
