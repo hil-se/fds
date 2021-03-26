@@ -4,7 +4,7 @@ import pandas as pd
 import sys
 
 sys.path.insert(0, '../../')
-from assignments.assignment2.my_DT import my_DT
+from assignments.assignment4.my_DT import my_DT
 from assignments.assignment8.my_evaluation import my_evaluation
 
 
