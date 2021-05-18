@@ -4,55 +4,92 @@ from copy import deepcopy
 from collections import Counter
 from pdb import set_trace
 
-def pca(X, n_components = 5):
-    #  Use svd to perform PCA on X
-    #  Inputs:
-    #     X: input matrix
-    #     n_components: number of principal components to keep
-    #  Output:
-    #     principal_components: the top n_components principal_components
-    #     X_pca = X.dot(principal_components)
+class my_normalizer:
+    def __init__(self, norm="Min-Max", axis = 1):
+        #     norm = {"L1", "L2", "Min-Max", "Standard_Score"}
+        #     axis = 0: normalize rows
+        #     axis = 1: normalize columns
+        self.norm = norm
+        self.axis = axis
 
-    U, s, Vh = svd(X)
+    def fit(self, X):
+        #     X: input matrix
+        #     Calculate offsets and scalers which are used in transform()
+        X_array  = np.asarray(X)
+        m, n = X_array.shape
+        self.offsets = []
+        self.scalers = []
+        if self.axis == 1:
+            for col in range(n):
+                offset, scaler = self.vector_norm(X_array[:, col])
+                self.offsets.append(offset)
+                self.scalers.append(scaler)
+        elif self.axis == 0:
+            for row in range(m):
+                offset, scaler = self.vector_norm(X_array[row])
+                self.offsets.append(offset)
+                self.scalers.append(scaler)
+        else:
+            raise Exception("Unknown axis.")
 
-    # Write your own code
-    principal_components = "Write your own code"
-    return principal_components
+    def transform(self, X):
+        X_norm = deepcopy(np.asarray(X))
+        m, n = X_norm.shape
+        if self.axis == 1:
+            for col in range(n):
+                X_norm[:, col] = (X_norm[:, col]-self.offsets[col])/self.scalers[col]
+        elif self.axis == 0:
+            for row in range(m):
+                X_norm[row] = (X_norm[row]-self.offsets[row])/self.scalers[row]
+        else:
+            raise Exception("Unknown axis.")
+        return X_norm
 
-def vector_norm(x, norm="Min-Max"):
-    # Calculate the normalized vector
-    # Input x: 1-d np.array
-    if norm == "Min-Max":
-        x_norm = "Write your own code"
-    elif norm == "L1":
-        x_norm = "Write your own code"
-    elif norm == "L2":
-        x_norm = "Write your own code"
-    elif norm == "Standard_Score":
-        x_norm = "Write your own code"
-    else:
-        raise Exception("Unknown normlization.")
-    return x_norm
+    def fit_transform(self, X):
+        self.fit(X)
+        return self.transform(X)
 
-def normalize(X, norm="Min-Max", axis = 1):
-    #  Inputs:
-    #     X: input matrix
-    #     norm = {"L1", "L2", "Min-Max", "Standard_Score"}
-    #     axis = 0: normalize rows
-    #     axis = 1: normalize columns
-    #  Output:
-    #     X_norm: normalized matrix (numpy.array)
+    def vector_norm(self, x):
+        # Calculate the offset and scaler for input vector x
+        if self.norm == "Min-Max":
+            # Write your own code below
 
-    X_norm = deepcopy(np.asarray(X))
-    m, n = X_norm.shape
-    if axis == 1:
-        for col in range(n):
-            X_norm[:,col] = vector_norm(X_norm[:,col], norm=norm)
-    elif axis == 0:
-        X_norm = np.array([vector_norm(X_norm[i], norm=norm) for i in range(m)])
-    else:
-        raise Exception("Unknown axis.")
-    return X_norm
+        elif self.norm == "L1":
+            # Write your own code below
+
+        elif self.norm == "L2":
+            # Write your own code below
+
+        elif self.norm == "Standard_Score":
+            # Write your own code below
+
+        else:
+            raise Exception("Unknown normlization.")
+        return offset, scaler
+
+class my_pca:
+    def __init__(self, n_components = 5):
+        #     n_components: number of principal components to keep
+        self.n_components = n_components
+
+    def fit(self, X):
+        #  Use svd to perform PCA on X
+        #  Inputs:
+        #     X: input matrix
+        #  Calculates:
+        #     self.principal_components: the top n_components principal_components
+        U, s, Vh = svd(X)
+        # Write your own code below
+
+
+    def transform(self, X):
+        #     X_pca = X.dot(self.principal_components)
+        X_array = np.asarray(X)
+        return X_array.dot(self.principal_components)
+
+    def fit_transform(self, X):
+        self.fit(X)
+        return self.transform(X)
 
 def stratified_sampling(y, ratio, replace = True):
     #  Inputs:

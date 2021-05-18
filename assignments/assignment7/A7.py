@@ -13,16 +13,17 @@ if __name__ == "__main__":
     X = data_train[independent]
     y = data_train["Species"]
     # Preprocess (train)
-    X_norm = my_preprocess.normalize(X)
-    principal_components = my_preprocess.pca(X_norm, n_components=2)
-    X_pca = X_norm.dot(principal_components)
+    normalizer = my_preprocess.my_normalizer(norm="L2", axis=1)
+    X_norm = normalizer.fit_transform(X)
+    pca = my_preprocess.my_pca(n_components=2)
+    X_pca = pca.fit_transform(X_norm)
     sample = my_preprocess.stratified_sampling(y, ratio=0.5, replace=False)
-
     X_sample = X_pca[sample]
     y_sample = y[sample].to_numpy()
     print(X_pca)
     print(Counter(y_sample))
     print(Counter(y))
+
     # Fit model
     clf = DecisionTreeClassifier()
     clf.fit(X_sample, y_sample)
@@ -30,8 +31,8 @@ if __name__ == "__main__":
     data_test = pd.read_csv("../data/Iris_test.csv")
     X_test = data_test[independent]
     # Preprocess (test)
-    X_test_norm = my_preprocess.normalize(X_test)
-    X_test_pca = X_test_norm.dot(principal_components)
+    X_test_norm = normalizer.transform(X_test)
+    X_test_pca = pca.transform(X_test_norm)
     # Predict
     predictions = clf.predict(X_test_pca)
     # Output predictions on test data
