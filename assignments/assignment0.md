@@ -47,12 +47,14 @@
  git clone THE-COPIED-URL
  ```
 
-### 3. Save username and password in git.
+### 3. Save username and token in git.
+ - Create your personal access token on [this page](https://github.com/settings/tokens)
+ - Copy the generated token.
  - In terminal:
  ```
- git config --global credential.helper store
+ git config --global credential.helper manager
  ```
- - When running this command, the first time you pull or push from the remote repository, you'll get asked about the username and password. Afterwards, for consequent communications with the remote repository you don't have to provide the username and password.
+ - When running this command, the first time you pull or push from the remote repository, you'll get asked about the username and your token (NOT Password!). Afterwards, for consequent communications with the remote repository you don't have to provide the username and password.
 
 ### 4. Working with a github repo.
  - (1) Go to the local directory of the **DSCI-633** repo.
