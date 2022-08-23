@@ -9,13 +9,13 @@ class my_GA:
                  mutation_rate=0.01, crossval_fold=5, max_generation=100, max_life=3):
         # inputs:
         # model: class object of the learner under tuning, e.g. my_DT
-        # data_X: training data independent variables (pd.Dataframe)
+        # data_X: training data independent variables (pd.Dataframe, csr_matrix or np.array)
         # data_y: training data dependent variables (pd.Series or list)
-        # decision_boundary: list of boundaries of each decision variable,
-            # e.g. decision_boundary = [("gini", "entropy"), [1, 16], [0, 0.1]] for my_DT means:
-            # the first argument criterion can be chosen as either "gini" or "entropy"
-            # the second argument max_depth can be any number 1 <= max_depth < 16
-            # the third argument min_impurity_decrease can be any number 0 <= min_impurity_decrease < 0.1
+        # decision_boundary: a dictionary of boundaries of each decision variable,
+        # e.g. decision_boundary = {"criterion": ("gini", "entropy"), "max_depth": [1, 16], "min_impurity_decrease": [0, 0.1]} for my_DT means:
+        # the first argument criterion can be chosen as either "gini" or "entropy"
+        # the second argument max_depth can be any number 1 <= max_depth < 16
+        # the third argument min_impurity_decrease can be any number 0 <= min_impurity_decrease < 0.1
         # obj_func: generate objectives, all objectives are higher the better
         # generation_size: number of points in each generation
         # selection_rate: percentage of survived points after selection, only affect single objective
@@ -26,7 +26,10 @@ class my_GA:
         self.model = model
         self.data_X = data_X
         self.data_y = data_y
-        self.decision_boundary = decision_boundary
+        # self.decision_keys stores keys of decision_boundary
+        self.decision_keys = list(decision_boundary.keys())
+        # self.decision_boundary stores values of decision_boundary
+        self.decision_boundary = list(decision_boundary.values())
         self.obj_func = obj_func
         self.generation_size = int(generation_size)
         self.selection_rate = selection_rate  # applies only to singe-objective
