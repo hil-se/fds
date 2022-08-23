@@ -55,7 +55,7 @@ Iris-virginica  0.655489
 Iris-virginica  0.655489
 Iris-versicolor 0.464396
  ```
- Results can be different due to randomness.
+**Results can be slightly different due to randomness.**
 
 ### Do not forget to push your local changes to the Github server.
 
