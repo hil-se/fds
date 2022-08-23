@@ -161,7 +161,7 @@ Counter({'Iris-setosa': 45, 'Iris-versicolor': 45, 'Iris-virginica': 45})
  'Iris-versicolor' 'Iris-virginica']
 
 ```
-Predictions results can be a little bit different due to randomness in stratified sampling (but should be very similar).
+Prediction results can be a little bit different due to randomness in stratified sampling (but should be very similar).
 
 
 ### Do not forget to push your local changes to the Github server.
