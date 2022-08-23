@@ -48,6 +48,6 @@
  ## Grading Policy
  - 6 (out of 7) points will be received if all the required files can be found in the submitted repo.
  - The rest 1 point will be given based on whether the screenshot A1.png is correct.
- - **Note:** be sure to add your github repo url to the [Google sheet](https://docs.google.com/spreadsheets/d/1Kyuqa3Seh_noWsjBam3bHcfzmbwp7eWhAr-Qw4eCkqI/edit?usp=sharing) since this is how this and all the future assignments will be graded.
+ - **Note:** be sure to add your github repo url to the [Google sheet](https://docs.google.com/spreadsheets/d/1K-6ivZQALvivG2IOwIXAXR3Vh46nlwasxV0KAIZVzCM/edit?usp=sharing) since this is how this and all the future assignments will be graded.
  
  

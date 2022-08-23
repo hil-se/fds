@@ -5,7 +5,7 @@
 [Lecturer](http://zhe-yu.github.io) 
 
 ## Course Description
-A foundation course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation, and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. The course includes a series of programming assignments that will involve the implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures. The best way to learn an algorithm is to implement and apply it youself. You will experience that in this course.
+A foundation course in data science, emphasizing both concepts and techniques. The course provides an overview of data analysis tasks and the associated challenges, spanning data preprocessing, model building, model validation, and evaluation. Major families of data analysis techniques covered include classification, clustering, association analysis, anomaly detection, and statistical testing. This is a practice-driven course as it includes a series of programming assignments that will involve the implementation of specific techniques on practical datasets from diverse application domains, reinforcing the concepts and techniques covered in lectures. The best way to learn an algorithm is to implement and apply it youself. You will experience that in this course.
 
 ## Course Learning Outcomes
 
@@ -19,7 +19,7 @@ The course uses Github for assignment submission, discussion, questions. Slides,
 
 **Prerequisites**: The course does not have formal prerequesites, but we describe background knowledge that will help you be successful in the course. Since the course always has a substantial programming component solid programming skills will be benefitial. Also note that Python and github are required for submitting assignments and [Assignment 0](https://github.com/hil-se/fse/blob/master/assignments/assignment0.md) provides learning materials to help students with those.
 
-**Textbook**: We will be using [Pang-Ning Tan's "Introduction to Data Mining (Second Edition)" (ISBN-13: 978-0133128901)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) throughout the course. However, there is no need to buy that book since the slides will cover all the content you need. Meanwhile, a better way (than reading the textbook) to digging deeper into the material is always searching online for research papers and blog articles.
+**Textbook**: We will be using [Pang-Ning Tan's "Introduction to Data Mining (Second Edition)" (ISBN-13: 978-0133128901)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) throughout the course. However, there is no need to buy that book since the slides will cover all the content you need. Meanwhile, a better way (than reading the textbook) to dig deeper into the material is always searching online for research papers and blog articles.
 
 **Grading**: Evaluation will be based on the following distribution: 63% assignments, 37% project. A detailed grading policy can be found at the end of the description of each assignment and project.
 

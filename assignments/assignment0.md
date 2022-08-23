@@ -38,7 +38,7 @@
  - (2) Initiate the new private repo:
  ![](https://github.com/hil-se/fse/blob/master/img/init_repo.png?raw=yes)
  
- - (3) Invite the instructor and the TA as collaborators (GitHub ID: **azhe825, nairnish**):
+ - (3) Invite the instructor and the TA as collaborators (GitHub ID: **azhe825, VaishnaviSolunke**):
  ![](https://github.com/hil-se/fse/blob/master/img/invite.png?raw=yes)
 
 ### 2. Clone the **DSCI-633** repo to your local machine.
@@ -47,12 +47,14 @@
  git clone THE-COPIED-URL
  ```
 
-### 3. Save username and password in git.
+### 3. Save username and token in git.
+ - Create your personal access token on [this page](https://github.com/settings/tokens)
+ - Copy the generated token.
  - In terminal:
  ```
- git config --global credential.helper store
+ git config --global credential.helper manager
  ```
- - When running this command, the first time you pull or push from the remote repository, you'll get asked about the username and password. Afterwards, for consequent communications with the remote repository you don't have to provide the username and password.
+ - When running this command, the first time you pull or push from the remote repository, you'll get asked about the username and your token (NOT Password!). Afterwards, for consequent communications with the remote repository you don't have to provide the username and password.
 
 ### 4. Working with a github repo.
  - (1) Go to the local directory of the **DSCI-633** repo.
@@ -68,6 +70,6 @@
  DSCI-633> git push
  ```
  
- ### 5. Add your information to [Google sheet](https://docs.google.com/spreadsheets/d/1Kyuqa3Seh_noWsjBam3bHcfzmbwp7eWhAr-Qw4eCkqI/edit?usp=sharing)
+ ### 5. Add your information to [Google sheet](https://docs.google.com/spreadsheets/d/1K-6ivZQALvivG2IOwIXAXR3Vh46nlwasxV0KAIZVzCM/edit?usp=sharing)
  - Add your github repo url (along with your RIT identifier and Github ID) to the Google sheet.
  - Make a self-evaluation on your current knowledge/expertise in coding, Python, and machine learning. This information will ONLY be used to decide your study group.

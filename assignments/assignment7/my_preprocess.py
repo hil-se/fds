@@ -2,32 +2,54 @@ import numpy as np
 from scipy.linalg import svd
 
 
-def pca(X, n_components=5):
-    #  Use svd to perform PCA on X
-    #  Inputs:
-    #     X: input matrix
-    #     n_components: number of principal components to keep
-    #  Output:
-    #     principal_components: the top n_components principal_components
-    #     X_pca = X.dot(principal_components)
+class my_normalizer:
+    def __init__(self, norm="Min-Max", axis = 1):
+        #     norm = {"L1", "L2", "Min-Max", "Standard_Score"}
+        #     axis = 0: normalize rows
+        #     axis = 1: normalize columns
+        self.norm = norm
+        self.axis = axis
 
-    U, s, Vh = svd(X)
+    def fit(self, X):
+        #     X: input matrix
+        #     Calculate offsets and scalers which are used in transform()
+        X_array  = np.asarray(X)
+        # Write your own code below
 
-    # Write your own code
-    principal_components = "Write your own code"
-    return principal_components
+    def transform(self, X):
+        # Transform X into X_norm
+        X_norm = deepcopy(np.asarray(X))
+        # Write your own code below
+        return X_norm
 
-def normalize(X, norm="Min-Max", axis = 1):
-    #  Inputs:
-    #     X: input matrix
-    #     norm = {"L1", "L2", "Min-Max", "Standard_Score"}
-    #     axis = 0: normalize rows
-    #     axis = 1: normalize columns
-    #  Output:
-    #     X_norm: normalized matrix (numpy.array)
-    #  Write your own code below:
-    X_array = np.asarray(X)
-    return X_norm
+    def fit_transform(self, X):
+        self.fit(X)
+        return self.transform(X)
+
+class my_pca:
+    def __init__(self, n_components = 5):
+        #     n_components: number of principal components to keep
+        self.n_components = n_components
+
+    def fit(self, X):
+        #  Use svd to perform PCA on X
+        #  Inputs:
+        #     X: input matrix
+        #  Calculates:
+        #     self.principal_components: the top n_components principal_components
+        U, s, Vh = svd(X)
+        # Write your own code below
+
+    def transform(self, X):
+        #     X_pca = X.dot(self.principal_components)
+        X_array = np.asarray(X)
+        # Write your own code below
+
+        return X_pca
+
+    def fit_transform(self, X):
+        self.fit(X)
+        return self.transform(X)
 
 def stratified_sampling(y, ratio, replace = True):
     #  Inputs:

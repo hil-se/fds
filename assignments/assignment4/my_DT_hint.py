@@ -69,7 +69,8 @@ class my_DT:
         self.tree = {}
         # population keeps the indices of data points in each node
         population = {0: np.array(range(N))}
-        # impurity stores the weighted impurity scores for each node (# data in node * unweighted impurity)
+        # impurity stores the weighted impurity scores for each node (# data in node * unweighted impurity). 
+        # NOTE: for simplicity reason we do not divide weighted impurity score by N here.
         impurity = {0: self.impurity(labels[population[0]]) * N}
         #########################################################################
         level = 0

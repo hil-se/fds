@@ -39,23 +39,23 @@ Output:
  - Example output:
  ```
  (base) zhe@Zhe-Yus-MacBook-Pro assignment5 % python A5.py 
-Iris-setosa     0.651254
-Iris-setosa     0.651254
-Iris-setosa     0.651254
-Iris-setosa     0.651254
-Iris-setosa     0.651254
-Iris-versicolor 0.601783
-Iris-versicolor 0.693256
-Iris-versicolor 0.693256
-Iris-versicolor 0.693256
-Iris-versicolor 0.693256
-Iris-virginica  0.655489
-Iris-virginica  0.535604
-Iris-virginica  0.655489
-Iris-virginica  0.655489
-Iris-versicolor 0.464396
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-versicolor 0.687878
+Iris-versicolor 0.597522
+Iris-versicolor 0.597522
+Iris-versicolor 0.687878
+Iris-versicolor 0.687878
+Iris-virginica  0.612101
+Iris-virginica  0.501838
+Iris-virginica  0.612101
+Iris-virginica  0.612101
+Iris-virginica  0.501838
  ```
- Results can be different due to randomness.
+**Results can be slightly different due to randomness.**
 
 ### Do not forget to push your local changes to the Github server.
 
