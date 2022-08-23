@@ -10,10 +10,10 @@ class my_GA:
                  mutation_rate=0.01, crossval_fold=5, max_generation=100, max_life=3):
         # inputs:
         # model: class object of the learner under tuning, e.g. my_DT
-        # data_X: training data independent variables (pd.Dataframe)
+        # data_X: training data independent variables (pd.Dataframe, csr_matrix or np.array)
         # data_y: training data dependent variables (pd.Series or list)
-        # decision_boundary: list of boundaries of each decision variable,
-        # e.g. decision_boundary = [("gini", "entropy"), [1, 16], [0, 0.1]] for my_DT means:
+        # decision_boundary: a dictionary of boundaries of each decision variable,
+        # e.g. decision_boundary = {"criterion": ("gini", "entropy"), "max_depth": [1, 16], "min_impurity_decrease": [0, 0.1]} for my_DT means:
         # the first argument criterion can be chosen as either "gini" or "entropy"
         # the second argument max_depth can be any number 1 <= max_depth < 16
         # the third argument min_impurity_decrease can be any number 0 <= min_impurity_decrease < 0.1
@@ -27,7 +27,10 @@ class my_GA:
         self.model = model
         self.data_X = data_X
         self.data_y = data_y
-        self.decision_boundary = decision_boundary
+        # self.decision_keys stores keys of decision_boundary
+        self.decision_keys = list(decision_boundary.keys())
+        # self.decision_boundary stores values of decision_boundary
+        self.decision_boundary = list(decision_boundary.values())
         self.obj_func = obj_func
         self.generation_size = int(generation_size)
         self.selection_rate = selection_rate  # applies only to singe-objective
@@ -43,15 +46,20 @@ class my_GA:
 
     def initialize(self):
         # Randomly generate generation_size points to self.generation
+        # If boundary in self.decision_boundary is integer, the generated
+        #  value must also be integer.
 
         self.generation = []
         for _ in range(self.generation_size):
             x = []
-            for decision in self.decision_boundary:
-                if type(decision) == list:
-                    x.append(np.random.random() * (decision[1] - decision[0]) + decision[0])
+            for boundary in self.decision_boundary:
+                if type(boundary) == list:
+                    val = np.random.random() * (boundary[1] - boundary[0]) + boundary[0]
+                    if type(boundary[0]) == int:
+                        val = round(val)
+                    x.append(val)
                 else:
-                    x.append(decision[np.random.randint(len(decision))])
+                    x.append(boundary[np.random.randint(len(boundary))])
             self.generation.append(tuple(x))
         ######################
         # check if size of generation is correct
@@ -64,7 +72,8 @@ class my_GA:
         # Avoid repetitive evaluations
         if decision not in self.evaluated:
             # evaluate with self.crossval_fold fold cross-validation on self.data_X and self.data_y
-            clf = self.model(*decision)
+            dec_dict = {key: decision[i] for i, key in enumerate(self.decision_keys)}
+            clf = self.model(**dec_dict)
             # write your own code below
             # Cross validation:
             indices = [i for i in range(len(self.data_y))]
@@ -207,20 +216,25 @@ class my_GA:
 
     def mutate(self):
         # Uniform random mutation:
-        # each decision value in each point of self.generation
-        # has the same probability self.mutation_rate of being mutated
-        # to a random valid value
+            # each decision value in each point of self.generation
+            # has the same probability self.mutation_rate of being mutated
+            # to a random valid value
+        # If boundary in self.decision_boundary is integer, the mutated
+        #  value must also be integer.
         # write your own code below
 
         for i, x in enumerate(self.generation):
             new_x = list(x)
             for j in range(len(x)):
                 if np.random.random() < self.mutation_rate:
-                    decision = self.decision_boundary[j]
-                    if type(decision) == list:
-                        new_x[j] = np.random.random() * (decision[1] - decision[0]) + decision[0]
+                    boundary = self.decision_boundary[j]
+                    if type(boundary) == list:
+                        val = np.random.random() * (boundary[1] - boundary[0]) + boundary[0]
+                        if type(boundary[0]) == int:
+                            val = round(val)
+                        new_x[j] = val
                     else:
-                        new_x[j] = decision[np.random.randint(len(decision))]
+                        new_x[j] = boundary[np.random.randint(len(boundary))]
             self.generation[i] = tuple(new_x)
         return self.generation
 

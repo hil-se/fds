@@ -42,6 +42,8 @@ class my_GA:
 
     def initialize(self):
         # Randomly generate generation_size points to self.generation
+        # If boundary in self.decision_boundary is integer, the generated
+        #  value must also be integer.
         # write your own code below
 
         ######################
@@ -134,6 +136,8 @@ class my_GA:
             # each decision value in each point of self.generation
             # has the same probability self.mutation_rate of being mutated
             # to a random valid value
+        # If boundary in self.decision_boundary is integer, the mutated
+        #  value must also be integer.
         # write your own code below
 
 
