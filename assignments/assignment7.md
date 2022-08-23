@@ -155,10 +155,10 @@ Expected output:
  [-1.92053449e-01 -2.11630824e-02]]
 Counter({'Iris-setosa': 23, 'Iris-versicolor': 23, 'Iris-virginica': 23})
 Counter({'Iris-setosa': 45, 'Iris-versicolor': 45, 'Iris-virginica': 45})
-['Iris-setosa' 'Iris-setosa' 'Iris-versicolor' 'Iris-setosa' 'Iris-setosa'
+['Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
  'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
  'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
- 'Iris-versicolor' 'Iris-virginica']
+ 'Iris-virginica' 'Iris-virginica']
 
 ```
 Prediction results can be a little bit different due to randomness in stratified sampling (but should be very similar).
