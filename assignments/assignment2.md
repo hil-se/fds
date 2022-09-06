@@ -10,6 +10,8 @@
 
 Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment2 folder. 
 
+### Do NOT treat "?" as missing values in this assignment. Treat it as a regular value that X can take.
+
 ### Build your own categorical Naive Bayes classifier
 
 #### Implement my_NB.fit() function in [my_NB.py](https://github.com/hil-se/fds/blob/master/assignments/assignment2/my_NB.py)
