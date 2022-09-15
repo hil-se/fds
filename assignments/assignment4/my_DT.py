@@ -6,7 +6,7 @@ class my_DT:
 
     def __init__(self, criterion="gini", max_depth=8, min_impurity_decrease=0, min_samples_split=2):
         # criterion = {"gini", "entropy"},
-        # Stop training if depth = max_depth
+        # Stop training if depth = max_depth. Depth of a binary tree: the max number of edges from the root node to a leaf node
         # Only split node if impurity decrease >= min_impurity_decrease after the split
         #   Weighted impurity decrease: N_t / N * (impurity - N_t_R / N_t * right_impurity - N_t_L / N_t * left_impurity)
         # Only split node with >= min_samples_split samples
