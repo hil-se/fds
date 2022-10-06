@@ -5,6 +5,7 @@ class my_KMeans:
 
     def __init__(self, n_clusters=8, init = "k-means++", n_init = 10, max_iter=300, tol=1e-4):
         # init = {"k-means++", "random"}
+        # use euclidean distance for inertia calculation.
         # stop when either # iteration is greater than max_iter or the delta of self.inertia_ is smaller than tol.
         # repeat n_init times and keep the best run (cluster_centers_, inertia_) with the lowest inertia_.
 
