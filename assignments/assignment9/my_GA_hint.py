@@ -79,7 +79,7 @@ class my_GA:
             indices = [i for i in range(len(self.data_y))]
             np.random.shuffle(indices)
             size = int(np.ceil(len(self.data_y) / float(self.crossval_fold)))
-            objs_crossval = None
+            objs_crossval = []
             for fold in range(self.crossval_fold):
                 start = int(fold * size)
                 end = start + size
@@ -101,12 +101,10 @@ class my_GA:
                     pred_proba = None
                 actuals = "write your own code"
                 objs = np.array(self.obj_func(predictions, actuals, pred_proba))
-                if type(objs_crossval) == type(None):
-                    objs_crossval = "write your own code"
-                else:
-                    objs_crossval += "write your own code"
-
-            objs_crossval = objs_crossval / float(len(self.data_y))
+                objs_crossval.append(objs)
+            # Take a mean of each fold of the cross validation result
+            # objs_crossval should become an 1-d array of the same size as objs
+            objs_crossval = "write your own code"
             self.evaluated[decision] = objs_crossval
         return self.evaluated[decision]
 
