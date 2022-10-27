@@ -10,9 +10,9 @@
 
 Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment9 folder. 
 
-### Make sure your A2 and A8 are correct
+### Make sure your A8 are correct
 
-A9 utilizes my_DT and my_evaluation in A2 and A8. Make sure they are correct before working on A9.
+A9 utilizes my_evaluation in A8. Make sure they are correct before working on A9.
 
 ### Build your own Genetic Algorithm for tuning model parameters
 
