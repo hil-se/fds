@@ -21,11 +21,12 @@ class my_model():
         self.preprocessor = TfidfVectorizer(stop_words='english', norm='l2', use_idf=False, smooth_idf=False)
         XX = self.preprocessor.fit_transform(X["description"])
         XX = pd.DataFrame(XX.toarray())
-        ga = my_GA(SGDClassifier, XX, y, [("hinge", "log", "perceptron"), ("l2", "l1"), [0.0001, 0.01]], self.obj_func, generation_size=10,
-                    crossval_fold=2,
+        ga = my_GA(SGDClassifier, XX, y, {"loss": ("hinge", "log_loss", "perceptron"), "penalty": ("l2", "l1"), "alpha": [0.0001, 0.01]}, self.obj_func, generation_size=50,
+                    crossval_fold=5,
                     max_generation=10, max_life=2)
         best = ga.tune()[0]
-        self.clf = SGDClassifier(*best)
+        dec_dict = {key: best[i] for i, key in enumerate(["loss", "penalty", "alpha"])}
+        self.clf = SGDClassifier(**dec_dict)
         self.clf.fit(XX,y)
         return
 
