@@ -1,6 +1,8 @@
 import time
 import sys
 import pandas as pd
+from sklearn.model_selection import train_test_split
+from pdb import set_trace
 from project import my_model
 sys.path.insert(0, '../..')
 from assignments.assignment8.my_evaluation import my_evaluation
@@ -8,11 +10,7 @@ from assignments.assignment8.my_evaluation import my_evaluation
 def test(data):
     y = data["fraudulent"]
     X = data.drop(['fraudulent'], axis=1)
-    split_point = int(0.8 * len(y))
-    X_train = X.iloc[:split_point]
-    X_test = X.iloc[split_point:]
-    y_train = y.iloc[:split_point]
-    y_test = y.iloc[split_point:]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
     clf = my_model()
     clf.fit(X_train, y_train)
     predictions = clf.predict(X_test)
