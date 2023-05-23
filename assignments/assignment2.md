@@ -8,16 +8,16 @@
 
 ### Make sure your repo is up-to-date
 
-Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment7 folder. 
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the Preprocess folder. 
 
 ### Build your own preprocessors
 
-#### Complete the code in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess.py)
+#### Complete the code in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/my_preprocess.py)
 
-### Test my_preprocess with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/A7.py)
+### Test my_preprocess with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/A7.py)
 Expected output:
 ```
-(base) D:\projects\DSCI-633\assignments\assignment7>python A7.py
+(base) D:\projects\DSCI-633\assignments\Preprocess>python A7.py
 [[-1.06566276e-01  6.90319129e-02]
  [-9.82349093e-02  5.90195265e-02]
  [-9.84275698e-02  6.25091996e-02]
@@ -174,5 +174,5 @@ Prediction results can be a little bit different due to randomness in stratified
  
    
 ## Hint
- - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess_hint.py).
+ - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/my_preprocess_hint.py).
  - Then, remember to rename it as my_preprocess_hint.py before submitting. 
