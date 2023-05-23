@@ -14,7 +14,7 @@ Assignment codes might be modified during the semester so please pull from this 
 
 #### Complete the code in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/my_preprocess.py)
 
-### Test my_preprocess with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/A7.py)
+### Test my_preprocess with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/A2.py)
 Expected output:
 ```
 (base) D:\projects\DSCI-633\assignments\Preprocess>python A7.py
