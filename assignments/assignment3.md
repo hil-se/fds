@@ -4,72 +4,67 @@
 [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
 [Lecturer](http://zhe-yu.github.io) 
 
-
-## K Nearest Neighbor
+## Evaluation
 
 ### Make sure your repo is up-to-date
 
-Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment3 folder. 
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment8 folder. 
 
-### Build your own kNN classifier (with continuous input)
+### Build your own evaluation methods
 
-#### Implement my_KNN.fit() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN.py)
-Inputs:
-- X: pd.DataFrame, independent variables, each value is a continuous number of float type
-- y: list, np.array or pd.Series, dependent variables, each value is a category of int or str type
+#### Implement every function in [my_evaluation.py](https://github.com/hil-se/fds/blob/master/assignments/assignment8/my_evaluation.py)
+Hint: compute self.confusion once and use it to calculate other metrics (except for auc).
 
-#### Implement my_KNN.predict() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN.py)
-Input:
-- X: pd.DataFrame, independent variables, each value is a continuous number of float type
+### Test my_evaluation Algorithm with [A8.py](https://github.com/hil-se/fds/blob/master/assignments/assignment8/A8.py)
 
-Output:
-- Predicted categories of each input data point. List of str or int.
-
-#### Implement my_KNN.predict_proba() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN.py)
-Input:
-- X: pd.DataFrame, independent variables, each value is a continuous number of float type
-
-Output:
-- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
-
-Example:
-- self.classes_ = {"2", "1"}
-- the 5 nearest neighbors for the test data point have labels of {"1":4, "2":1}
-- then the prob for that data point is {"1": 4/5, "2": 1/5}
-- return probs = pd.DataFrame(list of prob, columns = self.classes_)
-
-### Test my_KNN classifier with [A3.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/A3.py)
- - It is expected to perform the same with [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) with inputs algorithm = 'brute'.
- - Expected output:
- ```
- (base) zhe@Zhe-Yus-MacBook-Pro assignment3 % python A3.py 
-Iris-setosa     1.000000
-Iris-setosa     1.000000
-Iris-setosa     1.000000
-Iris-setosa     1.000000
-Iris-setosa     1.000000
-Iris-versicolor 1.000000
-Iris-versicolor 1.000000
-Iris-versicolor 1.000000
-Iris-versicolor 1.000000
-Iris-versicolor 1.000000
-Iris-virginica  1.000000
-Iris-virginica  0.600000
-Iris-virginica  1.000000
-Iris-virginica  1.000000
-Iris-virginica  0.800000
- ```
- 
-
+Expected output:
+```
+(base) zhe@Zhe-Yus-MacBook-Pro assignment8 % python A8.py 
+['Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-virginica'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
+ 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-versicolor'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-versicolor' 'Iris-versicolor' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
+ 'Iris-virginica' 'Iris-virginica']
+{'Iris-setosa': {'prec': 1.0, 'recall': 1.0, 'f1': 1.0, 'auc': 1.0}, 'Iris-versicolor': {'prec': 0.8979591836734694, 'recall': 0.9777777777777777, 'f1': 0.9361702127659575, 'auc': 0.98}, 'Iris-virginica': {'prec': 0.975609756097561, 'recall': 0.8888888888888888, 'f1': 0.9302325581395349, 'auc': 0.9587654320987653}}
+Average F1 scores:
+{'macro': 0.9554675903018307, 'micro': 0.9555555555555556, 'weighted': 0.9554675903018307}
+```
 
 ### Do not forget to push your local changes to the Github server.
 
  
  ## Grading Policy
  - importing additional packages such as sklearn is not allowed.
- - 4 (out of 7) points will be received if A3.py successfully runs and makes predictions.
- - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
+ - 4 (out of 7) points will be received if A7.py successfully runs and evaluates the performance.
+ - The rest 3 points will be given based on the percentage of the same performance metrics with the correct implementation.
 
 ## Hint
- - If my_KNN.py is too difficult to implement, you can try to complete [my_KNN_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN_hint.py).
- - Then, remember to rename it as my_KNN.py before submitting.
+ - If my_evaluation.py is too difficult to implement, you can try to complete [my_evaluation_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment8/my_evaluation_hint.py).
+ - Then, remember to rename it as my_evaluation_hint.py before submitting. 

@@ -4,175 +4,68 @@
 [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
 [Lecturer](http://zhe-yu.github.io) 
 
-## Preprocessing
+## AdaBoost (Ensemble Learning)
 
 ### Make sure your repo is up-to-date
 
-Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment7 folder. 
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment5 folder. 
 
-### Build your own preprocessors
+### Build your own AdaBoost Ensemble Learner (with continuous input)
 
-#### Complete the code in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess.py)
+#### Implement my_AdaBoost.fit() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
+Inputs:
+- X: pd.DataFrame, independent variables, each value is a continuous number of float type
+- y: list, np.array or pd.Series, dependent variables, int or str
 
-### Test my_preprocess with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/A7.py)
-Expected output:
-```
-(base) D:\projects\DSCI-633\assignments\assignment7>python A7.py
-[[-1.06566276e-01  6.90319129e-02]
- [-9.82349093e-02  5.90195265e-02]
- [-9.84275698e-02  6.25091996e-02]
- [-9.84185078e-02  5.88371714e-02]
- [-1.07188745e-01  7.04246870e-02]
- [-1.23360572e-01  6.82285240e-02]
- [-1.04434643e-01  6.13708120e-02]
- [-1.05504936e-01  6.60640095e-02]
- [-9.31389938e-02  5.50137390e-02]
- [-9.76909491e-02  6.37989914e-02]
- [-1.12591365e-01  7.32908475e-02]
- [-1.05066065e-01  6.44888802e-02]
- [-9.45250531e-02  6.22393376e-02]
- [-1.21264969e-01  7.13620676e-02]
- [-1.14686967e-01  7.01573039e-02]
- [-1.10591790e-01  6.63977687e-02]
- [-1.16283205e-01  6.46737141e-02]
- [-9.99973360e-02  7.14991773e-02]
- [-1.15879868e-01  5.22970457e-02]
- [-1.08222899e-01  6.23765058e-02]
- [-1.01085040e-01  5.80467791e-02]
- [-1.12485778e-01  5.80492580e-02]
- [-1.08364129e-01  6.87632903e-02]
- [-1.05943807e-01  6.76391387e-02]
- [-1.01584404e-01  6.03968252e-02]
- [-1.00961935e-01  5.90040511e-02]
- [-1.14415797e-01  6.04953916e-02]
- [-1.13608109e-01  8.33882619e-02]
- [-1.19124879e-01  8.35718564e-02]
- [-9.76909491e-02  6.37989914e-02]
- [-9.96120149e-02  6.45198311e-02]
- [-1.08496296e-01  7.14780465e-02]
- [-9.76909491e-02  6.37989914e-02]
- [-9.34547594e-02  5.75461402e-02]
- [-1.06250511e-01  6.64995117e-02]
- [-1.07732706e-01  6.56452221e-02]
- [-8.75883101e-02  4.15283944e-02]
- [-9.61908467e-02  6.12026930e-02]
- [-1.19782385e-01  5.25669077e-02]
- [-1.21860361e-01  6.36854913e-02]
- [-1.00453617e-01  5.49287109e-02]
- [-1.12774963e-01  7.31084924e-02]
- [-9.87342734e-02  6.13695726e-02]
- [-1.11845790e-01  7.28553453e-02]
- [-1.03084615e-01  6.49398579e-02]
- [-1.86924615e-01  4.72174738e-03]
- [-1.83310894e-01 -1.38329691e-04]
- [-1.89879834e-01 -2.60559417e-03]
- [-1.53098378e-01 -9.68108646e-03]
- [-1.79636572e-01 -7.72005781e-03]
- [-1.66691135e-01 -3.18932408e-03]
- [-1.89002201e-01 -3.80911847e-03]
- [-1.33734184e-01  5.42899023e-03]
- [-1.76110314e-01 -4.68260176e-03]
- [-1.57843103e-01  4.54057327e-03]
- [-1.80163014e-01  3.69933873e-03]
- [-1.74610212e-01 -7.27890022e-03]
- [-1.52966709e-01  9.20034099e-03]
- [-1.68139309e-01 -1.92920980e-02]
- [-1.49599198e-01  2.42572002e-03]
- [-1.91632702e-01 -1.53941552e-02]
- [-1.64412043e-01  2.07330879e-03]
- [-1.77198126e-01 -1.61882658e-02]
- [-1.68813707e-01  7.99748549e-04]
- [-1.71173644e-01  3.09571744e-03]
- [-1.78049396e-01  1.43556012e-03]
- [-1.81013569e-01 -4.16648740e-03]
- [-1.94001484e-01 -1.33196265e-02]
- [-1.76224466e-01 -7.36516773e-03]
- [-1.44539423e-01  1.11613112e-02]
- [-1.46433302e-01  8.66066217e-04]
- [-1.42416742e-01  5.22550436e-03]
- [-1.56790716e-01  3.29796389e-03]
- [-1.82766328e-01 -1.89017826e-02]
- [-1.73119063e-01 -8.14990467e-03]
- [-1.86028966e-01 -1.87909915e-03]
- [-1.86284130e-01 -2.06834901e-03]
- [-1.63272085e-01 -9.01356789e-03]
- [-1.64472536e-01  2.84822566e-03]
- [-1.55834466e-01 -6.02453369e-03]
- [-1.58447339e-01 -3.35744315e-03]
- [-1.76426080e-01 -2.15020057e-03]
- [-1.56474951e-01  7.65562706e-04]
- [-1.33111715e-01  4.03621607e-03]
- [-1.61420683e-01 -3.34072829e-03]
- [-1.63306107e-01  6.23491643e-03]
- [-1.64902345e-01  7.51326699e-04]
- [-1.69682495e-01  2.22471300e-03]
- [-1.36400824e-01  6.58533211e-03]
- [-1.62482023e-01 -3.72824888e-04]
- [-2.29360352e-01 -4.58605610e-02]
- [-1.90168025e-01 -3.07387271e-02]
- [-2.18311411e-01 -3.25359942e-02]
- [-1.98929092e-01 -2.47699739e-02]
- [-2.15749968e-01 -3.81001960e-02]
- [-2.29405229e-01 -3.52873567e-02]
- [-1.68479537e-01 -2.67794244e-02]
- [-2.13750782e-01 -2.53438253e-02]
- [-1.98543771e-01 -3.17493201e-02]
- [-2.41226930e-01 -3.71603366e-02]
- [-2.05191546e-01 -2.22041430e-02]
- [-1.96746027e-01 -2.95339634e-02]
- [-2.11865575e-01 -3.10260016e-02]
- [-1.88598367e-01 -3.77819707e-02]
- [-2.06357478e-01 -4.71870175e-02]
- [-2.15443373e-01 -3.50138349e-02]
- [-2.00736007e-01 -2.13665683e-02]
- [-2.45111712e-01 -2.45850815e-02]
- [-2.33764026e-01 -5.15879611e-02]
- [-1.71909550e-01 -2.36837264e-02]
- [-2.23380357e-01 -3.56528229e-02]
- [-1.90904646e-01 -3.20285189e-02]
- [-1.91440041e-01 -1.88838284e-02]
- [-2.07199469e-01 -3.71286881e-02]
- [-2.03183298e-01 -1.31198004e-02]
- [-2.13988039e-01 -2.89836632e-02]
- [-2.37517463e-01 -1.42910760e-02]
- [-2.10163751e-01 -4.07840014e-02]
- [-1.83406813e-01 -1.21116862e-02]
- [-1.81476685e-01 -1.65045541e-02]
- [-2.30817977e-01 -3.86418571e-02]
- [-2.23555002e-01 -3.75604720e-02]
- [-2.01358476e-01 -1.99737941e-02]
- [-1.89642189e-01 -1.86152058e-02]
- [-2.12926915e-01 -2.80580982e-02]
- [-2.22433168e-01 -4.13032923e-02]
- [-2.15698645e-01 -3.32563505e-02]
- [-1.90168025e-01 -3.07387271e-02]
- [-2.24739338e-01 -3.74965748e-02]
- [-2.29185815e-01 -4.20061777e-02]
- [-2.13891731e-01 -3.66597562e-02]
- [-1.90107532e-01 -3.15136440e-02]
- [-2.03507737e-01 -2.65648206e-02]
- [-2.17740589e-01 -3.29324113e-02]
- [-1.92053449e-01 -2.11630824e-02]]
-Counter({'Iris-setosa': 23, 'Iris-versicolor': 23, 'Iris-virginica': 23})
-Counter({'Iris-setosa': 45, 'Iris-versicolor': 45, 'Iris-virginica': 45})
-['Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
- 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor' 'Iris-versicolor'
- 'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
- 'Iris-virginica' 'Iris-virginica']
+#### Implement my_AdaBoost.predict() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
+Input:
+- X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
-```
-Prediction results can be a little bit different due to randomness in stratified sampling (but should be very similar).
+Output:
+- Predicted categories of each input data point. List of str or int.
 
+#### Implement my_AdaBoost.predict_proba() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
+Input:
+- X: pd.DataFrame, independent variables, each value is a continuous number of float type
+
+Output:
+- probs = pd.DataFrame(list of prob, columns = self.classes_)
+- prob: what percentage of the base estimators predict input as class C
+- prob(x)[C] = sum(alpha[j] * (base_model[j].predict(x) == C))
+
+### Test AdaBoost Algorithm with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/A5.py)
+
+ - It is expected to perform the same with [sklearn.ensemble.AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) with inputs algorithm = 'SAMME'.
+ - Example output:
+ ```
+ (base) zhe@Zhe-Yus-MacBook-Pro assignment5 % python A5.py 
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-setosa     0.609665
+Iris-versicolor 0.687878
+Iris-versicolor 0.597522
+Iris-versicolor 0.597522
+Iris-versicolor 0.687878
+Iris-versicolor 0.687878
+Iris-virginica  0.612101
+Iris-virginica  0.501838
+Iris-virginica  0.612101
+Iris-virginica  0.612101
+Iris-virginica  0.501838
+ ```
+**Results can be slightly different due to randomness.**
 
 ### Do not forget to push your local changes to the Github server.
 
  
- ## Grading Policy
+## Grading Policy
  - importing additional packages such as sklearn is not allowed.
- - 4 (out of 7) points will be received if A7.py successfully runs and makes predictions
+ - 4 (out of 7) points will be received if A5.py successfully runs and makes predictions.
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
  
-   
+
 ## Hint
- - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment7/my_preprocess_hint.py).
- - Then, remember to rename it as my_preprocess_hint.py before submitting. 
+ - If my_AdaBoost.py is too difficult to implement, you can try to complete [my_AdaBoost_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost_hint.py).
+ - Then, remember to rename it as my_AdaBoost.py before submitting. 

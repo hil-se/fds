@@ -4,68 +4,72 @@
 [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
 [Lecturer](http://zhe-yu.github.io) 
 
-## AdaBoost (Ensemble Learning)
+
+## K Nearest Neighbor
 
 ### Make sure your repo is up-to-date
 
-Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment5 folder. 
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the assignment3 folder. 
 
-### Build your own AdaBoost Ensemble Learner (with continuous input)
+### Build your own kNN classifier (with continuous input)
 
-#### Implement my_AdaBoost.fit() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
+#### Implement my_KNN.fit() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
-- y: list, np.array or pd.Series, dependent variables, int or str
+- y: list, np.array or pd.Series, dependent variables, each value is a category of int or str type
 
-#### Implement my_AdaBoost.predict() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
+#### Implement my_KNN.predict() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
 - Predicted categories of each input data point. List of str or int.
 
-#### Implement my_AdaBoost.predict_proba() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost.py)
+#### Implement my_KNN.predict_proba() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
-- probs = pd.DataFrame(list of prob, columns = self.classes_)
-- prob: what percentage of the base estimators predict input as class C
-- prob(x)[C] = sum(alpha[j] * (base_model[j].predict(x) == C))
+- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
 
-### Test AdaBoost Algorithm with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/A5.py)
+Example:
+- self.classes_ = {"2", "1"}
+- the 5 nearest neighbors for the test data point have labels of {"1":4, "2":1}
+- then the prob for that data point is {"1": 4/5, "2": 1/5}
+- return probs = pd.DataFrame(list of prob, columns = self.classes_)
 
- - It is expected to perform the same with [sklearn.ensemble.AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) with inputs algorithm = 'SAMME'.
- - Example output:
+### Test my_KNN classifier with [A3.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/A3.py)
+ - It is expected to perform the same with [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) with inputs algorithm = 'brute'.
+ - Expected output:
  ```
- (base) zhe@Zhe-Yus-MacBook-Pro assignment5 % python A5.py 
-Iris-setosa     0.609665
-Iris-setosa     0.609665
-Iris-setosa     0.609665
-Iris-setosa     0.609665
-Iris-setosa     0.609665
-Iris-versicolor 0.687878
-Iris-versicolor 0.597522
-Iris-versicolor 0.597522
-Iris-versicolor 0.687878
-Iris-versicolor 0.687878
-Iris-virginica  0.612101
-Iris-virginica  0.501838
-Iris-virginica  0.612101
-Iris-virginica  0.612101
-Iris-virginica  0.501838
+ (base) zhe@Zhe-Yus-MacBook-Pro assignment3 % python A3.py 
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-virginica  1.000000
+Iris-virginica  0.600000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  0.800000
  ```
-**Results can be slightly different due to randomness.**
+ 
+
 
 ### Do not forget to push your local changes to the Github server.
 
  
-## Grading Policy
+ ## Grading Policy
  - importing additional packages such as sklearn is not allowed.
- - 4 (out of 7) points will be received if A5.py successfully runs and makes predictions.
+ - 4 (out of 7) points will be received if A3.py successfully runs and makes predictions.
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
- 
 
 ## Hint
- - If my_AdaBoost.py is too difficult to implement, you can try to complete [my_AdaBoost_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment5/my_AdaBoost_hint.py).
- - Then, remember to rename it as my_AdaBoost.py before submitting. 
+ - If my_KNN.py is too difficult to implement, you can try to complete [my_KNN_hint.py](https://github.com/hil-se/fds/blob/master/assignments/assignment3/my_KNN_hint.py).
+ - Then, remember to rename it as my_KNN.py before submitting.

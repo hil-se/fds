@@ -6,8 +6,8 @@ import sys
 from pdb import set_trace
 ##################################
 sys.path.insert(0,'../..')
-from assignments.assignment8.my_evaluation import my_evaluation
-from assignments.assignment9.my_GA import my_GA
+from assignments.Evaluation.my_evaluation import my_evaluation
+from assignments.Tuning.my_GA import my_GA
 
 class my_model():
 

@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 ####### import my_evaluation#######
 import sys
 sys.path.insert(0, '../..')
-from assignments.assignment8.my_evaluation import my_evaluation
+from assignments.Evaluation.my_evaluation import my_evaluation
 
 ##################################################
 
