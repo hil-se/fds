@@ -14,10 +14,10 @@ Assignment codes might be modified during the semester so please pull from this 
 
 #### Complete the code in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/my_preprocess.py)
 
-### Test my_preprocess with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/A2.py)
+### Test my_preprocess with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/A2.py)
 Expected output:
 ```
-(base) D:\projects\DSCI-633\assignments\Preprocess>python A7.py
+(base) D:\projects\DSCI-633\assignments\Preprocess>python A2.py
 [[-1.06566276e-01  6.90319129e-02]
  [-9.82349093e-02  5.90195265e-02]
  [-9.84275698e-02  6.25091996e-02]
@@ -169,7 +169,7 @@ Prediction results can be a little bit different due to randomness in stratified
  
  ## Grading Policy
  - importing additional packages such as sklearn is not allowed.
- - 4 (out of 7) points will be received if A7.py successfully runs and makes predictions
+ - 4 (out of 7) points will be received if A2.py successfully runs and makes predictions
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
  
    
