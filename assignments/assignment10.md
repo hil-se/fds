@@ -12,17 +12,17 @@ Assignment codes might be modified during the semester so please pull from this 
 
 ### Make sure your A8 are correct
 
-A9 utilizes my_evaluation in A8. Make sure they are correct before working on A9.
+A10 utilizes my_evaluation in A8. Make sure they are correct before working on A10.
 
 ### Build your own Genetic Algorithm for tuning model parameters
 
 #### Implement every function in [my_GA.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/my_GA.py)
-Hint: check how [A9.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A9.py) utilizes my_GA.py to tune my_DT learner.
+Hint: check how [A10.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A10.py) utilizes my_GA.py to tune my_DT learner.
 
-### Test my_evaluation Algorithm with [A9.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A9.py)
+### Test my_evaluation Algorithm with [A10.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A10.py)
 Example output:
 ```
-(base) zhe@Zhe-Yus-MacBook-Pro Tuning % python A9.py
+(base) zhe@Zhe-Yus-MacBook-Pro Tuning % python A10.py
 [array([0.9553351 , 0.95858508]), array([0.95626124, 0.95786008]), array([0.95663662, 0.95663662])]
 [0.95776608]
 ```
@@ -32,7 +32,7 @@ Results can be quite different due to randomness. You can try executing it multi
  
 ## Grading Policy
  - importing additional packages such as sklearn is not allowed.
- - 4 (out of 7) points will be received if A9.py successfully runs and finds a parameter set.
+ - 4 (out of 7) points will be received if A10.py successfully runs and finds a parameter set.
  - The rest 3 points will be given based on the correctness of the implementation (TA will examine it manually).
 
 ## Hint
