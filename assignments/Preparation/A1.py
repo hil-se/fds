@@ -4,8 +4,17 @@ import pandas as pd
 if __name__ == "__main__":
     #  Load training data
     data_train = pd.read_csv("../data/Iris_train.csv")
+    
+    # Explore the loaded pandas dataframe
+    # Print out the 20th training data point
+    print(data_train.loc[20])
+    # Print out the column "Species"
+    print(data_train["Species"])
+    # Print out the data points with "Species" == "Iris-setosa"
+    print(data_train[data_train["Species"]=="Iris-setosa"])
+
     # Separate independent variables and dependent variables
-    independent = ["SepalLengthCm",	"SepalWidthCm",	"PetalLengthCm",	"PetalWidthCm"]
+    independent = ["SepalLengthCm",	"SepalWidthCm",	"PetalLengthCm", "PetalWidthCm"]
     X = data_train[independent]
     Y = data_train["Species"]
     # Train model
