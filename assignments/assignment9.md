@@ -4,41 +4,77 @@
 [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
 [Lecturer](http://zhe-yu.github.io) 
 
-## Hyperparameter Tuning
+## Decision Tree Classifier
 
 ### Make sure your repo is up-to-date
 
-Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the Tuning folder. 
+Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the DecisionTree folder. 
 
-### Make sure your A8 are correct
+### Build your own decision tree classifier (with continuous input)
 
-A9 utilizes my_evaluation in A8. Make sure they are correct before working on A9.
+#### Expectation
+my_DT.py should behave the same as the [DecisionTreeClassifier in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) with the same set of inputs.
 
-### Build your own Genetic Algorithm for tuning model parameters
+#### Implement my_DT.fit() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT.py)
+Inputs:
+- X: pd.DataFrame, independent variables, each value is a continuous number of float type
+- y: list, np.array or pd.Series, dependent variables, each value is a category of int or str type
 
-#### Implement every function in [my_GA.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/my_GA.py)
-Hint: check how [A9.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A9.py) utilizes my_GA.py to tune my_DT learner.
+#### Implement my_DT.predict() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT.py)
+Input:
+- X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
-### Test my_evaluation Algorithm with [A9.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A9.py)
-Example output:
-```
-(base) zhe@Zhe-Yus-MacBook-Pro Tuning % python A9.py
-[array([0.9553351 , 0.95858508]), array([0.95626124, 0.95786008]), array([0.95663662, 0.95663662])]
-[0.95776608]
-```
-Results can be quite different due to randomness. You can try executing it multiple times.
+Output:
+- Predicted categories of each input data point. List of str or int.
+
+#### Implement my_DT.predict_proba() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT.py)
+Input:
+- X: pd.DataFrame, independent variables, each value is a continuous number of float type
+
+Output:
+- Prediction probabilities of each input data point belonging to each categories. pd.DataFrame(list of prob, columns = self.classes_).
+
+Example:
+- self.classes_ = {"2", "1"}
+- the reached node for the test data point has {"1":2, "2":1}
+- then the prob for that data point is {"2": 1/3, "1": 2/3}
+- return probs = pd.DataFrame(list of prob, columns = self.classes_)
+
+
+### Test my_DT decision tree classifier with [A6.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/A6.py)
+ - It is expected to perform the same with [sklearn.tree.DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html).
+ - Expected output:
+ ```
+ (base) zhe@Zhe-Yus-MacBook-Pro DecisionTree % python A6.py
+['Iris-setosa', 'Iris-setosa', 'Iris-setosa', 'Iris-setosa', 'Iris-setosa', 'Iris-versicolor', 'Iris-versicolor', 'Iris-versicolor', 'Iris-versicolor', 'Iris-versicolor', 'Iris-virginica', 'Iris-virginica', 'Iris-virginica', 'Iris-virginica', 'Iris-virginica']
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-setosa     1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-versicolor 1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+Iris-virginica  1.000000
+
+ ```
 
 ### Do not forget to push your local changes to the Github server.
+
  
 ## Grading Policy
  - importing additional packages such as sklearn is not allowed.
- - 4 (out of 7) points will be received if A9.py successfully runs and finds a parameter set.
- - The rest 3 points will be given based on the correctness of the implementation (TA will examine it manually).
-
+ - 4 (out of 7) points will be received if A6.py successfully runs and makes predictions.
+ - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
+ 
 ## Hint
- - If my_GA.py is too difficult to implement, you can try to complete [my_GA_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/my_GA_hint.py).
- - Then, remember to rename it as my_GA.py before submitting. 
- 
- 
-
+ - If my_DT.py is too difficult to implement, you can try to complete [my_DT_hint.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT_hint.py).
+ - [my_DT_hint.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT_hint.py) has the main functions already implemented. Students only need to complete two functions---find_best_split() and impurity().
+ - Then, remember to rename it as my_DT.py before submitting.
 
