@@ -2,7 +2,7 @@
 [Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
 [Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
 [Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
-[Lecturer](http://zhe-yu.github.io) 
+[Instructor](http://zhe-yu.github.io) 
 
 ## Predict whether a job posting is real or fake
 
