@@ -6,7 +6,7 @@ if __name__ == "__main__":
     data_train = pd.read_csv("../data/Iris_train.csv")
     
     # Explore the loaded pandas dataframe
-    # Print out the 20th training data point
+    # Print out the 21th training data point
     print(data_train.loc[20])
     # Print out the column "Species"
     print(data_train["Species"])
