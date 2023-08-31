@@ -23,7 +23,7 @@
  **Clarification: this is just for using the assignment code in your own repo. Just copy and paste from local directories, do not try to link these two repos in any way.**
  - 3. Run [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py):
  ```
- DSCI-633/assignments/assignment1> python A1.py
+ DSCI-633/assignments/Preparation> python A1.py
 SepalLengthCm            5.0
 SepalWidthCm             3.0
 PetalLengthCm            1.6
