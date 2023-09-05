@@ -37,6 +37,7 @@ class my_pca:
         #     X: input matrix
         #  Calculates:
         #     self.principal_components: the top n_components principal_components
+        # Vh = the transpose of V
         U, s, Vh = svd(X)
         # Write your own code below
 
