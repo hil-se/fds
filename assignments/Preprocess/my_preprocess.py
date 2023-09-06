@@ -55,7 +55,7 @@ class my_pca:
 def stratified_sampling(y, ratio, replace = True):
     #  Inputs:
     #     y: class labels
-    #     0 < ratio < 1: number of samples = len(y) * ratio
+    #     0 < ratio < 1: len(sample) = len(y) * ratio
     #     replace = True: sample with replacement
     #     replace = False: sample without replacement
     #  Output:
