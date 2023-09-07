@@ -70,6 +70,6 @@
  DSCI-633> git push
  ```
  
- ### 5. Add your information to [Google sheet](https://docs.google.com/spreadsheets/d/1K-6ivZQALvivG2IOwIXAXR3Vh46nlwasxV0KAIZVzCM/edit?usp=sharing)
+ ### 5. Add your information to [Google sheet](https://docs.google.com/spreadsheets/d/1K-6ivZQALvivG2IOwIXAXR3Vh46nlwasxV0KAIZVzCM/edit#gid=1666229250)
  - Add your github repo url (along with your RIT identifier and Github ID) to the Google sheet.
  - Make a self-evaluation on your current knowledge/expertise in coding, Python, and machine learning. This information will ONLY be used to decide your study group.
