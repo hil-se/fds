@@ -175,4 +175,4 @@ Prediction results can be a little bit different due to randomness in stratified
    
 ## Hint
  - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/my_preprocess_hint.py).
- - Then, remember to rename it as my_preprocess_hint.py before submitting. 
+ - Then, remember to rename it as my_preprocess.py before submitting. 
