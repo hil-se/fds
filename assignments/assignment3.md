@@ -67,4 +67,4 @@ Average F1 scores:
 
 ## Hint
  - If my_evaluation.py is too difficult to implement, you can try to complete [my_evaluation_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Evaluation/my_evaluation_hint.py).
- - Then, remember to rename it as my_evaluation_hint.py before submitting. 
+ - Then, remember to rename it as my_evaluation.py before submitting. 
