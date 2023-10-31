@@ -35,7 +35,6 @@ class my_Logistic:
     def predict(self, X):
         # X: pd.DataFrame, independent variables, str
         # return predictions: list of int values in {0, 1}
-        # write your code below
         probs = self.predict_proba(X)
         predictions = [1 if prob >=0.5 else 0 for prob in probs]
         return predictions
