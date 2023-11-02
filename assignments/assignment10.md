@@ -10,9 +10,9 @@
 
 Assignment codes might be modified during the semester so please pull from this repo first and overwrite your repo with the Tuning folder. 
 
-### Make sure your A8 are correct
+### Make sure your A3 are correct
 
-A10 utilizes my_evaluation in A8. Make sure they are correct before working on A10.
+A10 utilizes my_evaluation in A3. Make sure they are correct before working on A10.
 
 ### Build your own Genetic Algorithm for tuning model parameters
 
