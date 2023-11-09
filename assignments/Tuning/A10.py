@@ -34,7 +34,7 @@ if __name__ == "__main__":
     print(objs)
     # Single objective
     ga2 = my_GA(DecisionTreeClassifier, X, y,
-                {"criterion": ("gini", "entropy"), "max_depth": [1, 16], "min_impurity_decrease": [0, 0.1]}, obj_func2,
+                {"criterion": ("gini", "entropy"), "max_depth": [1, 16], "min_impurity_decrease": [0.0, 0.1]}, obj_func2,
                 generation_size=10, crossval_fold=2,
                 max_generation=10, max_life=2)
     best = ga2.tune()
