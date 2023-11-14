@@ -48,7 +48,6 @@ class my_GA:
         # Randomly generate generation_size points to self.generation
         # If boundary in self.decision_boundary is integer, the generated
         #  value must also be integer.
-
         self.generation = []
         for _ in range(self.generation_size):
             x = []
@@ -70,6 +69,7 @@ class my_GA:
         # Evaluate a certain point
         # decision: tuple of decisions
         # Avoid repetitive evaluations
+        # Write your own code below
         if decision not in self.evaluated:
             # evaluate with self.crossval_fold fold cross-validation on self.data_X and self.data_y
             dec_dict = {key: decision[i] for i, key in enumerate(self.decision_keys)}
@@ -220,7 +220,6 @@ class my_GA:
         # If boundary in self.decision_boundary is integer, the mutated
         #  value must also be integer.
         # write your own code below
-
         for i, x in enumerate(self.generation):
             new_x = list(x)
             for j in range(len(x)):
