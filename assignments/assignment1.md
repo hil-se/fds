@@ -21,7 +21,7 @@
  ```
  Inside the **DSCI-633** repo, it should look like [mine](https://github.com/azhe825/DSCI-633).
  **Clarification: this is just for using the assignment code in your own repo. Just copy and paste from local directories, do not try to link these two repos in any way.**
- - 3. Run [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py):
+ - 3. Run [A1.py](./Preparation/A1.py):
  ```
  DSCI-633/assignments/Preparation> python A1.py
 SepalLengthCm            5.0
@@ -104,12 +104,12 @@ Iris-virginica  0.999999
 Iris-virginica  0.999988
 Iris-virginica  0.753482
  ```
- - 4. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) to print out the 12th training data point.
- - 5. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) to print out the "SepalWidthCm" column.
- - 6. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) to print out training data points with "SepalWidthCm" < 2.5.
- - 7. Modify [A1.py](https://github.com/hil-se/fds/blob/master/assignments/Preparation/A1.py) so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) from scikit-learn directly (without any specific parameters).
+ - 4. Modify [A1.py](./Preparation/A1.py) to print out the 12th training data point.
+ - 5. Modify [A1.py](./Preparation/A1.py) to print out the "SepalWidthCm" column.
+ - 6. Modify [A1.py](./Preparation/A1.py) to print out training data points with "SepalWidthCm" < 2.5.
+ - 7. Modify [A1.py](./Preparation/A1.py) so that a Decision Tree Classifier is used to make the prediction instead of Gaussian Naive Bayes. Use the [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) from scikit-learn directly (without any specific parameters).
  - 8. Run A1.py again and snapshot the output (including the command *python A1.py*). 
- - 9. Save the snapshot as A1.png and put it under *assignments/Prepation/* in your repo. Should look like [this](https://github.com/azhe825/DSCI-633/tree/master/assignments/Preparation). Note: the [example snapshot](https://github.com/azhe825/DSCI-633/tree/master/assignments/Preparation/A1.png) will look different from the correct one.
+ - 9. Save the snapshot as A1.png and put it under *assignments/Prepation/* in your repo. Should look like [this](./Preparation). Note: the [example snapshot](./Preparation/A1.png) will look different from the correct one.
  - 10. Commit to the remote server of Github.
  
  ## Grading Policy
