@@ -7,13 +7,13 @@
 ## Predict whether a job posting is real or fake
 
 ### Goal
-Train a model (in [project.py](https://github.com/hil-se/fds/blob/master/assignments/project/project.py)) to predict whether a job posting is real or fake on the provided [dataset](https://github.com/hil-se/fds/blob/master/assignments/data/job_train.csv).
+Train a model (in [project.py](project/project.py)) to predict whether a job posting is real or fake on the provided [dataset](data/job_train.csv).
 
 ### Requirements
 
 - Can use any model, preprocessing, tuning method. 
-- Can use (but do not have to use) all information in [dataset](https://github.com/hil-se/fds/blob/master/assignments/data/job_train.csv) to train the model.
-- Make sure there is no error when executing [test.py](https://github.com/hil-se/fds/blob/master/assignments/project/test.py) (do not modify this file).
+- Can use (but do not have to use) all information in [dataset](data/job_train.csv) to train the model.
+- Make sure there is no error when executing [test.py](project/test.py) (do not modify this file).
 - Total runtime < 30 min (if tuning is performed, its runtime must be included)
 - Can only install packages: 
   + scikit-learn, gensim, pandas 
