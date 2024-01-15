@@ -11,7 +11,7 @@
  ```
  git clone https://github.com/hil-se/fds.git
  ```
- - 2. Copy ONLY the folder [assignments/](https://github.com/hil-se/fse/tree/master/assignments/) from this repo to your repo **DSCI-633** folder. 
+ - 2. Copy ONLY the folder [assignments/](./) from this repo to your repo **DSCI-633** folder. 
  ```
  fds/
  |-- assignments   ---
