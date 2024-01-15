@@ -1,6 +1,6 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fds/blob/master/README.md)   
-[Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
-[Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
+[<img width=900 src="img/title.png?raw=yes">](README.md)   
+[Syllabus](README.md) |
+[Slides and Assignments](assignments/README.md) |
 [Project](assignments/project.md) |
 [Instructor](http://zhe-yu.github.io) 
 
