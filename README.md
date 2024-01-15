@@ -1,7 +1,7 @@
 [<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](https://github.com/hil-se/fds/blob/master/README.md)   
 [Syllabus](https://github.com/hil-se/fds/blob/master/README.md) |
 [Slides and Assignments](https://github.com/hil-se/fds/blob/master/assignments/README.md) |
-[Project](https://github.com/hil-se/fds/blob/master/assignments/project.md) |
+[Project](assignments/project.md) |
 [Instructor](http://zhe-yu.github.io) 
 
 ## Course Description
