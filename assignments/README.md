@@ -1,4 +1,4 @@
-[<img width=900 src="img/title.png?raw=yes">](README.md)   
+[<img width=900 src="/img/title.png?raw=yes">](README.md)   
 [Syllabus](README.md) |
 [Slides and Assignments](assignments/README.md) |
 [Project](project.md) |
