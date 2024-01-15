@@ -12,9 +12,9 @@ Assignment codes might be modified during the semester so please pull from this 
 
 ### Build your own preprocessors
 
-#### Complete the code in [my_preprocess.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/my_preprocess.py)
+#### Complete the code in [my_preprocess.py](./Preprocess/my_preprocess.py)
 
-### Test my_preprocess with [A2.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/A2.py)
+### Test my_preprocess with [A2.py](./assignments/Preprocess/A2.py)
 Expected output:
 ```
 (base) D:\projects\DSCI-633\assignments\Preprocess>python A2.py
@@ -174,5 +174,5 @@ Prediction results can be a little bit different due to randomness in stratified
  
    
 ## Hint
- - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Preprocess/my_preprocess_hint.py).
+ - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](./Preprocess/my_preprocess_hint.py).
  - Then, remember to rename it as my_preprocess.py before submitting. 
