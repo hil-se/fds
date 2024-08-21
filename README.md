@@ -37,7 +37,11 @@ The course uses Github for assignment submission, discussion, questions. Slides,
 
 **Academic Integrity**: Students are encouraged to discuss the assignments and projects with each other, especially in their study group. But do not copy finished assignments or projects from other students' Github repos. Up to 90% of the learning in this course comes from completing the assignments and the project. Skipping the assignments and the project is a huge waste to your effort spent on this course. In the meantime, students need to confront the TA or the instructor if their submissions were found too similar.
 
-**Generative AI tools**: Coding solutions must be your own work, which means you cannot use generative AI tools in any manner to write your programs. When learning fundamental skills, you need to ensure that you master the basics. If I doubt authorship, I may ask you to explain the code or re-create aspects of the code in one of our labs – you must show that you have mastered the fundamentals.
+**Generative AI tools**: Coding solutions must be your own work, which means you cannot use generative AI tools in any manner to write your programs. When learning fundamental skills, you need to ensure that you master the basics. If I doubt authorship, I may ask you to explain the code or re-create aspects of the code in one of our labs – you must show that you have mastered the fundamentals. However, you can use any opensource resources for your course project (as long as it does not require any external dependency that the grader may not have) including generative AI tools.
+
+In short:
+ - Homework assignments: generative AI &#x2612;
+ - Course project: generative AI &#x2611; 
 
 **Accommodations for students with disabilities**: If you have a disability and have an accommodations letter from the Disability Resources office, we encourage you to discuss your accommodations and needs with us as early in the semester as possible. We will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, we encourage you to contact them at dso@rit.edu.
 
