@@ -175,4 +175,6 @@ Prediction results can be a little bit different due to randomness in stratified
    
 ## Hint
  - If my_preprocess.py is too difficult to implement, you can try to complete [my_preprocess_hint.py](./Preprocess/my_preprocess_hint.py).
- - Then, remember to rename it as my_preprocess.py before submitting. 
+ - Then, remember to rename it as my_preprocess.py before submitting.
+ - If you did not use the hint file, add a comment in your my_preprocess.py: ```I did not use the hint file.```
+ - The TA will check the comment and judge whether you have used the hint file. You will receive 1 bonus credit to this assignment if the TA verifies this.
