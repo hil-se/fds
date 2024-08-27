@@ -1,4 +1,4 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](../README.md)   
+[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
 [Syllabus](../README.md) |
 [Slides and Assignments](README.md) |
 [Project](project.md) |
@@ -16,19 +16,19 @@ Assignment codes might be modified during the semester so please pull from this 
 #### Expectation
 my_DT.py should behave the same as the [DecisionTreeClassifier in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) with the same set of inputs.
 
-#### Implement my_DT.fit() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT.py)
+#### Implement my_DT.fit() function in [my_DT.py](../assignments/DecisionTree/my_DT.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 - y: list, np.array or pd.Series, dependent variables, each value is a category of int or str type
 
-#### Implement my_DT.predict() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT.py)
+#### Implement my_DT.predict() function in [my_DT.py](../assignments/DecisionTree/my_DT.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
 - Predicted categories of each input data point. List of str or int.
 
-#### Implement my_DT.predict_proba() function in [my_DT.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT.py)
+#### Implement my_DT.predict_proba() function in [my_DT.py](../assignments/DecisionTree/my_DT.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
@@ -42,7 +42,7 @@ Example:
 - return probs = pd.DataFrame(list of prob, columns = self.classes_)
 
 
-### Test my_DT decision tree classifier with [A6.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/A6.py)
+### Test my_DT decision tree classifier with [A6.py](../assignments/DecisionTree/A6.py)
  - It is expected to perform the same with [sklearn.tree.DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html).
  - Expected output:
  ```
@@ -75,7 +75,7 @@ Iris-virginica  1.000000
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
  
 ## Hint
- - If my_DT.py is too difficult to implement, you can try to complete [my_DT_hint.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT_hint.py).
- - [my_DT_hint.py](https://github.com/hil-se/fds/blob/master/assignments/DecisionTree/my_DT_hint.py) has the main functions already implemented. Students only need to complete two functions---find_best_split() and impurity().
+ - If my_DT.py is too difficult to implement, you can try to complete [my_DT_hint.py](../assignments/DecisionTree/my_DT_hint.py).
+ - [my_DT_hint.py](../assignments/DecisionTree/my_DT_hint.py) has the main functions already implemented. Students only need to complete two functions---find_best_split() and impurity().
  - Then, remember to rename it as my_DT.py before submitting.
 
