@@ -1,4 +1,4 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](../README.md)   
+[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
 [Syllabus](../README.md) |
 [Slides and Assignments](README.md) |
 [Project](project.md) |
@@ -13,19 +13,19 @@ Assignment codes might be modified during the semester so please pull from this 
 
 ### Build your own AdaBoost Ensemble Learner (with continuous input)
 
-#### Implement my_AdaBoost.fit() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/Ensemble/my_AdaBoost.py)
+#### Implement my_AdaBoost.fit() function in [my_AdaBoost.py](../assignments/Ensemble/my_AdaBoost.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 - y: list, np.array or pd.Series, dependent variables, int or str
 
-#### Implement my_AdaBoost.predict() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/Ensemble/my_AdaBoost.py)
+#### Implement my_AdaBoost.predict() function in [my_AdaBoost.py](../assignments/Ensemble/my_AdaBoost.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
 - Predicted categories of each input data point. List of str or int.
 
-#### Implement my_AdaBoost.predict_proba() function in [my_AdaBoost.py](https://github.com/hil-se/fds/blob/master/assignments/Ensemble/my_AdaBoost.py)
+#### Implement my_AdaBoost.predict_proba() function in [my_AdaBoost.py](../assignments/Ensemble/my_AdaBoost.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
@@ -34,7 +34,7 @@ Output:
 - prob: what percentage of the base estimators predict input as class C
 - prob(x)[C] = sum(alpha[j] * (base_model[j].predict(x) == C))
 
-### Test AdaBoost Algorithm with [A7.py](https://github.com/hil-se/fds/blob/master/assignments/Ensemble/A7.py)
+### Test AdaBoost Algorithm with [A7.py](../assignments/Ensemble/A7.py)
 
  - It is expected to perform the same with [sklearn.ensemble.AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) with inputs algorithm = 'SAMME'.
  - Example output:
@@ -68,5 +68,5 @@ Iris-virginica  0.501838
  
 
 ## Hint
- - If my_AdaBoost.py is too difficult to implement, you can try to complete [my_AdaBoost_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Ensemble/my_AdaBoost_hint.py).
+ - If my_AdaBoost.py is too difficult to implement, you can try to complete [my_AdaBoost_hint.py](../assignments/Ensemble/my_AdaBoost_hint.py).
  - Then, remember to rename it as my_AdaBoost.py before submitting. 
