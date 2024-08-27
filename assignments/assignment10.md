@@ -1,4 +1,4 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](../README.md)   
+[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
 [Syllabus](../README.md) |
 [Slides and Assignments](README.md) |
 [Project](project.md) |
@@ -17,10 +17,10 @@ A10 utilizes my_evaluation in A3. Make sure they are correct before working on A
 
 ### Build your own Genetic Algorithm for tuning model parameters
 
-#### Implement every function in [my_GA.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/my_GA.py)
-Hint: check how [A10.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A10.py) utilizes my_GA.py to tune my_DT learner.
+#### Implement every function in [my_GA.py](../assignments/Tuning/my_GA.py)
+Hint: check how [A10.py](../assignments/Tuning/A10.py) utilizes my_GA.py to tune my_DT learner.
 
-### Test my_evaluation Algorithm with [A10.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/A10.py)
+### Test my_evaluation Algorithm with [A10.py](../assignments/Tuning/A10.py)
 Example output:
 ```
 (base) zhe@Zhe-Yus-MacBook-Pro Tuning % python A10.py
@@ -37,7 +37,7 @@ Results can be quite different due to randomness. You can try executing it multi
  - The rest 3 points will be given based on the correctness of the implementation (TA will examine it manually).
 
 ## Hint
- - If my_GA.py is too difficult to implement, you can try to complete [my_GA_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Tuning/my_GA_hint.py).
+ - If my_GA.py is too difficult to implement, you can try to complete [my_GA_hint.py](../assignments/Tuning/my_GA_hint.py).
  - Then, remember to rename it as my_GA.py before submitting. 
  
  
