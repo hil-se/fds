@@ -1,4 +1,4 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](../README.md)   
+[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
 [Syllabus](../README.md) |
 [Slides and Assignments](README.md) |
 [Project](project.md) |
@@ -14,19 +14,19 @@ Assignment codes might be modified during the semester so please pull from this 
 
 ### Build your own kNN classifier (with continuous input)
 
-#### Implement my_KNN.fit() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/NearestNeighbor/my_KNN.py)
+#### Implement my_KNN.fit() function in [my_KNN.py](../assignments/NearestNeighbor/my_KNN.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 - y: list, np.array or pd.Series, dependent variables, each value is a category of int or str type
 
-#### Implement my_KNN.predict() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/NearestNeighbor/my_KNN.py)
+#### Implement my_KNN.predict() function in [my_KNN.py](../assignments/NearestNeighbor/my_KNN.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
 - Predicted categories of each input data point. List of str or int.
 
-#### Implement my_KNN.predict_proba() function in [my_KNN.py](https://github.com/hil-se/fds/blob/master/assignments/NearestNeighbor/my_KNN.py)
+#### Implement my_KNN.predict_proba() function in [my_KNN.py](../assignments/NearestNeighbor/my_KNN.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
@@ -39,7 +39,7 @@ Example:
 - then the prob for that data point is {"1": 4/5, "2": 1/5}
 - return probs = pd.DataFrame(list of prob, columns = self.classes_)
 
-### Test my_KNN classifier with [A5.py](https://github.com/hil-se/fds/blob/master/assignments/NearestNeighbor/A5.py)
+### Test my_KNN classifier with [A5.py](../assignments/NearestNeighbor/A5.py)
  - It is expected to perform the same with [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) with inputs algorithm = 'brute'.
  - Expected output:
  ```
@@ -72,5 +72,5 @@ Iris-virginica  0.800000
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
 
 ## Hint
- - If my_KNN.py is too difficult to implement, you can try to complete [my_KNN_hint.py](https://github.com/hil-se/fds/blob/master/assignments/NearestNeighbor/my_KNN_hint.py).
+ - If my_KNN.py is too difficult to implement, you can try to complete [my_KNN_hint.py](../assignments/NearestNeighbor/my_KNN_hint.py).
  - Then, remember to rename it as my_KNN.py before submitting.
