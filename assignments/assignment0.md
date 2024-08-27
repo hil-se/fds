@@ -33,16 +33,16 @@
 
 ### 1. Create a new PRIVATE repository called **DSCI-633** under your Github account.
  - (1) Click on the **new** button:
- ![](https://github.com/hil-se/fse/blob/master/img/create_repo.png?raw=yes)
+ ![](../img/create_repo.png?raw=yes)
  
  - (2) Initiate the new private repo:
- ![](https://github.com/hil-se/fse/blob/master/img/init_repo.png?raw=yes)
+ ![](../img/init_repo.png?raw=yes)
  
  - (3) Invite the instructor and the TA as collaborators (GitHub ID: **azhe825, manojb01**):
- ![](https://github.com/hil-se/fse/blob/master/img/invite.png?raw=yes)
+ ![](../img/invite.png?raw=yes)
 
 ### 2. Clone the **DSCI-633** repo to your local machine.
- ![](https://github.com/hil-se/fse/blob/master/img/clone_repo.png?raw=yes)
+ ![](../img/clone_repo.png?raw=yes)
  ```
  git clone THE-COPIED-URL
  ```
