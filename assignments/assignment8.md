@@ -1,4 +1,4 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](../README.md)   
+[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
 [Syllabus](../README.md) |
 [Slides and Assignments](README.md) |
 [Project](project.md) |
@@ -15,18 +15,18 @@ Assignment codes might be modified during the semester so please pull from this 
 
 #### Hint: memorize the calculated distances to avoid redundant computations.
 
-#### Implement my_KMeans.fit() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/Kmeans/my_KMeans.py)
+#### Implement my_KMeans.fit() function in [my_KMeans.py](../assignments/Kmeans/my_KMeans.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
-#### Implement my_KMeans.predict() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/Kmeans/my_KMeans.py)
+#### Implement my_KMeans.predict() function in [my_KMeans.py](../assignments/Kmeans/my_KMeans.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
 - Predicted categories of each input data point. List of str or int.
 
-#### Implement my_KMeans.transform() function in [my_KMeans.py](https://github.com/hil-se/fds/blob/master/assignments/Kmeans/my_KMeans.py)
+#### Implement my_KMeans.transform() function in [my_KMeans.py](../assignments/Kmeans/my_KMeans.py)
 Transform to cluster-distance space.
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
@@ -34,7 +34,7 @@ Input:
 Output:
 - dists = list of [dist to centroid 1, dist to centroid 2, ...]
 
-### Test my_KMeans Algorithm with [A8.py](https://github.com/hil-se/fds/blob/master/assignments/Kmeans/A8.py)
+### Test my_KMeans Algorithm with [A8.py](../assignments/Kmeans/A8.py)
 
  - It is expected to perform the same with [sklearn.cluster.KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) with input (algorithm = "full").
  - Example output:
@@ -62,5 +62,5 @@ Testing data:
  
   
 ## Hint
- - If my_KMeans.py is too difficult to implement, you can try to complete [my_KMeans_hint.py](https://github.com/hil-se/fds/blob/master/assignments/Kmeans/my_KMeans_hint.py).
+ - If my_KMeans.py is too difficult to implement, you can try to complete [my_KMeans_hint.py](../assignments/Kmeans/my_KMeans_hint.py).
  - Then, remember to rename it as my_KMeans.py before submitting. 
