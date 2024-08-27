@@ -1,4 +1,4 @@
-[<img width=900 src="https://github.com/hil-se/fds/blob/master/img/title.png?raw=yes">](../README.md)   
+[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
 [Syllabus](../README.md) |
 [Slides and Assignments](README.md) |
 [Project](project.md) |
@@ -13,19 +13,19 @@ Assignment codes might be modified during the semester so please pull from this 
 
 ### Build your own Logistic Regression classifier (with continuous input)
 
-#### Implement my_Logistic.fit() function in [my_Logistic.py](https://github.com/hil-se/fds/blob/master/assignments/GradientDescent/my_Logistic.py)
+#### Implement my_Logistic.fit() function in [my_Logistic.py](../assignments/GradientDescent/my_Logistic.py)
 Inputs:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 - y: list, np.array or pd.Series, dependent variables, each value is a category of int or str type
 
-#### Implement my_Logistic.predict_proba() function in [my_Logistic.py](https://github.com/hil-se/fds/blob/master/assignments/GradientDescent/my_Logistic.py)
+#### Implement my_Logistic.predict_proba() function in [my_Logistic.py](../assignments/GradientDescent/my_Logistic.py)
 Input:
 - X: pd.DataFrame, independent variables, each value is a continuous number of float type
 
 Output:
 - Prediction probabilities of each input data point belonging Class 1. 
 
-### Test my_Logistic with [A9.py](https://github.com/hil-se/fds/blob/master/assignments/GradientDescent/A9.py)
+### Test my_Logistic with [A9.py](../assignments/GradientDescent/A9.py)
  - Expected output:
  ```
  (base) zhe@Zhe-Yus-MacBook-Pro GradientDescent % python A9.py
@@ -55,6 +55,6 @@ Output:
  - The rest 3 points will be given based on the percentage of same predictions with the correct implementation.
  
 ## Hint
- - If my_Logistic.py is too difficult to implement, you can try to complete [my_Logistic_hint.py](https://github.com/hil-se/fds/blob/master/assignments/GradientDescent/my_Logistic_hint.py).
+ - If my_Logistic.py is too difficult to implement, you can try to complete [my_Logistic_hint.py](../assignments/GradientDescent/my_Logistic_hint.py).
  - Then, remember to rename it as my_Logistic.py before submitting.
 
