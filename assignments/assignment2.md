@@ -15,7 +15,7 @@ Assignment codes might be modified during the semester so please pull from this 
 
 #### Complete the code in [my_preprocess.py](./Preprocess/my_preprocess.py)
 
-### Test my_preprocess with [A2.py](./assignments/Preprocess/A2.py)
+### Test my_preprocess with [A2.py](Preprocess/A2.py)
 Expected output:
 ```
 (base) D:\projects\DSCI-633\assignments\Preprocess>python A2.py
