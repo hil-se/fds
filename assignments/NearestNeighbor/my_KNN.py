@@ -9,6 +9,7 @@ class my_KNN:
         # p value only matters when metric = "minkowski"
         # notice that for "cosine", 1 is closest and -1 is furthest
         # therefore usually cosine_dist = 1- cosine(x,y)
+        # use majority vote for prediction
         self.n_neighbors = int(n_neighbors)
         self.metric = metric
         self.p = p
