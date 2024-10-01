@@ -9,7 +9,7 @@ class my_DT:
         # criterion = {"gini", "entropy"},
         # Stop training if depth = max_depth
         # Only split node if impurity decrease >= min_impurity_decrease after the split
-        #   Weighted impurity decrease: N_t / N * (impurity - N_t_R / N_t * right_impurity - N_t_L / N_t * left_impurity)
+        #   Weighted impurity decrease: impurity - (N_t_R / N * right_impurity + N_t_L / N * left_impurity)
         # Only split node with >= min_samples_split samples
         self.criterion = criterion
         self.max_depth = int(max_depth)
