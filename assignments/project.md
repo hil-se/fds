@@ -16,9 +16,25 @@ Train a model (in [project.py](project/project.py)) to predict whether a job pos
 - Make sure there is no error when executing [test.py](project/test.py) (do not modify this file).
 - Total runtime < 30 min (if tuning is performed, its runtime must be included)
 - Can only install packages: 
-  + scikit-learn, gensim, pandas 
+  + scikit-learn, gensim, pandas, joblib
   + packages such as numpy can be used because installing scikit-learn will also install numpy
-  
+
+### Note about parallelism with sklearn
+
+If you use parallelism with sklearn, e.g.
+```
+self.grid_search = RandomizedSearchCV(self.pipeline, self.params, cv=3, scoring='f1', n_jobs=-1)
+self.grid_search.fit(X, y)
+```
+Then you will need to specify to use threads instead of loky. To do this:
+```
+from joblib import parallel_config
+
+with parallel_config(backend='threading', n_jobs=-1):
+    self.grid_search = RandomizedSearchCV(self.pipeline, self.params, cv=3, scoring='f1', n_jobs=-1)
+    self.grid_search.fit(X, y)
+```
+
 ### Assessment
 
 - F1 score for *fraudulent == 1* 
