@@ -127,7 +127,7 @@ class my_GA:
         # Compare and merge two pareto frontiers
         # If one point y in pf_best is binary dominated by another point x in pf_new
         # (exist x and y; self.is_better(x, y) == 1)
-        # remove that point y in pf_best 
+        # remove that point y from pf_best 
         # If one point x in pf_new is not dominated by any point y in pf_best (and does not exist in pf_best)
         # (forall y in pf_best; self.is_better(y, x) == -1)
         # add that point x to pf_best
