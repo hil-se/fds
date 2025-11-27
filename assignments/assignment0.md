@@ -7,23 +7,14 @@
 
 ## Java Basics
 
-### 0. Learn Python basics on [Codecademy](https://www.codecademy.com/learn/learn-python) (free version), [w3schools](https://www.w3schools.com/python/), and the [tutorial from the textbook](http://www.cse.msu.edu/~ptan/dmbook/tutorials/tutorial1/tutorial1.html)
- - Skip this step if you already know how to code in Python.
- - If you are seeking for more practices, [https://www.w3resource.com/python-exercises/](https://www.w3resource.com/python-exercises/) has plenty of exercises.
 
-### 1. Install Python on your local machine.
+### 1. Install Java on your local machine.
 
- - Install [conda](https://docs.conda.io/en/latest/miniconda.html) with Python 3.8+.
+ - Install [java](https://www.oracle.com/java/technologies/downloads/).
  
-### 2. Install required packages.
- - Open terminal.
- ```
- conda install scikit-learn
- conda install pandas
- ```
- 
-### 3. (Optional) Install an IDE.
- - [Pycharm](https://www.jetbrains.com/pycharm/) community version.
+
+### 2. (Optional) Install an IDE.
+ - [IntelliJ](https://lp.jetbrains.com/intellij-idea-promo/).
  
 
 ## Github Basics
