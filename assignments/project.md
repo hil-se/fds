@@ -1,8 +1,8 @@
-[<img width=900 src="../img/title.png?raw=yes">](../README.md)   
-[Syllabus](../README.md) |
-[Slides and Assignments](README.md) |
-[Project](project.md) |
-[Instructor](http://zhe-yu.github.io) 
+[<img width=900 src="img/title.png?raw=yes">](README.md)   
+[Syllabus](README.md) |
+[Slides and Assignments](assignments/README.md) |
+[Project](assignments/project.md) |
+[Lecturer](http://zhe-yu.github.io) 
 
 ## Predict whether a job posting is real or fake
 
